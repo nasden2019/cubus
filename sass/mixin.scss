@@ -1,0 +1,12 @@
+@mixin contenidoCentrado {
+    padding: 28px 0;
+    text-align: center;
+}
+
+.seccionRosa {
+    @include contenidoCentrado;
+}
+
+.footerVioleta {
+    @include contenidoCentrado;
+}

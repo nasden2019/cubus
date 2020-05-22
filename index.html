@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="sass/style.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,500,500i,600,600i,700,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top navBarra">
+        <div class="container">
+            <ul class="nav navbar-nav mx-auto mt-5">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;"/>
+                    <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light d-md-block d-none">
+        <div class="container">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links desktop -->
+            <div class="collapse navbar-collapse mx-auto justify-content-md-center" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav mobile -->
+    <nav class="navbar navbar-expand-sm fixed-top d-md-none d-block navBarra">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="img/20.png" /> -->
+            </a>
+
+            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="animated-icon1 spanNav">___<br> ___</span>
+            </button>
+
+            <div class="collapse navbar-collapse navBarra" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">Cómo funciona? <span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">Otras funcionalidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-scroll">link2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <section> -->
+        <section class="home-slider owl-carousel d-md-block d-none imgBg">
+            <div class="slider-item img-fluid imgBg" ></div>
+            
+
+            <div class="slider-item imgBg" ></div>
+        </section>
+
+        <!-- Parrafo -->
+        <section class="">
+            <div class="container-fluid px-0">
+                <div class="col-12 px-0">
+                    <p class="seccionTexto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Atque cumque
+                        vero Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fugit, odio?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PURPLE SECTION MOBILE-->
+        <section class="purpleSection">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <div class="col-12 col-md-12 px-0 text-center dropdown">
+                        <div class="row mx-0 px-0">
+                            <div class="col-12 col-md-4 d-md-none">
+                                <h2>Confianza</h2>
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ver Mas
+                                </button>
+                            </div>
+                            <div class="col-12 col-md-4 px-0">
+                                <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="">
+                            </div>
+
+                            <div class="col-12 px-0 text-center dropdown d-md-none mt-3">
+                                <h2>Ética</h2>
+                                <button class="btn btn-secondary dropdown-toggle mb-4" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Ver Mas
+                                </button>
+                            </div>
+                            <div class="col-12 col-md-4 px-0">
+                                <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="">
+                            </div>
+                            <div class="col-12 px-0 text-center dropdown d-md-none mt-3">
+                                <h2>Profesionalismo</h2>
+                                <button class="btn btn-secondary dropdown-toggle mb-4" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Ver Mas
+                                </button>
+                            </div>
+                            <div class="col-12 col-md-4 px-0">
+                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- parrafo2 -->
+        <section class="seccionParrafo2">
+            <div class="container-fluid px-0">
+                <div class="col-12 px-0">
+                    <p class="seccionTexto dos">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Atque cumque
+                        vero
+                        <br class="mb-2" />
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        perspiciatis libero, a nostrum commodi iusto.
+                        <br />
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+                        unde voluptas repudiandae obcaecati vero voluptatem harum, commodi
+                        eos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORM -->
+        <section class="formulario">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2 class="">
+                            Trabaja con nosotros, sumate a nuestro equipo
+                        </h2>
+                    </div>
+                    <div class="col-12 col-md-6 form-group">
+                        <form action="" method="POST">
+                            <div class="form-row">
+                                <div class="from-group col-md-6 my-2">
+                                    <input type="text" class="form-control" style="border-radius: 10px;"
+                                        placeholder="Nombre y apellido" name="name" required />
+                                </div>
+
+                                <div class="from-group col-md-6 my-2">
+                                    <input type="text" class="form-control" style="border-radius: 10px;"
+                                        placeholder="Email" name="name" required />
+                                </div>
+
+                                <div class="form-group col-md-6 my-2">
+                                    <input type="email" class="form-control" style="border-radius: 10px;"
+                                        placeholder="Tel." name="_replyto" required />
+                                </div>
+
+                                <div class="form-group col-md-6 my-2">
+                                    <input type="text" class="form-control" style="border-radius: 10px;"
+                                        placeholder="Provincia" name="number" required />
+                                </div>
+                                <div class="form-group col-md-6 my-2">
+                                    <input type="text" class="form-control" style="border-radius: 10px;"
+                                        placeholder="Localidad" name="number" required />
+                                </div>
+                                <!-- <div class="form-group custom-file col-md-6 my-2">
+              <input type="text" class="form-control" style="border-radius: 10px;" placeholder="Adjuntar C.V"
+                name="number" required>
+            </div> -->
+                                <div class="form-group col-md-5 my-2 custom-file">
+                          <input type="file" class="custom-file-input" style="border-radius: 10px;" id="customFile">
+                          <label class="custom-file-label" for="customFile">Adjuntar C.V</label>
+                      </div>
+                            </div>
+                            <!-- boton -->
+                            <div class="text-center mt-1">
+                                <button type="submit" class="btn" id="demo" value="send">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion rosa -->
+        <section class="seccionRosa">
+            <div class="container-fluid px-0">
+                <div class="col-12 px-0">
+                    <h2>Preguntas <br />Frecuentes</h2>
+                    <div class="text-center mt-1">
+                        <button type="submit" class="btn" id="demo" value="send">
+                            Ver mas
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tres recuadros desktop-->
+        <!-- <section class="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/blog_1.jpg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/blog_2.jpg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/person_2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+        <section class="d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 mb-1">
+                                <img class="img-fluid" src="img/blog_1.jpg" alt="" />
+                            </div>
+                            <div class="col-md-4 mb-1">
+                                <img src="img/blog_2.jpg" class="img-fluid" />
+                            </div>
+                            <div class="col-md-4 mb-1">
+                                <img src="img/person_2.jpg" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- dos recuadros -->
+        <section class="d-none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6 mb-1">
+                                <img class="img-fluid" src="img/person_2.jpg" alt="" />
+                            </div>
+                            <div class="col-md-6 mb-1">
+                                <img src="img/person_2.jpg" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="footerVioleta">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p>Redes sociales</p>
+                    <div class="d-flex ml-5">
+                        <div class="text-center">
+                            <a href="#" class="circulo">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="text-center ml-2">
+                            <a href="#" class="circulo">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="text-center ml-2">
+                            <a href="#" class="circulo">
+                                <i class="fa fa-linkedin fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="text-center ml-2">
+                            <a href="#" class="circulo">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="" style="border: 1px white solid; width: 280px; margin-top: 40px;" ;>
+        <div class="row">
+            <div class="col-12">
+                <p>Córdoba 2531, Rosario</p>
+                <p>2000 - 0341-4401298</p>
+                <p>info@cubusbroker.com.ar</p>
+                <p>AvL.N.Alem 1290, CABA</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-5 ml-4">
+                        <div>
+                            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 200px;']) ?> -->
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="">
+                            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 200px;']) ?> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <!-- JS SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

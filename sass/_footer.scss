@@ -1,0 +1,24 @@
+.footerVioleta {
+    background: $violetaFooter;
+    padding: 28px 0 58px 0;
+
+    p {
+        text-align: center;
+        color: white;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .circulo {
+        background: white;
+        padding: 13px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .hola {
+        color: white;
+    }
+}

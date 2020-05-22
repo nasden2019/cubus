@@ -1,0 +1,14 @@
+// parrafo 1 y 2
+.seccionTexto {
+    padding: 40px 20px;
+    line-height: 1.4em;
+    font-size: 1.1rem;
+    background: $cian;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+
+    &.dos {
+        background: $azul !important;
+    }
+}

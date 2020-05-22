@@ -1,0 +1,120 @@
+body {
+  color: #7C7B7B !important;
+}
+
+body h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.navBarra {
+  background: #00B0E4;
+  padding: 0;
+  margin: 0;
+}
+
+.navBarra .spanNav {
+  color: white;
+}
+
+.imgBg {
+  background: url("img/auto.jpg") no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+}
+
+.purpleSection {
+  background: #220326;
+  padding: 28px 0 0 0;
+}
+
+.purpleSection button {
+  background: white;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 16px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 568px) {
+  .purpleSection .imgPurple {
+    height: 48vh;
+  }
+}
+
+.formulario {
+  background: #8DBD2B;
+  padding: 30px 0;
+}
+
+.formulario button {
+  margin-top: 25px;
+  background: #2D7333;
+  padding: 3px 36px;
+  color: white;
+}
+
+.seccionRosa {
+  background: #FB286F;
+}
+
+.seccionRosa button {
+  background: #99636c;
+  color: white;
+  padding: 3px 36px;
+}
+
+.verdeBtn {
+  background: #2D7333;
+  color: white;
+}
+
+.seccionRosa {
+  padding: 28px 0;
+  text-align: center;
+}
+
+.footerVioleta {
+  padding: 28px 0;
+  text-align: center;
+}
+
+.seccionTexto {
+  padding: 40px 20px;
+  line-height: 1.4em;
+  font-size: 1.1rem;
+  background: #00B0E4;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.seccionTexto.dos {
+  background: #015168 !important;
+}
+
+.footerVioleta {
+  background: #38033E;
+  padding: 28px 0 58px 0;
+}
+
+.footerVioleta p {
+  text-align: center;
+  color: white;
+}
+
+.footerVioleta ul {
+  text-align: center;
+}
+
+.footerVioleta .circulo {
+  background: white;
+  padding: 13px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.footerVioleta .hola {
+  color: white;
+}
