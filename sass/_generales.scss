@@ -1,77 +1,31 @@
 body {
     color: $grisLetraGral !important;
-    // font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 
     h2 {
         color: white;
         font-size: 2rem;
         text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
         // padding-bottom: 9px;
     }
-}
 
-// nav mobile
-.navBarra {
-    background: $cian;
-    padding: 0;
-    margin: 0;
-
-    .spanNav {
+    h3 {
         color: white;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }
 
-// imagen principal desktop
-// .imgBg {
 
-//     position: relative;
-//     height: 100vh;
-//     // }
-// }
-
-
-// section purple
-.purpleSection {
-    background: $violeta;
-    padding: 28px 0 0 0;
-
-    button {
-        background: white;
-        border-radius: 10px;
-        color: black;
-        padding: 3px 16px;
-        margin-bottom: 28px;
-    }
-
-    // imgs en mobile
-    @media (max-width: 568px) {
-        .imgPurple {
-            height: 48vh;
-        }
-    }
-}
-
-//form
-.formulario {
-    background: $verdeForm;
-    padding: 30px 0;
-
-    button {
-        margin-top: 25px;
-        background: $verdeBtn;
-        padding: 3px 36px;
-        color: white;
-    }
-}
-
-.seccionRosa {
-    background: $rosaBtn;
-
-    button {
-        background: rgb(153, 99, 108);
-        // border-radius: 10px;
-        color: white;
-        padding: 3px 36px;
-        // margin-bottom: 28px;
-    }
+//img slider desktop
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

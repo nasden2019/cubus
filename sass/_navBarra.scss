@@ -1,0 +1,41 @@
+// nav mobile
+.navBarra {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+
+    .spanNav {
+        color: white;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    // desktop (color transparente del nav para q el bg-img ocupe full screen)
+    @media (min-width: 700px) {
+
+        .navItem1 {
+            margin-top: 0;
+            background-color: transparent;
+        }
+
+        // (permite cambio de posicion entre logo y links):
+        .navItem2 {
+            margin-top: 150px;
+        }
+
+    }
+
+    // mobile: background-color de hamburger menu
+    @media (max-width: 700px) {
+        .bg-hamburger {
+            background: $violeta;
+        }
+
+        // al container en mobile
+        .cianColor {
+            background: $cian;
+        }
+    }
+}

@@ -12,13 +12,18 @@
     }
 
     .circulo {
-        background: white;
+        // background: white;
         padding: 14px;
         border-radius: 50%;
         text-align: center;
+
+        i {
+            color: white;
+        }
     }
 
-    .hola {
-        color: white;
+
+    .iconosRedes {
+        padding-left: 180px;
     }
 }

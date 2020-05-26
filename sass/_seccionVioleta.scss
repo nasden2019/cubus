@@ -1,0 +1,69 @@
+.seccionVioleta {
+    background: $violeta;
+    padding: 28px 0 0 0;
+
+    //desktop
+    @media (min-width: 768px) {
+        padding: 0 40px;
+    }
+
+    .imgPurple {
+        height: 55vh;
+    }
+
+    // mobile
+    button {
+        background: white;
+        border-radius: 10px;
+        color: black;
+        padding: 3px 16px;
+        margin-bottom: 28px;
+    }
+
+    // botones desktop
+    .violetBtn {
+        background: $violeta;
+        border-radius: 10px;
+        color: white !important;
+        padding: 6px 66px;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    //img desktop con overlay
+    .overlay {
+        position: absolute;
+        top: 0;
+        background: $violeta(0, 0, 0, 0.6) !important;
+        opacity: .1;
+    }
+
+    // titular
+    .aDesktPurple {
+        font-weight: 900;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        padding-bottom: 65px;
+    }
+
+    // texto
+    .pOverlay {
+        padding: 60px 50px 0 50px;
+    }
+
+    // fin properties img overlay 
+
+
+    // imgs en mobile
+    @media (max-width: 568px) {
+        .imgPurple {
+            height: 48vh;
+        }
+
+        h1 {
+            color: $cian;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+//form
+.formulario {
+    background: $verdeForm;
+    padding: 30px 0;
+
+    button {
+        margin-top: 25px;
+        background: $verdeBtn;
+        padding: 3px 36px;
+        color: white;
+    }
+
+    .form-control {
+        padding: 17px 10px;
+        border-radius: 15px
+    }
+
+    @media (max-width: 700px) {
+        .form-control {
+            padding: 13px 8px;
+        }
+    }
+
+    // input adjuntar c.v desktop
+
+    .custom-fle {
+        width: 90% !important;
+    }
+
+    .custom-file-label {
+        // border-radius: 10px !important;
+        // padding: 20px 40px;
+        background: transparent;
+        border: none;
+        margin-top: 10px;
+        margin-left: 3px;
+        // padding: 0 6px;
+    }
+
+
+}
