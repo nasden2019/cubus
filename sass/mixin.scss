@@ -1,6 +1,8 @@
-@mixin contenidoCentrado {
+@mixin contenidoCentrado() {
     padding: 28px 0;
     text-align: center;
+
+
 }
 
 .seccionRosa {
@@ -9,4 +11,32 @@
 
 .footerVioleta {
     @include contenidoCentrado;
+}
+
+
+
+.pFrecuentes {
+    margin-top: 155px;
+    margin-bottom: -60px;
+    padding: 150px 0;
+    background: lightGray;
+
+    h1 {
+        color: #8DBD2B;
+        margin: 80px 0 30px 0;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    // .inputIcono {
+    //     padding: 5px 40px;
+    // }
+
+    .icono {
+        background: #8DBD2B;
+        color: white;
+        padding: 10px 15px;
+        // border-top-left-radius: 10px;
+        // border-bottom-left-radius: 10px;
+    }
 }
