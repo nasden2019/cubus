@@ -20,15 +20,6 @@
             background-color: transparent;
         }
 
-        .navbar-fixed-top.scrolled {
-            background-color: #fff !important;
-            transition: background-color 200ms linear;
-        }
-
-        .navbar-fixed-top.scrolled .nav-link {
-            color: #555;
-        }
-
         // (permite cambio de posicion entre logo y links):
         .navItem2 {
             margin-top: 150px;
