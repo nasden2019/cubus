@@ -8,6 +8,12 @@ body h2 {
   text-align: center;
 }
 
+.divBarra {
+  background: #00B0E4;
+  padding: 0;
+  margin: 0;
+}
+
 .navBarra {
   background: #00B0E4;
   padding: 0;
