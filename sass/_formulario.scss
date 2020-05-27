@@ -19,23 +19,55 @@
         .form-control {
             padding: 13px 8px;
         }
+
+        //mobile inputs en home
+        .custom-file-label {
+            margin-top: 1px;
+            // margin-left: px;
+            height: 39px;
+            width: 325px;
+            border-radius: 10px;
+        }
     }
 
     // input adjuntar c.v desktop
-
     .custom-fle {
-        width: 90% !important;
+        width: 90%;
     }
 
-    .custom-file-label {
-        // border-radius: 10px !important;
-        // padding: 20px 40px;
-        background: transparent;
-        border: none;
-        margin-top: 10px;
-        margin-left: 3px;
-        // padding: 0 6px;
+    // hover a los inputs 
+
+
+    // desktop inputs en home
+    @media (min-width: 700px) {
+        .custom-file-label {
+            // border-radius: 10px !important;
+            // padding: 20px 40px;
+            background: white;
+            border: none;
+            margin-top: 1px;
+            margin-left: 16px;
+            height: 60px;
+            width: 350px;
+            border-radius: 10px;
+            // padding: 0 6px;
+        }
     }
+}
 
+.form-control:hover,
+.custom-file-label:hover {
+    &:hover {
+        background: rgb(236, 231, 231) !important;
+    }
+}
 
+@media (min-width: 700px) {
+
+    .form-control:hover,
+    .custom-file-label:hover {
+        &:hover {
+            background: rgb(236, 231, 231) !important;
+        }
+    }
 }

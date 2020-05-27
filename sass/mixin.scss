@@ -36,8 +36,12 @@
         background: #8DBD2B;
         color: white;
         padding: 10px 15px;
+
         // border-top-left-radius: 10px;
         // border-bottom-left-radius: 10px;
+        &:hover {
+            background: #220326;
+        }
     }
 
     // .navbar-toggler-icon {
