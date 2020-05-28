@@ -1,5 +1,5 @@
 .seccionVioleta {
-    background: $violeta;
+    background: $violeta !important;
     padding: 28px 0 0 0;
 
     //desktop
@@ -11,20 +11,13 @@
         height: 55vh;
     }
 
-    // mobile
-    button {
-        background: white;
-        border-radius: 10px;
-        color: black;
-        padding: 3px 16px;
-        margin-bottom: 28px;
-    }
+
 
     // botones desktop
     .violetBtn {
         background: $violeta;
         border-radius: 10px;
-        color: white !important;
+        color: $violeta !important;
         padding: 6px 66px;
         font-weight: 800;
         text-transform: uppercase;
@@ -62,8 +55,17 @@
         }
 
         h1 {
-            color: $cian;
+            // color: $cian;
             font-weight: 700;
         }
     }
+}
+
+// // mobile
+.violetBtnM {
+    background: white !important;
+    border-radius: 10px;
+    color: purple;
+    padding: 3px 16px;
+    margin-bottom: 28px;
 }
