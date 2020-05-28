@@ -67,7 +67,8 @@
     .form-control:hover,
     .custom-file-label:hover {
         &:hover {
-            background: $verdeForm !important;
+            background: $violetaFooter !important;
+            color: white !important;
         }
     }
 }
