@@ -12,57 +12,83 @@
         <link
             href="https://fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,500,500i,600,600i,700,800&display=swap"
             rel="stylesheet" />
-
+        <style>
+            #nav-icon1 {
+                width: 60px;
+                height: 45px;
+                position: relative;
+                margin: 50px auto;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: .5s ease-in-out;
+                -moz-transition: .5s ease-in-out;
+                -o-transition: .5s ease-in-out;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+            }
+        </style>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md test fixed-top navBarra navItem1" style="background: gray;">
-            <div class="container">
-                <ul class="nav navbar-nav mx-auto mt-5 item1">
-                    <a class="navbar-brand" href="#">
+
+
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1  navbar-fixed-top">
+            <div class="container cianColor">
+                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
+                    <a class="navbar-brand logoNav" href="#">
                         <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
-                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
                     </a>
                 </ul>
 
+                <!-- hamburger menu -->
+                <div class="navbar navbar-expand-sm fixed-top divBarra navItem2 order-1">
 
-
-                <!-- nav mobile -->
-                <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2" style="background: gray;">
-
-
-                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                    <!-- <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="animated-icon1 spanNav">___<br />
+                        <span class="animated-icon1 spanNav">___<br class="" style="margin-bottom: 1px;" />
                             ___</span>
-                    </button>
+                    </button> -->
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span> -->
+
+                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Cómo funciona? <span></span></a>
+                                <a class="nav-link text-white ml-3" href="#">Inicio<span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Otras funcionalidades</a>
+                                <a class="nav-link text-white ml-3" href="#">Empresa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Contacto</a>
+                                <a class="nav-link text-white ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">empresa</a>
+                                <a class="nav-link text-white ml-3" href="#">empresa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">link</a>
+                                <a class="nav-link text-white ml-3" href="#">link</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">link3</a>
+                                <a class="nav-link text-white ml-3" href="#">link3</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+
 
         <section class="pFrecuentes pt-md-0 pt-0">
             <div class="container">
@@ -365,6 +391,8 @@
         <!--Accordion wrapper-->
 
 
+
+
         <!-- JS SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -376,6 +404,7 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
 
+        <script src="main.js"></script>
 
     </body>
 

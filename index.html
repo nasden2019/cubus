@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1  navbar-fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 navbar-fixed-top">
             <div class="container cianColor">
                 <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
                     <a class="navbar-brand logoNav" href="#">
@@ -33,8 +33,7 @@
                     <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="animated-icon1 spanNav">___<br class="" style="margin-bottom: 1px;" />
-                            ___</span>
+                        <span class="animated-icon1 spanNav">___</span><span>__</span>
                     </button>
                     <!-- 
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -46,6 +45,51 @@
                     <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
                         aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon text-white"></span> -->
+
+                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">Inicio<span></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">Empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">link3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav mobile -->
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1  d-md-none d-block">
+            <div class="container cianColor">
+                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
+                    <a class="navbar-brand logoNav" href="#">
+                        <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                    </a>
+                </ul>
+
+                <!-- hamburger menu -->
+                <div class="navbar navbar-expand-sm fixed-top navItem2">
+
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="animated-icon1 spanNav">___</span><span>__</span>
+                    </button>
 
                     <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
@@ -138,7 +182,7 @@
                 <div class="card-header text-center" role="tab" id="heading96" style="background: #220326;">
                     <!-- <h5 class="text-uppercase mb-0 py-1"> -->
                     <h2>Confianza</h2>
-                    <button class="btn text-white font-weight-bold violetBtnM" data-toggle="collapse" href="#collapse96"
+                    <button class="btn text-white  violetBtnM" data-toggle="collapse" href="#collapse96"
                         aria-expanded="true" aria-controls="collapse96">
                         Ver mas
                     </button>
@@ -203,9 +247,9 @@
                     <div class="card-body px-0 py-0">
                         <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
                             <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
-                            <h1 class="w-100 position-absolute text-center">
+                            <!-- <h1 class="w-100 position-absolute text-center">
                                 CUBUS <br>BROKER
-                            </h1>
+                            </h1> -->
                         </div>
                     </div>
                 </div>
@@ -333,7 +377,10 @@
         <!-- seccion texto2 mobile-->
         <section class="seccionTextoDos d-block d-md-none">
             <div class="container-fluid px-0">
-                <div class="text-center margTextMob aloha">
+                <h1 class="text-center mt-4">
+                    CUBUS <br>BROKER
+                </h1>
+                <div class="text-center margTextMob line-height">
                     <p class="">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
                         quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.

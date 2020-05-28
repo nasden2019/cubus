@@ -3,7 +3,7 @@
     padding: 180px 15px 40px 15px;
     line-height: 1.4em;
     font-size: 1.1rem;
-    background: $cian;
+    background: $violetaFooter;
     color: white;
     text-align: center;
     margin-bottom: 0;
@@ -11,7 +11,7 @@
     @media (min-width: 728px) {
         padding: 65px 15px 45px 15px;
 
-        .aloha {
+        .line-height {
             line-height: 0.9rem;
         }
     }
@@ -33,7 +33,7 @@
         margin: 70px 25px;
     }
 
-    .aloha {
+    .line-height {
         line-height: 1.3rem;
 
     }

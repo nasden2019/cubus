@@ -34,8 +34,6 @@
         .navItem2 {
             margin-top: 150px;
         }
-
-
     }
 
     // @media (max-width: 80px) {
@@ -60,8 +58,14 @@
         .cianColor {
             background: #38033E;
         }
+
+        // .navbar-fixed-top {
+        //     display: none !important;
+        // }
     }
+
 }
+
 
 .navItem2:hover {
     background: darken($color: rgb(173, 169, 169), $amount: 0.1)
