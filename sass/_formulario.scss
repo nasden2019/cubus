@@ -58,7 +58,7 @@
 .form-control:hover,
 .custom-file-label:hover {
     &:hover {
-        background: rgb(236, 231, 231) !important;
+        background: $verdeForm !important;
     }
 }
 
@@ -67,7 +67,7 @@
     .form-control:hover,
     .custom-file-label:hover {
         &:hover {
-            background: rgb(236, 231, 231) !important;
+            background: $verdeForm !important;
         }
     }
 }
