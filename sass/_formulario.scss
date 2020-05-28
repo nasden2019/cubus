@@ -8,7 +8,12 @@
         background: $verdeBtn;
         padding: 3px 36px;
         color: white;
+
+        &:hover {
+            background: $violeta !important;
+        }
     }
+
 
     .form-control {
         padding: 17px 10px;
@@ -27,6 +32,10 @@
             height: 39px;
             width: 325px;
             border-radius: 10px;
+        }
+
+        .btnHover:hover {
+            background: $violeta !important;
         }
     }
 
@@ -58,7 +67,7 @@
 .form-control:hover,
 .custom-file-label:hover {
     &:hover {
-        background: $verdeForm !important;
+        background: rgb(236, 231, 231) !important;
     }
 }
 
@@ -67,8 +76,7 @@
     .form-control:hover,
     .custom-file-label:hover {
         &:hover {
-            background: $violetaFooter !important;
-            color: white !important;
+            background: rgb(236, 231, 231) !important;
         }
     }
 }
