@@ -35,6 +35,7 @@
             margin-top: 150px;
         }
 
+
     }
 
     // @media (max-width: 80px) {
@@ -60,4 +61,8 @@
             background: #38033E;
         }
     }
+}
+
+.navItem2:hover {
+    background: darken($color: rgb(173, 169, 169), $amount: 0.1)
 }
