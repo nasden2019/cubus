@@ -14,14 +14,14 @@ $(window).scroll(function () {
     var link = $('.nav-link');
     if (scroll < 80) {
         $('.fixed-top').css('background', 'transparent');
-		
         logo.css('margin', '10px');
         link.css('font-size', '22px', 'padding-bottom', '5px');
+        $('.navBarra').css("height", "60px");
     } else {
-        $('.fixed-top').css('background', '#38033E');		
+        $('.fixed-top').css('background', '#38033E');
         logo.css('margin', '-100px');
-        link.css('font-size', '30px', 'padding-bottom', '-60px');
-		$('.navBarra').css("height","170px");
+        link.css('font-size', '30px', 'padding-bottom', '60px');
+        $('.navBarra').css("height", "180px");
     }
 });
 
