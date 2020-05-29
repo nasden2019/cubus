@@ -18,66 +18,69 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 navbar-fixed-top">
-            <div class="container cianColor">
-                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
-                    <a class="navbar-brand logoNav" href="#">
-                        <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
-                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-                    </a>
-                </ul>
-
-                <!-- hamburger menu -->
-                <div class="navbar navbar-expand-sm fixed-top divBarra navItem2 order-1">
-
-                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="animated-icon1 spanNav text-white">
-                        </span>
-                    </button>
+        <nav class="navbar navbar-expand-md fixed-top footerVioleta px-md-5 d-md-block d-none">
+            <div class="container-fluid">
+                <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+                <!-- <a class="navbar-brand" href="#"> -->
+                <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+                <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                <!-- </a> -->
+                <!-- </ul> -->
 
 
-                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">Inicio<span></span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">Empresa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">empresa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">link3</a>
-                            </li>
-                        </ul>
-                    </div>
+                <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="animated-icon1 spanNav text-white">___<br />
+                        ___</span>
+                </button> -->
+
+                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="animated-icon1 spanNav">___<br />
+                        ___</span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-black">
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3">SEGUROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3">R.R.H.H</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ml-3">CONTACTO</a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </nav>
 
         <!-- nav mobile -->
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1  d-md-none d-block">
-            <div class="container cianColor">
-                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
-                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-                    </a>
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
+            <div class="container-fluid cianColor py-4">
+                <ul class="nav navbar-nav mx-auto mt-5 item1"></ul>
+                <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+                    <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                </a>
                 </ul>
 
-                <!-- hamburger menu -->
-                <div class="navbar navbar-expand-sm fixed-top navItem2">
-
-                    <button class="navbar-toggler mr-auto text-white" type="button" data-toggle="collapse"
+                <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2">
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <div id="nav-icon1">
@@ -88,36 +91,30 @@
                         </div>
                     </button>
 
-                    <!-- <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon text-white"></span> -->
-
-                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent"
-                        style="background: white;">
-                        <ul class="navbar-nav m-auto">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background: #220326;">
+                        <ul class="navbar-nav ml-auto text-black">
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="#">Inicio<span></span></a>
+                                <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="#">Empresa</a>
+                                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
+                                <a class="nav-link text-white ml-3">SEGUROS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="#">empresa</a>
+                                <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="#">link</a>
+                                <a class="nav-link text-white ml-3">R.R.H.H</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  ml-3" href="#">link3</a>
+                                <a class="nav-link text-white ml-3">CONTACTO</a>
                             </li>
                         </ul>
+
                     </div>
                 </div>
-            </div>
         </nav>
 
 
@@ -249,7 +246,8 @@
                     data-parent="#accordionEx23" style="background: #220326;">
                     <div class="card-body px-0 py-0">
                         <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
-                            <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
+                            <img src="img/livingDeskAzul.jpg" class="img-fluid imgPurple" alt=""
+                                style="height: 400px;" />
                             <!-- <h1 class="w-100 position-absolute text-center">
                                 CUBUS <br>BROKER
                             </h1> -->
@@ -262,19 +260,63 @@
 
 
         <!-- PURPLE SECTION DESKTOP-->
-        <section class="seccionVioleta d-none d-md-block px-md-0 pt-md-0">
+        <section
+            class="seccionVioleta d-none d-md-block px-md-0 pt-md-0 pt-0 d-block d-md-none accordion md-accordion accordion-1"
+            id="accordionEx23" role="tablist">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
                     <div class="col-12 col-md-12 px-0 text-center">
                         <div class="row mx-0 px-0">
+                            <div class="col-md-4">
+                                <!-- <div class="card"> -->
+                                <!-- texto centro de imagenes -->
+                                <div class="col-md-4 px-0 d-flex justify-content-center align-items-center"
+                                    id="heading96" rl="tab">
+                                    <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                    <h5>
+                                        <a class="btn violetBtn position-absolute my-auto" href="#"
+                                            data-toggle="collapse" href="#collapse96" aria-expanded="true"
+                                            aria-controls="collapse96">
+                                            Confianza
+                                        </a>
+                                    </h5>
+                                </div>
 
-                            <!-- texto centro de imagenes -->
-                            <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
-                                <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <a class="btn violetBtn position-absolute my-auto" href="#">
-                                    Confianza
-                                </a>
+                                <div id="collapse96" class="collapse" role="tabpanel" aria-labelledby="heading96"
+                                    data-parent="#accordionEx23">
+                                    <div class="card-body">
+                                        <div class="row my-4">
+                                            <div class="col-md-4">
+                                                <h2 class="font-weight-bold mb-3 black-text">Hi! I am the first one.
+                                                </h2>
+                                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed do eiusmod
+                                                    tempor
+                                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud
+                                                    exercitation
+                                                    ullamco laboris</p>
+                                                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pariatur.</p>
+                                            </div>
+                                            <div class="col-md-4 mt-3 pt-2">
+                                                <div class="view z-depth-1">
+                                                    <img src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
                             </div>
+
+                            <!-- fin del primero -->
+
+
+
 
                             <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
                                 <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
@@ -285,18 +327,19 @@
                             </div>
 
                             <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
-                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple overlay" alt="" />
-                                <a class="btn text-white position-absolute my-auto aDesktPurple" href="#">
+                                <!-- agregar class= overlay par fondo violeta-->
+                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                <a class="btn  violetBtn position-absolute my-auto" href="#">
                                     Profesionalismo
                                 </a>
-                                <div class="w-100 position-absolute text-white text-center">
+                                <!-- <div class="w-100 position-absolute text-white text-center">
                                     <p class="pOverlay">Lorem ipsum dolor, sit
                                         amet
                                         consectetur <br>
                                         adipisicing jwdidw wd2a.
                                         Lorem ipsum dolor sit.
                                     </p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -307,34 +350,41 @@
 
 
         <!-- seccion texto2 mobile-->
-        <section class="seccionTextoDos d-block d-md-none">
+        <section class="seccionTextoDos d-block d-md-none" style="padding-top: 0;">
             <div class="container-fluid px-0">
-                <h1 class="text-center mt-4">
-                    CUBUS <br>BROKER
-                </h1>
-                <div class="text-center margTextMob line-height">
-                    <p class="">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                        quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                        cumque vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                        exercitationem!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                        perspiciatis libero, a nostrum commodi iusto.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque earum neque
-                        voluptate enim placeat.
-                    </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Dolor unde voluptas repudiandae obcaecati vero voluptatem
-                        harum, commodi eos.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minus dolorum
-                        incidunt ullam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem nemo ullam
-                        impedit inventore. Voluptas vero dolore ad molestiae veritatis?
-                    </p>
+                <div class="row">
+                    <div class="col-12 px-0 pt-0 imgTextoDos">
+                        <img src="img/pcDeskt.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                        <h1 class="text-center">
+                            CUBUS <br>BROKER
+                        </h1>
+                    </div>
+                    <div class="text-center margTextMob line-height">
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                            quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                            cumque vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                            exercitationem!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                            perspiciatis libero, a nostrum commodi iusto.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque earum neque
+                            voluptate enim placeat.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Dolor unde voluptas repudiandae obcaecati vero voluptatem
+                            harum, commodi eos.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minus dolorum
+                            incidunt ullam.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem nemo ullam
+                            impedit inventore. Voluptas vero dolore ad molestiae veritatis?
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -346,7 +396,7 @@
                     <div class="col-12 col-md-12">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <h1 class="cianColor">CUBUS <br>BROKER</h1>
+                                <h1 class="cianColor pb-md-5 pt-md-5">CUBUS <br>BROKER</h1>
                                 <div class="text-center margText">
                                     <p class="aloha">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -398,11 +448,11 @@
                         <form action="#" method="post">
                             <div class="row justify-content-center">
                                 <div class="col-md-4 form-group">
-                                    <label for="name" class="sr-only">Nombre y Apellido</label>
+                                    <label for="name" class="sr-only"></label>
                                     <input type="text" id="name" class="form-control" placeholder="Nombre y Apellido">
                                 </div>
                                 <div class="col-md-4 form-group">
-                                    <label for="phone" class="sr-only">Email</label>
+                                    <label for="phone" class="sr-only"></label>
                                     <input type="text" id="phone" class="form-control" placeholder="Email">
                                 </div>
                             </div>
@@ -427,8 +477,9 @@
                                 </div> -->
                                 <div class="col-md-4 custom-file" style="width: 90%">
                                     <input type="file" class="custom-file-input" id="customFile" />
-                                    <label class="custom-file-label" for="customFile">Adjuntar
-                                        C.V</label>
+                                    <label class="custom-file-label" for="customFile">
+                                        <span class="pt-md-3">Adjuntar C.V</span>
+                                    </label>
                                 </div>
                             </div>
                         </form>

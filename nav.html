@@ -16,53 +16,239 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1">
-            <div class="container">
-                <ul class="nav navbar-nav mx-auto mt-5 item1">
-                    <a class="navbar-brand" href="#">
+        <!-- nav antiguo del q se abre y cierra-->
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 navbar-fixed-top">
+            <div class="container cianColor">
+                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
+                    <a class="navbar-brand logoNav" href="#">
                         <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
                         <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
                     </a>
                 </ul>
 
-
-
-                <!-- nav mobile -->
-                <div class="navbar navbar-expand-sm fixed-top navBarra navItem2">
-
+                <!-- hamburger menu -->
+                <div class="navbar navbar-expand-sm fixed-top divBarra navItem2 order-1">
 
                     <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="animated-icon1 spanNav">___<br />
-                            ___</span>
+                        <span class="animated-icon1 spanNav text-white">
+                        </span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Cómo funciona? <span></span></a>
+                                <a class="nav-link text-white ml-3" href="#">Inicio<span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Otras funcionalidades</a>
+                                <a class="nav-link text-white ml-3" href="#">Empresa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">Contacto</a>
+                                <a class="nav-link text-white ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">empresa</a>
+                                <a class="nav-link text-white ml-3" href="#">empresa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">link</a>
+                                <a class="nav-link text-white ml-3" href="#">link</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3">link3</a>
+                                <a class="nav-link text-white ml-3" href="#">link3</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!-- nav mobile -->
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1  d-md-none d-block">
+            <div class="container cianColor">
+                <ul class="nav navbar-nav mx-auto mt-5 item1 order-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                    </a>
+                </ul>
+
+                <!-- hamburger menu -->
+                <div class="navbar navbar-expand-sm fixed-top navItem2">
+
+                    <button class="navbar-toggler mr-auto text-white" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div id="nav-icon1">
+                            <!-- cada span representa una linea -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+
+                    <!-- <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span> -->
+
+                    <div class="collapse navbar-collapse bg-hamburger" id="navbarSupportedContent"
+                        style="background: white;">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="#">Inicio<span></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="#">Empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="pFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="#">empresa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="#">link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  ml-3" href="#">link3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="seccionVioleta d-none d-md-block px-md-0 pt-md-0 accordion md-accordion accordion-1 mt-md-5"
+            id="accordionEx23" role="tablist">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <div class="col-12 col-md-12 px-0 text-center">
+                        <div class="row mx-0 px-0">
+                            <div class="card">
+
+                                <div class="card-header col-12 col-md-4 px-0 d-flex justify-content-center align-items-center"
+                                    role="tab" id="heading96" style="background: #220326;">
+                                    <!-- <h5 class="text-uppercase mb-0 py-1"> -->
+                                    <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                    <button class="btn text-white  violetBtn" data-toggle="collapse" href="#collapse96"
+                                        aria-expanded="true" aria-controls="collapse96">
+                                        Confianza
+                                    </button>
+                                </div>
+
+                                <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
+                                    <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                    <a class="btn violetBtn position-absolute my-auto" href="#">
+                                        Confianza
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
+                                <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+
+                                <a class="btn violetBtn position-absolute my-auto" href="#">
+                                    Ética
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-md-4 px-0 d-flex justify-content-center align-items-center">
+                                <!-- agregar class= overlay par fondo violeta-->
+                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                <a class="btn  violetBtn position-absolute my-auto" href="#">
+                                    Profesionalismo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="seccionVioleta pt-0 d-none d-md-block accordion md-accordion accordion-1" id="accordionEx23"
+            role="tablist">
+            <div class="card">
+                <div class="card-header text-center" role="tab" id="heading96" style="background: #220326;">
+                    <!-- <h5 class="text-uppercase mb-0 py-1"> -->
+                    <h2>Confianza</h2>
+                    <button class="btn text-white  violetBtnM" data-toggle="collapse" href="#collapse96"
+                        aria-expanded="true" aria-controls="collapse96">
+                        Ver mas
+                    </button>
+                </div>
+                <div id="collapse96" class="collapse" role="tabpanel" aria-labelledby="heading96"
+                    data-parent="#accordionEx23" style="background: #220326;">
+                    <div class="card-body px-0 py-0">
+                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
+                            <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
+                            <h1 class="w-100 position-absolute text-white text-center">
+                                Confianza
+                            </h1>
+                            <div class="w-100 position-absolute text-white text-center">
+                                <p class="textoImgMobile">Lorem ipsum dolor, sit
+                                    amet
+                                    consectetur
+                                    adipisicing jwdidw wd2a.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header text-center" role="tab" id="heading97" style="background: #220326;">
+                    <h2>Ética</h2>
+                    <button class="btn text-white violetBtnM" data-toggle="collapse" href="#collapse97"
+                        aria-expanded="true" aria-controls="collapse97">
+                        Ver mas
+                    </button>
+                </div>
+                <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97"
+                    data-parent="#accordionEx23">
+                    <div class="card-body px-0 py-0">
+                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
+                            <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
+                            <h1 class="w-100 position-absolute text-white text-center">
+                                Ética
+                            </h1>
+                            <div class="w-100 position-absolute text-white text-center">
+                                <p class="textoImgMobile">Lorem ipsum dolor, sit
+                                    amet
+                                    consectetur
+                                    adipisicing jwdidw wd2a.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header text-center" role="tab" id="heading98" style="background: #220326;">
+                    <h2>Profesional</h2>
+                    <button class="btn text-white violetBtnM" data-toggle="collapse" href="#collapse98"
+                        aria-expanded="true" aria-controls="collapse96">
+                        Ver mas
+                    </button>
+                </div>
+                <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98"
+                    data-parent="#accordionEx23" style="background: #220326;">
+                    <div class="card-body px-0 py-0">
+                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
+                            <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
+                            <!-- <h1 class="w-100 position-absolute text-center">
+                                CUBUS <br>BROKER
+                            </h1> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- JS SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

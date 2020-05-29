@@ -28,7 +28,8 @@
 // parrafo 2
 .seccionTextoDos {
     h1 {
-        margin-bottom: 35px;
+        margin-bottom: 10px;
+        padding-top: 80px;
         font-weight: 700;
     }
 
@@ -53,10 +54,15 @@
     color: white;
     // margin-bottom: 0;
 
-    // desktop
+    // mobile
     @media (max-width: 728px) {
         padding: 65px 15px 45px 15px;
     }
+
+    // .imgTextoDos {
+    //     padding-top: 0;
+    // }
+
 }
 
 // mobile texto centro de imagenes
