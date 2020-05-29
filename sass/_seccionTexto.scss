@@ -1,15 +1,21 @@
 // parrafo 1 y 2
 .seccionTexto {
-    padding: 180px 15px 40px 15px;
+    padding: 75px 15px 40px 15px !important;
     line-height: 1.4em;
     font-size: 1.1rem;
-    background: $violetaFooter;
+    background: $cian;
     color: white;
     text-align: center;
     margin-bottom: 0;
 
-    @media (min-width: 728px) {
-        padding: 65px 15px 45px 15px;
+    p {
+        margin-top: 70px;
+    }
+
+
+    @media (max-width: 728px) {
+        background: $violetaFooter;
+        margin-top: 20px;
 
         .line-height {
             line-height: 0.9rem;

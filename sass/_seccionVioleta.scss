@@ -2,6 +2,7 @@
     background: $violeta !important;
     padding: 28px 0 0 0;
 
+
     //desktop
     @media (min-width: 768px) {
         padding: 0 40px;
@@ -17,7 +18,7 @@
     .violetBtn {
         background: $violeta;
         border-radius: 10px;
-        color: $violeta !important;
+        color: white !important;
         padding: 6px 66px;
         font-weight: 800;
         text-transform: uppercase;
@@ -63,8 +64,6 @@
 
 // // mobile
 .violetBtnM {
-    // background: white !important;
-    color: $violeta;
     border-radius: 10px;
     color: $violeta !important;
     padding: 3px 16px;
