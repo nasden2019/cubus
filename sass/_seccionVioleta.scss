@@ -10,6 +10,7 @@
 
     .imgPurple {
         height: 55vh;
+        width: 100%;
     }
 
 
@@ -27,10 +28,10 @@
 
     //img desktop con overlay
     .overlay {
-        position: absolute;
+        // position: absolute;
         top: 0;
         background: $violeta(0, 0, 0, 0.6) !important;
-        opacity: .1;
+        opacity: .8 !important;
     }
 
     // titular
