@@ -6,7 +6,7 @@ Template Name: pFrecuentes
 
 <?php get_header('2'); ?>
 <section class="pFrecuentes pt-md-0 pt-0 pb-md-5">
-            <div class="container">
+            <div class="container py-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-8 offset-lg-2">
                         <div class="text-center">
