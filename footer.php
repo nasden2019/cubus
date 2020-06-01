@@ -43,7 +43,7 @@
               <div class="col-5 ml-4">
                 <div>
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
@@ -52,7 +52,7 @@
               <div class="col-5">
                 <div class="">
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
@@ -110,14 +110,14 @@
               <div class="col-md-4 d-flex order-3">
                 <div>
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
                 </div>
                 <div class="">
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
