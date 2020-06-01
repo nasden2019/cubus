@@ -1,22 +1,28 @@
 .footerVioleta {
     padding: 0px!important;
     background: $violetaFooter;
-    a {
-        font-size: 30px;
-    }
 }
 .footer-transparente {
     img {
         margin-bottom: 30px;
+        text-shadow: 2px 2px 2px black;
     }
-    &:hover {
-        background: black!important;
+    .nav-link {
+        text-shadow: 1px 1px 2px black;
+
     }
+    // &:hover {
+    //     background: #00000040!important;
+    // }
     background: transparent;
 }
 #menu { 
     // padding: 28px 0 58px 0;
     transition: 1.5s;
+    span {
+        color: white!important;
+        text-align: left;
+    }
 
     p {
         text-align: center;
@@ -30,6 +36,8 @@
     // datos contacto mobile
     .margRedes {
         margin-bottom: 1px;
+        color: white!important;
+        display: block;
     }
 
     // .circulo {
@@ -47,4 +55,7 @@
     // .iconosRedes {
     //     padding-left: 180px;
     // }
+    .fa {
+        font-size: 20px
+    }
 }

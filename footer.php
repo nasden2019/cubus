@@ -1,5 +1,5 @@
     <!-- Footer-->
-    <footer class="footerVioleta d-md-none d-block">
+    <footer class="footerVioleta d-md-none d-block" id="menu">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12">
@@ -31,10 +31,10 @@
         <hr class="" style="border: 1px white solid; width: 280px;" />
         <div class="row">
           <div class="col-12">
-            <p class="margRedes">Córdoba 2531, Rosario</p>
-            <p class="margRedes">2000 - 0341-4401298</p>
-            <p class="margRedes">info@cubusbroker.com.ar</p>
-            <p class="margRedes">AvL.N.Alem 1290, CABA</p>
+            <span class="margRedes">Córdoba 2531, Rosario</span>
+            <span class="margRedes">2000 - 0341-4401298</span>
+            <span class="margRedes">info@cubusbroker.com.ar</span>
+            <span class="margRedes">AvL.N.Alem 1290, CABA</span>
           </div>
         </div>
         <div class="row mt-3">
