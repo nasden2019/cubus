@@ -1,6 +1,7 @@
 
-
-<header class="d-none d-md-block">
+<?php get_header(); ?>
+    <!-- SLIDER DESKTOP -->
+    <header class="d-none d-md-block">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -586,3 +587,6 @@
         </div>
       </div>
     </section>
+    <?php get_footer(); ?>
+
+
