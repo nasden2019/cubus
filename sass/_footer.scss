@@ -1,6 +1,22 @@
 .footerVioleta {
+    padding: 0px!important;
     background: $violetaFooter;
-    padding: 28px 0 58px 0;
+    a {
+        font-size: 30px;
+    }
+}
+.footer-transparente {
+    img {
+        margin-bottom: 30px;
+    }
+    &:hover {
+        background: black!important;
+    }
+    background: transparent;
+}
+#menu { 
+    // padding: 28px 0 58px 0;
+    transition: 1.5s;
 
     p {
         text-align: center;
