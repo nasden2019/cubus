@@ -116,8 +116,7 @@
             <div
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
-              <img
-                src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
+              <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -276,8 +275,7 @@
                 >
                   Ética
                 </a>
-                <img
-                  src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
                   class="img-fluid imgPurple"
                   alt=""
                 />
@@ -334,7 +332,7 @@
                     </p>
 
                     <img
-                      src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
+                      src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
