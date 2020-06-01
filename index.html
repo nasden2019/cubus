@@ -1,146 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="webroot/css/style.min.css" />
+    <link rel="stylesheet" href="webroot/css/mixin.min.css" />
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-            integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" href="webroot/css/style.min.css" />
-        <link rel="stylesheet" href="webroot/css/mixin.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,800&display=swap"
-            rel="stylesheet">
+  <body>
+    <nav
+      class="navbar navbar-expand-md fixed-top footerVioleta px-md-5 d-md-block d-none"
+    >
+      <div class="container-fluid">
+        <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+        <!-- <a class="navbar-brand" href="#"> -->
+        <img
+          src="img/logo-mobile.png"
+          class="img-fluid"
+          alt=""
+          style="width: 250px;"
+        />
+        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+        <!-- </a> -->
+        <!-- </ul> -->
 
-    </head>
-
-    <body>
-        <nav class="navbar navbar-expand-md fixed-top footerVioleta px-md-5 d-md-block d-none">
-            <div class="container-fluid">
-                <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-                <!-- <a class="navbar-brand" href="#"> -->
-                <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
-                <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-                <!-- </a> -->
-                <!-- </ul> -->
-
-
-                <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+        <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="animated-icon1 spanNav text-white">___<br />
                         ___</span>
                 </button> -->
 
-                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="animated-icon1 spanNav">___<br />
-                        ___</span>
-                </button>
+        <button
+          class="navbar-toggler mr-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="animated-icon1 spanNav"
+            >___<br />
+            ___</span
+          >
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto text-black">
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">SEGUROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">R.R.H.H</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">CONTACTO</a>
-                        </li>
-                    </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-black">
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3" href="index.html"
+                >INICIO <span></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3">SEGUROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3" href="pFrecuentes.html"
+                >PREGUNTAS FRECUENTES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3">R.R.H.H</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ml-3">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-                </div>
+    <!-- nav mobile -->
+    <nav
+      class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block"
+    >
+      <div class="container-fluid cianColor py-4">
+        <ul class="nav navbar-nav mx-auto mt-5 item1">
+          <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logo-mobile.png"
+              class="img-fluid"
+              alt=""
+              style="width: 250px;"
+            />
+            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+          </a>
+        </ul>
+
+        <div
+          class="navbar navbar-expand-sm fixed-top test navBarra test navItem2"
+        >
+          <button
+            class="navbar-toggler mr-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div id="nav-icon1">
+              <!-- cada span representa una linea -->
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-        </nav>
+          </button>
 
-        <!-- nav mobile -->
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
-            <div class="container-fluid cianColor py-4">
-                <ul class="nav navbar-nav mx-auto mt-5 item1">
-                    <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
-                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-                    </a>
-                </ul>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="background: #220326;"
+          >
+            <ul class="navbar-nav ml-auto text-black">
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3" href="index.html"
+                  >INICIO <span></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3">SEGUROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3">R.R.H.H</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ml-3">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-                <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2">
-                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <div id="nav-icon1">
-                            <!-- cada span representa una linea -->
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background: #220326;">
-                        <ul class="navbar-nav ml-auto text-black">
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3">SEGUROS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3">R.R.H.H</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3">CONTACTO</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-
-        <!-- SLIDER DESKTOP -->
-        <header class="d-none d-md-block">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-                </ol>
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="carousel-item active" style="background-image: url('img/auto.jpg')">
-                        <!-- <div class="carousel-caption d-none d-md-block">
+    <!-- SLIDER DESKTOP -->
+    <header class="d-none d-md-block">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="background-image: url('img/auto.jpg');"
+          >
+            <!-- <div class="carousel-caption d-none d-md-block">
                             <h2 class="display-4">titular</h2>
                             <p class="lead">descripcion slide</p>
                         </div> -->
-                    </div>
+          </div>
 
-                    <div class="carousel-item" style="background-image: url('img/livingDeskAzul.jpg')">
-                        <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
-                    </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('img/livingDeskAzul.jpg');"
+          >
+            <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
+          </div>
 
-                    <!-- tercer slide img 
+          <!-- tercer slide img 
                         <div class="carousel-item"
                         style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
                         <div class="carousel-caption d-none d-md-block">
@@ -148,530 +202,700 @@
                             <p class="lead">This is a description for the third slide.</p>
                         </div>
                     </div> -->
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </header>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
 
+    <!-- seccion texto 1 -->
+    <section class="seccionTexto">
+      <div class="container px-0">
+        <div class="col-12 px-0 text-center margTextMob">
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Atque cumque vero Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Fugit, odio?
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <!-- seccion texto 1 -->
-        <section class="seccionTexto">
-            <div class="container px-0">
-                <div class="col-12 px-0 text-center margTextMob">
-                    <p class="">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-                        dolor sit amet consectetur adipisicing elit. Atque cumque vero Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Fugit, odio?
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
-                    </p>
-                </div>
+    <!-- PURPLE SECTION MOBILE-->
+    <div
+      class="seccionVioleta pt-0 d-block d-md-none accordion md-accordion accordion-1"
+      id="accordionEx23"
+      role="tablist"
+    >
+      <div class="card">
+        <div
+          class="card-header text-center"
+          role="tab"
+          id="heading96"
+          style="background: #220326;"
+        >
+          <!-- <h5 class="text-uppercase mb-0 py-1"> -->
+          <h2>Confianza</h2>
+          <button
+            class="btn text-white violetBtnM"
+            data-toggle="collapse"
+            href="#collapse96"
+            aria-expanded="true"
+            aria-controls="collapse96"
+          >
+            Ver mas
+          </button>
+        </div>
+        <div
+          id="collapse96"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="heading96"
+          data-parent="#accordionEx23"
+          style="background: #220326;"
+        >
+          <div class="card-body px-0 py-0">
+            <div
+              class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
+            >
+              <img
+                src="img/familiaDeskt.jpg"
+                class="img-fluid imgPurple"
+                alt=""
+                style="height: 400px;"
+              />
+              <h1 class="w-100 position-absolute text-white text-center">
+                Confianza
+              </h1>
+              <div class="w-100 position-absolute text-white text-center">
+                <p class="textoImgMobile">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing jwdidw
+                  wd2a.
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div
+          class="card-header text-center"
+          role="tab"
+          id="heading97"
+          style="background: #220326;"
+        >
+          <h2>Ética</h2>
+          <button
+            class="btn text-white violetBtnM"
+            data-toggle="collapse"
+            href="#collapse97"
+            aria-expanded="true"
+            aria-controls="collapse97"
+          >
+            Ver mas
+          </button>
+        </div>
+        <div
+          id="collapse97"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="heading97"
+          data-parent="#accordionEx23"
+        >
+          <div class="card-body px-0 py-0">
+            <div
+              class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
+            >
+              <img
+                src="img/eticaDeskt.jpg"
+                class="img-fluid imgPurple"
+                alt=""
+                style="height: 400px;"
+              />
+              <h1 class="w-100 position-absolute text-white text-center">
+                Ética
+              </h1>
+              <div class="w-100 position-absolute text-white text-center">
+                <p class="textoImgMobile">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing jwdidw
+                  wd2a.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- PURPLE SECTION MOBILE-->
-        <div class="seccionVioleta pt-0 d-block d-md-none accordion md-accordion accordion-1" id="accordionEx23"
-            role="tablist">
-            <div class="card">
-                <div class="card-header text-center" role="tab" id="heading96" style="background: #220326;">
-                    <!-- <h5 class="text-uppercase mb-0 py-1"> -->
-                    <h2>Confianza</h2>
-                    <button class="btn text-white  violetBtnM" data-toggle="collapse" href="#collapse96"
-                        aria-expanded="true" aria-controls="collapse96">
-                        Ver mas
-                    </button>
-                </div>
-                <div id="collapse96" class="collapse" role="tabpanel" aria-labelledby="heading96"
-                    data-parent="#accordionEx23" style="background: #220326;">
-                    <div class="card-body px-0 py-0">
-                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
-                            <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
-                            <h1 class="w-100 position-absolute text-white text-center">
-                                Confianza
-                            </h1>
-                            <div class="w-100 position-absolute text-white text-center">
-                                <p class="textoImgMobile">Lorem ipsum dolor, sit
-                                    amet
-                                    consectetur
-                                    adipisicing jwdidw wd2a.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header text-center" role="tab" id="heading97" style="background: #220326;">
-                    <h2>Ética</h2>
-                    <button class="btn text-white violetBtnM" data-toggle="collapse" href="#collapse97"
-                        aria-expanded="true" aria-controls="collapse97">
-                        Ver mas
-                    </button>
-                </div>
-                <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97"
-                    data-parent="#accordionEx23">
-                    <div class="card-body px-0 py-0">
-                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
-                            <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" style="height: 400px;" />
-                            <h1 class="w-100 position-absolute text-white text-center">
-                                Ética
-                            </h1>
-                            <div class="w-100 position-absolute text-white text-center">
-                                <p class="textoImgMobile">Lorem ipsum dolor, sit
-                                    amet
-                                    consectetur
-                                    adipisicing jwdidw wd2a.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header text-center" role="tab" id="heading98" style="background: #220326;">
-                    <h2>Profesional</h2>
-                    <button class="btn text-white violetBtnM" data-toggle="collapse" href="#collapse98"
-                        aria-expanded="true" aria-controls="collapse96">
-                        Ver mas
-                    </button>
-                </div>
-                <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98"
-                    data-parent="#accordionEx23" style="background: #220326;">
-                    <div class="card-body px-0 py-0">
-                        <div class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none">
-                            <img src="img/livingDeskAzul.jpg" class="img-fluid imgPurple" alt=""
-                                style="height: 400px;" />
-                            <!-- <h1 class="w-100 position-absolute text-center">
+      <div class="card">
+        <div
+          class="card-header text-center"
+          role="tab"
+          id="heading98"
+          style="background: #220326;"
+        >
+          <h2>Profesional</h2>
+          <button
+            class="btn text-white violetBtnM"
+            data-toggle="collapse"
+            href="#collapse98"
+            aria-expanded="true"
+            aria-controls="collapse96"
+          >
+            Ver mas
+          </button>
+        </div>
+        <div
+          id="collapse98"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="heading98"
+          data-parent="#accordionEx23"
+          style="background: #220326;"
+        >
+          <div class="card-body px-0 py-0">
+            <div
+              class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
+            >
+              <img
+                src="img/livingDeskAzul.jpg"
+                class="img-fluid imgPurple"
+                alt=""
+                style="height: 400px;"
+              />
+              <!-- <h1 class="w-100 position-absolute text-center">
                                 CUBUS <br>BROKER
                             </h1> -->
-                        </div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
-        <!--Accordion wrapper-->
+      </div>
+    </div>
+    <!--Accordion wrapper-->
 
+    <!-- PURPLE SECTION DESKTOP-->
+    <section
+      class="seccionVioleta d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
+      id="accordionEx123"
+      role="tablist"
+    >
+      <div class="container-fluid">
+        <div class="row mx-0 px-0">
+          <div class="col-12 col-md-12 px-0 text-center">
+            <div class="row">
+              <div
+                class="col-md-4 px-0 d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="btn violetBtn position-absolute my-auto"
+                  data-toggle="collapse"
+                  href="#collapse196"
+                  aria-expanded="true"
+                  aria-controls="collapse196"
+                >
+                  Confianza
+                </a>
+                <img
+                  src="img/familiaDeskt.jpg"
+                  class="img-fluid imgPurple"
+                  alt=""
+                />
+                <div
+                  class="px-0 d-flex justify-content-center align-items-center"
+                  id="heading196"
+                  rl="tab"
+                ></div>
+              </div>
 
-        <!-- PURPLE SECTION DESKTOP-->
-        <section
-            class="seccionVioleta d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
-            id="accordionEx123" role="tablist">
-            <div class="container-fluid">
-                <div class="row mx-0 px-0">
-                    <div class="col-12 col-md-12 px-0 text-center">
-                        <div class="row">
+              <div
+                class="col-md-4 px-0 d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="btn violetBtn position-absolute my-auto"
+                  data-toggle="collapse"
+                  href="#collapse197"
+                  aria-expanded="true"
+                  aria-controls="collapse197"
+                >
+                  Ética
+                </a>
+                <img
+                  src="img/eticaDeskt.jpg"
+                  class="img-fluid imgPurple"
+                  alt=""
+                />
+                <div
+                  class="px-0 d-flex justify-content-center align-items-center"
+                  id="heading197"
+                  rl="tab"
+                ></div>
+              </div>
 
-                            <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                                <a class="btn violetBtn position-absolute my-auto" data-toggle="collapse"
-                                    href="#collapse196" aria-expanded="true" aria-controls="collapse196">
-                                    Confianza
-                                </a>
-                                <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading196"
-                                    rl="tab">
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                                <a class="btn violetBtn position-absolute my-auto" data-toggle="collapse"
-                                    href="#collapse197" aria-expanded="true" aria-controls="collapse197">
-                                    Ética
-                                </a>
-                                <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading197"
-                                    rl="tab">
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 px-0 d-flex justify-content-center align-items-center">
-                                <a class="btn violetBtn position-absolute my-auto" data-toggle="collapse"
-                                    href="#collapse198" aria-expanded="true" aria-controls="collapse198">
-                                    Profesionalismo
-                                </a>
-                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading198"
-                                    rl="tab">
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- accordion -->
-
-                        <div class="row px-0">
-                            <div class="col-md-4 px-0 align-items-center justify-content-center">
-                                <!-- <div class="card-body p-0 m-0"> -->
-                                <div id="collapse196" class="collapse" role="tabpanel" aria-labelledby="heading196"
-                                    data-parent="#accordionEx123">
-
-                                    <div class="d-flex justify-content-center align-items-center my-auto">
-                                        <p class="text-white position-absolute my-auto">Lorem ipsum dolor sit
-                                            amet,
-                                            consectetur
-                                            adipisicing
-                                            elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim
-                                            veniam, quis nostrud
-                                            exercitation
-                                            ullamco laboris</p>
-
-                                        <img src="img/familiaDeskt.jpg" alt="" style="width:100%; height: 40vh;"
-                                            class="overlay">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- </div> -->
-                            <div class="col-md-4 px-0">
-
-                                <div id="collapse197" class="collapse" role="tabpanel" aria-labelledby="heading197"
-                                    data-parent="#accordionEx123">
-
-                                    <div class="d-flex justify-content-center align-items-center my-auto">
-                                        <p class="text-white w-100 position-absolute">Lorem ipsum dolor sit amet,
-                                            consectetur
-                                            adipisicing
-                                            elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim
-                                            veniam, quis nostrud
-                                            exercitation
-                                            ullamco laboris</p>
-
-                                        <img src="img/eticaDeskt.jpg" alt="" style="width:100%; height: 40vh;"
-                                            class="overlay">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 px-0">
-                                <!-- <div class="card-body p-0 m-0"> -->
-                                <div id="collapse198" class="collapse" role="tabpanel" aria-labelledby="heading198"
-                                    data-parent="#accordionEx123">
-
-                                    <div class="d-flex justify-content-center align-items-center my-auto">
-
-                                        <p class=" w-100 position-absolute">Lorem ipsum dolor sit amet,
-                                            consectetur
-                                            adipisicing
-                                            elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim
-                                            veniam, quis nostrud
-                                            exercitation
-                                            ullamco laboris</p>
-
-                                        <img src="img/chicaDeskIndex.jpg" alt="" style="width:100%; height: 40vh;"
-                                            class="overlay">
-                                    </div>
-                                </div>
-                                <!-- </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <div
+                class="col-md-4 px-0 d-flex justify-content-center align-items-center"
+              >
+                <a
+                  class="btn violetBtn position-absolute my-auto"
+                  data-toggle="collapse"
+                  href="#collapse198"
+                  aria-expanded="true"
+                  aria-controls="collapse198"
+                >
+                  Profesionalismo
+                </a>
+                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                <div
+                  class="px-0 d-flex justify-content-center align-items-center"
+                  id="heading198"
+                  rl="tab"
+                ></div>
+              </div>
             </div>
-        </section>
 
+            <!-- accordion -->
 
+            <div class="row px-0">
+              <div
+                class="col-md-4 px-0 align-items-center justify-content-center"
+              >
+                <!-- <div class="card-body p-0 m-0"> -->
+                <div
+                  id="collapse196"
+                  class="collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading196"
+                  data-parent="#accordionEx123"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center my-auto"
+                  >
+                    <p class="text-white position-absolute my-auto">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris
+                    </p>
 
-        <!-- seccion texto2 mobile-->
-        <section class="seccionTextoDos d-block d-md-none" style="padding-top: 0;">
-            <div class="container-fluid px-0">
-                <div class="row">
-                    <div class="col-12 px-0 pt-0 imgTextoDos">
-                        <img src="img/pcDeskt.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-12 text-center mt-4">
-                        <h1 class="text-center">
-                            CUBUS <br>BROKER
-                        </h1>
-                    </div>
-                    <div class="text-center margTextMob line-height">
-                        <p class="">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                            quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                            cumque vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                            exercitationem!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                            perspiciatis libero, a nostrum commodi iusto.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque earum neque
-                            voluptate enim placeat.
-                        </p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Dolor unde voluptas repudiandae obcaecati vero voluptatem
-                            harum, commodi eos.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minus dolorum
-                            incidunt ullam.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem nemo ullam
-                            impedit inventore. Voluptas vero dolore ad molestiae veritatis?
-                        </p>
-                    </div>
+                    <img
+                      src="img/familiaDeskt.jpg"
+                      alt=""
+                      style="width: 100%; height: 40vh;"
+                      class="overlay"
+                    />
+                  </div>
                 </div>
-            </div>
-        </section>
+              </div>
 
-        <!-- seccion texto2 desktop-->
-        <section class="seccionTextoDos d-none d-md-block">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-12">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <h1 class="cianColor pb-md-5 pt-md-5">CUBUS <br>BROKER</h1>
-                                <div class="text-center margText">
-                                    <p class="aloha">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                                        quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                                        cumque vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                                        exercitationem!
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                                        perspiciatis libero, a nostrum commodi iusto.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque earum neque
-                                        voluptate enim placeat.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Dolor unde voluptas repudiandae obcaecati vero voluptatem
-                                        harum, commodi eos.
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minus dolorum
-                                        incidunt ullam.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem nemo
-                                        ullam
-                                        impedit inventore. Voluptas vero dolore ad molestiae veritatis?
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 px-0">
-                                <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-                    </div>
+              <!-- </div> -->
+              <div class="col-md-4 px-0">
+                <div
+                  id="collapse197"
+                  class="collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading197"
+                  data-parent="#accordionEx123"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center my-auto"
+                  >
+                    <p class="text-white w-100 position-absolute">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris
+                    </p>
+
+                    <img
+                      src="img/eticaDeskt.jpg"
+                      alt=""
+                      style="width: 100%; height: 40vh;"
+                      class="overlay"
+                    />
+                  </div>
                 </div>
+              </div>
+              <div class="col-md-4 px-0">
+                <!-- <div class="card-body p-0 m-0"> -->
+                <div
+                  id="collapse198"
+                  class="collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading198"
+                  data-parent="#accordionEx123"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center my-auto"
+                  >
+                    <p class="w-100 position-absolute">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris
+                    </p>
+
+                    <img
+                      src="img/chicaDeskIndex.jpg"
+                      alt=""
+                      style="width: 100%; height: 40vh;"
+                      class="overlay"
+                    />
+                  </div>
+                </div>
+                <!-- </div> -->
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- FORM -->
-        <section class="formulario">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-12 pt-md-5">
-                        <h2 class="pb-3 my-md-4 my-4">
-                            Trabaja con nosotros, <br />sumate a nuestro equipo
-                        </h2>
-                    </div>
+    <!-- seccion texto2 mobile-->
+    <section class="seccionTextoDos d-block d-md-none" style="padding-top: 0;">
+      <div class="container-fluid px-0">
+        <div class="row">
+          <div class="col-12 px-0 pt-0 imgTextoDos">
+            <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-12 text-center mt-4">
+            <h1 class="text-center">CUBUS <br />BROKER</h1>
+          </div>
+          <div class="text-center margTextMob line-height">
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Atque cumque
+              vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Error, exercitationem!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              perspiciatis libero, a nostrum commodi iusto. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Atque eaque earum neque
+              voluptate enim placeat.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+              unde voluptas repudiandae obcaecati vero voluptatem harum, commodi
+              eos. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Esse minus dolorum incidunt ullam. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dolorem nemo ullam impedit
+              inventore. Voluptas vero dolore ad molestiae veritatis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- seccion texto2 desktop-->
+    <section class="seccionTextoDos d-none d-md-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="row align-items-center">
+              <div class="col-md-6 text-center">
+                <h1 class="cianColor pb-md-5 pt-md-5">CUBUS <br />BROKER</h1>
+                <div class="text-center margText">
+                  <p class="aloha">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque cumque vero. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Error, exercitationem!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque perspiciatis libero, a nostrum commodi iusto. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    eaque earum neque voluptate enim placeat.
+                  </p>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dolor unde voluptas repudiandae obcaecati vero voluptatem
+                    harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Esse minus dolorum incidunt ullam. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Iure
+                    dolorem nemo ullam impedit inventore. Voluptas vero dolore
+                    ad molestiae veritatis?
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 px-0">
+                <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    <div class="col-12 col-sm-12">
+    <!-- FORM -->
+    <section class="formulario">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 pt-md-5">
+            <h2 class="pb-3 my-md-4 my-4">
+              Trabaja con nosotros, <br />sumate a nuestro equipo
+            </h2>
+          </div>
 
-                        <form action="#" method="post">
-                            <div class="row justify-content-center">
-                                <div class="col-md-4 form-group">
-                                    <label for="name" class="sr-only"></label>
-                                    <input type="text" id="name" class="form-control" placeholder="Nombre y Apellido">
-                                </div>
-                                <div class="col-md-4 form-group">
-                                    <label for="phone" class="sr-only"></label>
-                                    <input type="text" id="phone" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-4 form-group">
-                                    <label for="name" class="sr-only"></label>
-                                    <input type="text" id="name" class="form-control" placeholder="Tel.">
-                                </div>
-                                <div class="col-md-4 form-group">
-                                    <label for="phone" class="sr-only d-md-block"></label>
-                                    <input type="text" id="phone" class="form-control" placeholder="Provincia">
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-4 form-group">
-                                    <label for="name" class="sr-only"></label>
-                                    <input type="text" id="name" class="form-control" placeholder="Localidad">
-                                </div>
-                                <!-- <div class="col-md-4 form-group">
+          <div class="col-12 col-sm-12">
+            <form action="#" method="post">
+              <div class="row justify-content-center">
+                <div class="col-md-4 form-group">
+                  <label for="name" class="sr-only"></label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Nombre y Apellido"
+                  />
+                </div>
+                <div class="col-md-4 form-group">
+                  <label for="phone" class="sr-only"></label>
+                  <input
+                    type="text"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-4 form-group">
+                  <label for="name" class="sr-only"></label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Tel."
+                  />
+                </div>
+                <div class="col-md-4 form-group">
+                  <label for="phone" class="sr-only d-md-block"></label>
+                  <input
+                    type="text"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Provincia"
+                  />
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-4 form-group">
+                  <label for="name" class="sr-only"></label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Localidad"
+                  />
+                </div>
+                <!-- <div class="col-md-4 form-group">
                                     <label for="phone" class="sr-only">Adjuntar C.V</label>
                                     <input type="text" id="phone" class="form-control" placeholder="Teléfono">
                                 </div> -->
-                                <div class="col-md-4 custom-file" style="width: 90%">
-                                    <input type="file" class="custom-file-input" id="customFile" />
-                                    <label class="custom-file-label" for="customFile">
-                                        <span class="pt-md-3">Adjuntar C.V</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </form>
-
-                        <div class="text-center mt-1">
-                            <button type="submit" class="btn btnHover" id="demo" value="send">
-                                Enviar
-                            </button>
-                        </div>
-                    </div>
+                <div class="col-md-4 custom-file" style="width: 90%;">
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="customFile"
+                  />
+                  <label class="custom-file-label" for="customFile">
+                    <span class="pt-md-3">Adjuntar C.V</span>
+                  </label>
                 </div>
+              </div>
+            </form>
+
+            <div class="text-center mt-1">
+              <button type="submit" class="btn btnHover" id="demo" value="send">
+                Enviar
+              </button>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Seccion rosa -->
-        <section class="seccionRosa">
-            <div class="container-fluid px-0">
-                <div class="col-12 col-md-12 px-0 py-md-3 my-md-0">
-                    <h2 class="pb-4">Preguntas <br class="d-md-none" />Frecuentes</h2>
-                    <div class="text-center mt-1">
-                        <button type="submit" class="btn btnHover" id="demo" value="send">
-                            <a class="text-white" href="pFrecuentes.html">Ver mas</a>
-                        </button>
-                    </div>
-                </div>
+    <!-- Seccion rosa -->
+    <section class="seccionRosa">
+      <div class="container-fluid px-0">
+        <div class="col-12 col-md-12 px-0 py-md-3 my-md-0">
+          <h2 class="pb-4">Preguntas <br class="d-md-none" />Frecuentes</h2>
+          <div class="text-center mt-1">
+            <button type="submit" class="btn btnHover" id="demo" value="send">
+              <a class="text-white" href="pFrecuentes.html">Ver mas</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footerVioleta d-md-none d-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <p>Redes sociales</p>
+            <div class="d-flex justify-content-center">
+              <div class="text-center">
+                <a href="#" class="text-white">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </div>
+              <div class="text-center ml-1">
+                <a href="#" class="text-white">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </div>
+              <div class="text-center ml-2">
+                <a href="#" class="text-white">
+                  <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+              </div>
+              <div class="text-center ml-2">
+                <a href="#" class="text-white">
+                  <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </div>
             </div>
-        </section>
-
-
-
-        <!-- Footer-->
-        <footer class="footerVioleta d-md-none d-block">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-12">
-                        <p>Redes sociales</p>
-                        <div class="d-flex justify-content-center">
-                            <div class="text-center">
-                                <a href="#" class="text-white">
-                                    <i class="fa fa-twitter fa-2x"></i>
-                                </a>
-                            </div>
-                            <div class="text-center ml-1">
-                                <a href="#" class="text-white">
-                                    <i class="fa fa-facebook fa-2x"></i>
-                                </a>
-                            </div>
-                            <div class="text-center ml-2">
-                                <a href="#" class="text-white">
-                                    <i class="fa fa-linkedin fa-2x"></i>
-                                </a>
-                            </div>
-                            <div class="text-center ml-2">
-                                <a href="#" class="text-white">
-                                    <i class="fa fa-instagram fa-2x"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <hr class="" style="border: 1px white solid; width: 280px;" />
+        <div class="row">
+          <div class="col-12">
+            <p class="margRedes">Córdoba 2531, Rosario</p>
+            <p class="margRedes">2000 - 0341-4401298</p>
+            <p class="margRedes">info@cubusbroker.com.ar</p>
+            <p class="margRedes">AvL.N.Alem 1290, CABA</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-5 ml-4">
+                <div>
+                  <img
+                    src="img/logo-mobile.png"
+                    class="img-fluid"
+                    style="width: 250px;"
+                  />
                 </div>
-                <hr class="" style="border: 1px white solid; width: 280px;" />
-                <div class="row">
-                    <div class="col-12">
-                        <p class="margRedes">Córdoba 2531, Rosario</p>
-                        <p class="margRedes">2000 - 0341-4401298</p>
-                        <p class="margRedes">info@cubusbroker.com.ar</p>
-                        <p class="margRedes">AvL.N.Alem 1290, CABA</p>
-                    </div>
+              </div>
+              <div class="col-5">
+                <div class="">
+                  <img
+                    src="img/logo-mobile.png"
+                    class="img-fluid"
+                    style="width: 250px;"
+                  />
                 </div>
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-5 ml-4">
-                                <div>
-                                    <img src="img/logo-mobile.png" class="img-fluid" style="width: 250px;" />
-                                </div>
-                            </div>
-                            <div class="col-5">
-                                <div class="">
-                                    <img src="img/logo-mobile.png" class="img-fluid" style="width: 250px;" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-        <!-- footer desktop -->
-        <footer class="footerVioleta d-md-block d-none">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-12 pt-md-5">
-                        <div class="row">
-                            <div class="col-md-4 order-2 text-center">
-                                <h5 class="text-white">Redes sociales</h5>
-                                <div class="d-flex justify-content-center" style="margin-left: 45px;">
-                                    <div class="text-center mr-md-2">
-                                        <a href="#" class="text-white">
-                                            <i class="fa fa-twitter fa-2x"></i>
-                                        </a>
-                                    </div>
-                                    <div class="text-center mr-md-2">
-                                        <a href="#" class="text-white">
-                                            <i class="fa fa-facebook fa-2x"></i>
-                                        </a>
-                                    </div>
-                                    <div class="text-center mr-md-2">
-                                        <a href="#" class="text-white">
-                                            <i class="fa fa-linkedin fa-2x"></i>
-                                        </a>
-                                    </div>
-                                    <div class="text-center mr-md-5">
-                                        <a href="#" class="text-white">
-                                            <i class="fa fa-instagram fa-2x"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 order-1">
-                                <p class="margRedes">Córdoba 2531, Rosario</p>
-                                <p class="margRedes">2000 - 0341-4401298. info@cubusbroker.com.ar</p>
-                                <p class="margRedes">AvL.N.Alem 1290, CABA</p>
-                            </div>
-
-                            <div class="col-md-4 d-flex order-3">
-                                <div>
-                                    <img src="img/logo-mobile.png" class="img-fluid" style="width: 250px;" />
-                                </div>
-                                <div class="">
-                                    <img src="img/logo-mobile.png" class="img-fluid" style="width: 250px;" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- footer desktop -->
+    <footer class="footerVioleta d-md-block d-none">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 pt-md-5">
+            <div class="row">
+              <div class="col-md-4 order-2 text-center">
+                <h5 class="text-white">Redes sociales</h5>
+                <div
+                  class="d-flex justify-content-center"
+                  style="margin-left: 45px;"
+                >
+                  <div class="text-center mr-md-2">
+                    <a href="#" class="text-white">
+                      <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="text-center mr-md-2">
+                    <a href="#" class="text-white">
+                      <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="text-center mr-md-2">
+                    <a href="#" class="text-white">
+                      <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="text-center mr-md-5">
+                    <a href="#" class="text-white">
+                      <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                  </div>
                 </div>
+              </div>
+
+              <div class="col-md-4 order-1">
+                <p class="margRedes">Córdoba 2531, Rosario</p>
+                <p class="margRedes">
+                  2000 - 0341-4401298. info@cubusbroker.com.ar
+                </p>
+                <p class="margRedes">AvL.N.Alem 1290, CABA</p>
+              </div>
+
+              <div class="col-md-4 d-flex order-3">
+                <div>
+                  <img
+                    src="img/logo-mobile.png"
+                    class="img-fluid"
+                    style="width: 250px;"
+                  />
+                </div>
+                <div class="">
+                  <img
+                    src="img/logo-mobile.png"
+                    class="img-fluid"
+                    style="width: 250px;"
+                  />
+                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- JS SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
-        <!-- JS SCRIPTS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-        </script>
-
-        <script src="main.js"></script>
-
-    </body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
