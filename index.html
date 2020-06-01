@@ -23,69 +23,56 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-md fixed-top footerVioleta px-md-5 d-md-block d-none"
-    >
+    <nav class="navbar navbar-expand-md fixed-top px-md-5 d-md-block d-none footer-transparente" id="menu">
       <div class="container-fluid">
-        <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-        <!-- <a class="navbar-brand" href="#"> -->
-        <img
-          src="img/logo-mobile.png"
-          class="img-fluid"
-          alt=""
-          style="width: 250px;"
-        />
-        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-        <!-- </a> -->
-        <!-- </ul> -->
+        <div class="row justify-content-center align-items-center w-100">
+          <div class="col-12 text-center">
 
-        <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+
+            <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+            <!-- <a class="navbar-brand" href="#"> -->
+            <img src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+            <!-- </a> -->
+            <!-- </ul> -->
+
+            <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="animated-icon1 spanNav text-white">___<br />
                         ___</span>
                 </button> -->
 
-        <button
-          class="navbar-toggler mr-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="animated-icon1 spanNav"
-            >___<br />
-            ___</span
-          >
-        </button>
+            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="animated-icon1 spanNav">___<br />
+                ___</span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-black">
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3" href="index.html"
-                >INICIO <span></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3">SEGUROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3" href="pFrecuentes.html"
-                >PREGUNTAS FRECUENTES</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3">R.R.H.H</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white ml-3">CONTACTO</a>
-            </li>
-          </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-black mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3">SEGUROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3" href="pFrecuentes.html">PREGUNTAS FRECUENTES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3">R.R.H.H</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white ml-3">CONTACTO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -99,7 +86,7 @@
           <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
           <a class="navbar-brand" href="#">
             <img
-              src="img/logo-mobile.png"
+              src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
               class="img-fluid"
               alt=""
               style="width: 250px;"
@@ -277,7 +264,7 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
-                src="img/familiaDeskt.jpg"
+                src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -325,7 +312,7 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
-                src="img/eticaDeskt.jpg"
+                src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -375,7 +362,7 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
-                src="img/livingDeskAzul.jpg"
+                src="<?php echo bloginfo('template_url' ); ?>img/livingDeskAzul.jpg"
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -413,7 +400,7 @@
                   Confianza
                 </a>
                 <img
-                  src="img/familiaDeskt.jpg"
+                  src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
                   class="img-fluid imgPurple"
                   alt=""
                 />
@@ -437,7 +424,7 @@
                   Ética
                 </a>
                 <img
-                  src="img/eticaDeskt.jpg"
+                  src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
                   class="img-fluid imgPurple"
                   alt=""
                 />
@@ -460,7 +447,7 @@
                 >
                   Profesionalismo
                 </a>
-                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
                 <div
                   class="px-0 d-flex justify-content-center align-items-center"
                   id="heading198"
@@ -494,7 +481,7 @@
                     </p>
 
                     <img
-                      src="img/familiaDeskt.jpg"
+                      src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -523,7 +510,7 @@
                     </p>
 
                     <img
-                      src="img/eticaDeskt.jpg"
+                      src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -551,7 +538,7 @@
                     </p>
 
                     <img
-                      src="img/chicaDeskIndex.jpg"
+                      src="<?php echo bloginfo('template_url' ); ?>img/chicaDeskIndex.jpg"
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -571,7 +558,7 @@
       <div class="container-fluid px-0">
         <div class="row">
           <div class="col-12 px-0 pt-0 imgTextoDos">
-            <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+            <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid" alt="" />
           </div>
           <div class="col-12 text-center mt-4">
             <h1 class="text-center">CUBUS <br />BROKER</h1>
@@ -637,7 +624,7 @@
                 </div>
               </div>
               <div class="col-md-6 px-0">
-                <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+                <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid" alt="" />
               </div>
             </div>
           </div>
@@ -793,7 +780,7 @@
               <div class="col-5 ml-4">
                 <div>
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
@@ -802,7 +789,7 @@
               <div class="col-5">
                 <div class="">
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
@@ -860,14 +847,14 @@
               <div class="col-md-4 d-flex order-3">
                 <div>
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />
                 </div>
                 <div class="">
                   <img
-                    src="img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>img/logo-mobile.png"
                     class="img-fluid"
                     style="width: 250px;"
                   />

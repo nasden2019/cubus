@@ -34,3 +34,23 @@
 //         $(this).toggleClass('open');
 //     });
 // });
+$(window).scroll(function () {
+    if (screen.width > 768) {
+        if ($("#menu").offset().top > 56 ) {
+            $("#menu").addClass("footerVioleta");
+            $("#menu").addClass("shadow-sm");
+            $("#menu").removeClass("footer-transparente");
+        } else {
+            $("#menu").addClass("footer-transparente");
+            $("#menu").removeClass("footerVioleta");
+            $("#menu").removeClass("shadow-sm");
+        }
+    } else {
+        $("#menu").addClass("footerVioleta");
+
+    }
+});
+// if ($('#menu-blanco').length) {
+//     $(".nav-link").addClass("text-primary");
+//     $("#menu-blanco").addClass("shadow-sm");
+// }

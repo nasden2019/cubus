@@ -1,4 +1,7 @@
-<header class="d-none d-md-block">
+
+<?php get_header(); ?>
+    <!-- SLIDER DESKTOP -->
+    <header class="d-none d-md-block">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -114,7 +117,11 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
+<<<<<<< HEAD
                 src="img/familiaDeskt.jpg"
+=======
+                src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -162,7 +169,11 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
+<<<<<<< HEAD
                 src="img/eticaDeskt.jpg"
+=======
+                src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -212,7 +223,11 @@
               class="col-12 col-md-4 px-0 d-flex align-items-center d-md-none"
             >
               <img
+<<<<<<< HEAD
                 src="img/livingDeskAzul.jpg"
+=======
+                src="<?php echo bloginfo('template_url' ); ?>img/livingDeskAzul.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                 class="img-fluid imgPurple"
                 alt=""
                 style="height: 400px;"
@@ -250,7 +265,11 @@
                   Confianza
                 </a>
                 <img
+<<<<<<< HEAD
                   src="img/familiaDeskt.jpg"
+=======
+                  src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                   class="img-fluid imgPurple"
                   alt=""
                 />
@@ -274,7 +293,11 @@
                   Ética
                 </a>
                 <img
+<<<<<<< HEAD
                   src="img/eticaDeskt.jpg"
+=======
+                  src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                   class="img-fluid imgPurple"
                   alt=""
                 />
@@ -297,7 +320,11 @@
                 >
                   Profesionalismo
                 </a>
+<<<<<<< HEAD
                 <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+=======
+                <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                 <div
                   class="px-0 d-flex justify-content-center align-items-center"
                   id="heading198"
@@ -331,7 +358,11 @@
                     </p>
 
                     <img
+<<<<<<< HEAD
                       src="img/familiaDeskt.jpg"
+=======
+                      src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -360,7 +391,11 @@
                     </p>
 
                     <img
+<<<<<<< HEAD
                       src="img/eticaDeskt.jpg"
+=======
+                      src="<?php echo bloginfo('template_url' ); ?>img/eticaDeskt.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -388,7 +423,11 @@
                     </p>
 
                     <img
+<<<<<<< HEAD
                       src="img/chicaDeskIndex.jpg"
+=======
+                      src="<?php echo bloginfo('template_url' ); ?>img/chicaDeskIndex.jpg"
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
                       alt=""
                       style="width: 100%; height: 40vh;"
                       class="overlay"
@@ -408,7 +447,11 @@
       <div class="container-fluid px-0">
         <div class="row">
           <div class="col-12 px-0 pt-0 imgTextoDos">
+<<<<<<< HEAD
             <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+=======
+            <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid" alt="" />
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
           </div>
           <div class="col-12 text-center mt-4">
             <h1 class="text-center">CUBUS <br />BROKER</h1>
@@ -474,7 +517,11 @@
                 </div>
               </div>
               <div class="col-md-6 px-0">
+<<<<<<< HEAD
                 <img src="img/pcDeskt.jpg" class="img-fluid" alt="" />
+=======
+                <img src="<?php echo bloginfo('template_url' ); ?>img/pcDeskt.jpg" class="img-fluid" alt="" />
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
               </div>
             </div>
           </div>
@@ -583,4 +630,11 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
     </section>
+=======
+    </section>
+    <?php get_footer(); ?>
+
+
+>>>>>>> dbbdb9b25727fa6c4fa42e7eb6c3865cd68c90ed
