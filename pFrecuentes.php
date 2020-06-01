@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: pFrecuentes
+*/
+?>
+
 <?php get_header(); ?>
 <section class="pFrecuentes pt-md-0 pt-0">
             <div class="container">

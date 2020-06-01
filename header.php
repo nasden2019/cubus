@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav text-black mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
+                  <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>INDEX">INICIO <span></span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
@@ -62,7 +62,8 @@
                   <a class="nav-link text-white ml-3">SEGUROS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white ml-3" href="pFrecuentes.html">PREGUNTAS FRECUENTES</a>
+                  <!-- <a class="nav-link text-white ml-3" href="pFrecuentes.html">PREGUNTAS FRECUENTES</a> -->
+                  <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>PREGUNTAS FRECUENTES">PREGUNTAS FRECUENTES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white ml-3">R.R.H.H</a>
