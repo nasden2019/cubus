@@ -4,7 +4,7 @@ Template Name: pFrecuentes
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('2'); ?>
 <section class="pFrecuentes pt-md-0 pt-0">
             <div class="container">
                 <div class="row">
