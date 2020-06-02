@@ -5,9 +5,9 @@ Template Name: pFrecuentes
 ?>
 
 <?php get_header('2'); ?>
-<section class="pFrecuentes pt-md-0 pt-0">
-            <div class="container">
-                <div class="row">
+<section class="pFrecuentes pt-md-0 pt-0 pb-md-5">
+            <div class="container-fluid py-4">
+                <div class="row align-items-center">
                     <div class="col-12 col-md-8 offset-lg-2">
                         <div class="text-center">
                             <h1 class="pb-3">
@@ -197,3 +197,4 @@ Template Name: pFrecuentes
             </div>
         </section>
         <?php get_footer(); ?>
+        <?php get_footer('2'); ?>
