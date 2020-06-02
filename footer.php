@@ -1,5 +1,5 @@
  <!-- footer desktop -->
-    <footer class="footerVioleta d-md-block d-none">
+    <footer class="footerVioleta d-md-block d-none mt-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12 pt-md-5">
