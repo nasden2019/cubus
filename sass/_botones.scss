@@ -6,3 +6,18 @@
 .btnHover:hover {
     background: $violeta !important;
 }
+
+.verdeBtnContacto {
+    background: $verdeBtn !important;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 330px;
+
+}
+
+@media (max-width: 700px) {
+    .verdeBtnContacto {
+        margin-left: 210px;
+    }
+}

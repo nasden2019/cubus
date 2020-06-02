@@ -1,5 +1,5 @@
     <!-- Footer-->
-    <footer class="footerVioleta d-md-none d-block" id="menu">
+    <footer class="footerVioleta d-md-none d-block" id="menu" >
       <div class="container-fluid">
         <div class="row py-3 justify-content-center">
           <div class="col-8 col-md-12">
