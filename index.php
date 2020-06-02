@@ -495,12 +495,6 @@
 
           <div class="col-12 col-sm-12">
           <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
-
-            <div class="text-center mt-1">
-              <button type="submit" class="btn btnHover" id="demo" value="send">
-                Enviar
-              </button>
-            </div>
           </div>
         </div>
       </div>
