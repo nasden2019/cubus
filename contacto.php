@@ -20,7 +20,9 @@ Template Name: contacto
                             </div>
                             <!-- formulario-->
                             <div class="col-md-4 col-12 mt-3">
-                                <form action="#" method="post">
+                            <?php echo do_shortcode( '[contact-form-7 id="10" title="contacto cubus"]' ); ?>
+
+                                <!-- <form action="#" method="post">
                                     <div class="row ">
                                         <div class="col-md-11 form-group">
                                             <label for="name" class="sr-only"></label>
@@ -58,7 +60,7 @@ Template Name: contacto
                                             <a class="text-white">Ver mas</a>
                                         </button>
                                     </div>
-                                </form>
+                                </form> -->
 
                             </div>
                         </div>
