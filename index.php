@@ -235,7 +235,7 @@
       id="accordionEx123"
       role="tablist"
     >
-      <div class="container-fluid">
+      <div class="container-fluid" section="padding-top: -10px;">
         <div class="row mx-0 px-0">
           <div class="col-12 col-md-12 px-0 text-center">
             <div class="row">
