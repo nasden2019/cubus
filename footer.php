@@ -1,10 +1,10 @@
     <!-- Footer-->
     <footer class="footerVioleta d-md-none d-block" id="menu">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-12">
+        <div class="row py-3 justify-content-center">
+          <div class="col-8 col-md-12">
             <p>Redes sociales</p>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-between">
               <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-twitter fa-2x"></i>
@@ -30,11 +30,11 @@
         </div>
         <hr class="" style="border: 1px white solid; width: 280px;" />
         <div class="row">
-          <div class="col-12">
-            <span class="margRedes">Córdoba 2531, Rosario</span>
-            <span class="margRedes">2000 - 0341-4401298</span>
-            <span class="margRedes">info@cubusbroker.com.ar</span>
-            <span class="margRedes">AvL.N.Alem 1290, CABA</span>
+          <div class="col-12 text-center">
+            <span class="margRedes text-center">Córdoba 2531, Rosario</span>
+            <span class="margRedes text-center">2000 - 0341-4401298</span>
+            <span class="margRedes text-center">info@cubusbroker.com.ar</span>
+            <span class="margRedes text-center">AvL.N.Alem 1290, CABA</span>
           </div>
         </div>
         <div class="row mt-3">
@@ -65,46 +65,51 @@
     </footer>
 
     <!-- footer desktop -->
-    <footer class="footerVioleta d-md-block d-none">
+    <footer class="footerVioleta d-md-block d-none" id="menu">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-12 pt-md-5">
-            <div class="row">
+          <div class="col-12 col-md-12 py-md-4">
+            <div class="row align-items-center">
               <div class="col-md-4 order-2 text-center">
-                <h5 class="text-white">Redes sociales</h5>
-                <div
-                  class="d-flex justify-content-center"
-                  style="margin-left: 45px;"
-                >
-                  <div class="text-center mr-md-2">
-                    <a href="#" class="text-white">
-                      <i class="fa fa-twitter fa-2x"></i>
-                    </a>
-                  </div>
-                  <div class="text-center mr-md-2">
-                    <a href="#" class="text-white">
-                      <i class="fa fa-facebook fa-2x"></i>
-                    </a>
-                  </div>
-                  <div class="text-center mr-md-2">
-                    <a href="#" class="text-white">
-                      <i class="fa fa-linkedin fa-2x"></i>
-                    </a>
-                  </div>
-                  <div class="text-center mr-md-5">
-                    <a href="#" class="text-white">
-                      <i class="fa fa-instagram fa-2x"></i>
-                    </a>
+                <div class="row justify-content-between">
+                  <div class="col-12 col-md-7 mx-auto">
+
+                      <h5 class="text-white">Redes sociales</h5>
+                      <div
+                      class="d-flex justify-content-between"
+                      style="margin-left: 45px;"
+                      >
+                      <div class="text-center mr-md-2">
+                        <a href="#" class="text-white">
+                          <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                      </div>
+                      <div class="text-center mr-md-2">
+                        <a href="#" class="text-white">
+                          <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                      </div>
+                      <div class="text-center mr-md-2">
+                        <a href="#" class="text-white">
+                          <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                      </div>
+                      <div class="text-center mr-md-5">
+                        <a href="#" class="text-white">
+                          <i class="fa fa-instagram fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4 order-1">
-                <p class="margRedes">Córdoba 2531, Rosario</p>
-                <p class="margRedes">
+                <span class="margRedes">Córdoba 2531, Rosario</span>
+                <span class="margRedes">
                   2000 - 0341-4401298. info@cubusbroker.com.ar
-                </p>
-                <p class="margRedes">AvL.N.Alem 1290, CABA</p>
+                </span>
+                <span class="margRedes">AvL.N.Alem 1290, CABA</span>
               </div>
 
               <div class="col-md-4 d-flex order-3">

@@ -494,73 +494,7 @@
           </div>
 
           <div class="col-12 col-sm-12">
-            <form action="#" method="post">
-              <div class="row justify-content-center">
-                <div class="col-md-4 form-group">
-                  <label for="name" class="sr-only"></label>
-                  <input
-                    type="text"
-                    id="name"
-                    class="form-control"
-                    placeholder="Nombre y Apellido"
-                  />
-                </div>
-                <div class="col-md-4 form-group">
-                  <label for="phone" class="sr-only"></label>
-                  <input
-                    type="text"
-                    id="phone"
-                    class="form-control"
-                    placeholder="Email"
-                  />
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-4 form-group">
-                  <label for="name" class="sr-only"></label>
-                  <input
-                    type="text"
-                    id="name"
-                    class="form-control"
-                    placeholder="Tel."
-                  />
-                </div>
-                <div class="col-md-4 form-group">
-                  <label for="phone" class="sr-only d-md-block"></label>
-                  <input
-                    type="text"
-                    id="phone"
-                    class="form-control"
-                    placeholder="Provincia"
-                  />
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-4 form-group">
-                  <label for="name" class="sr-only"></label>
-                  <input
-                    type="text"
-                    id="name"
-                    class="form-control"
-                    placeholder="Localidad"
-                  />
-                </div>
-                <!-- <div class="col-md-4 form-group">
-                                    <label for="phone" class="sr-only">Adjuntar C.V</label>
-                                    <input type="text" id="phone" class="form-control" placeholder="Teléfono">
-                                </div> -->
-                <div class="col-md-4 custom-file" style="width: 90%;">
-                  <input
-                    type="file"
-                    class="custom-file-input"
-                    id="customFile"
-                  />
-                  <label class="custom-file-label" for="customFile">
-                    <span class="pt-md-3">Adjuntar C.V</span>
-                  </label>
-                </div>
-              </div>
-            </form>
+          <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
 
             <div class="text-center mt-1">
               <button type="submit" class="btn btnHover" id="demo" value="send">
