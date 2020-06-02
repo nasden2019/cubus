@@ -1,3 +1,10 @@
+<?php
+/*
+Template Name: contacto
+*/
+?>
+
+<?php get_header('2'); ?>
 <section class="formulario" style="margin-top: 150px; padding-top: 65px;">
             <div class="container-fluid">
                 <div class="row">

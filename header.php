@@ -69,7 +69,7 @@
                   <a class="nav-link text-white ml-3">R.R.H.H</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white ml-3">CONTACTO</a>
+                  <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>PREGUNTAS FRECUENTES">CONTACTO</a>
                 </li>
               </ul>
             </div>

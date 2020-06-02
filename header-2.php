@@ -52,7 +52,7 @@
                             <a class="nav-link text-white ml-3">R.R.H.H</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white ml-3">CONTACTO</a>
+                            <a class="nav-link text-white ml-3" href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
 
