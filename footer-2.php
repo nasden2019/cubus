@@ -1,7 +1,7 @@
-<footer class="footerVioleta d-md-none d-block">
+<footer class="footerVioleta d-md-none d-block pt-3">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-12">
+          <div class="col-12 col-md-12 pt-5">
             <p>Redes sociales</p>
             <div class="d-flex justify-content-center">
               <div class="text-center">
