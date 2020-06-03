@@ -104,25 +104,43 @@ Template Name: segurosCubus
                             class="img-fluid imgPurple" id="familiaImg" />
                     </div>
 
-                    <!-- <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
+                    <!-- tercer -->
+                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
                             href="#collapse197" aria-expanded="true" aria-controls="collapse19">
-                            Familiar
+                            Accidentes personales
                         </a>
-                        <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading1" rl="tab">
+                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+                                <h2>Familiar</h2>
+                                <p>RESP CIVIL</p>
+                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                
+                                <button class="botonSeguros">Contactar Asesor</button>
+                            </div>
                         </div>
-                    </div>
+                        <!-- <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" id="accidentesImg"/> -->
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
+                            class="img-fluid imgPurple" id="accidentesImg" />
+                    </div> 
 
+
+                    <!-- cuarto-->
                     <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                        <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto" id="accidentes" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse19">
-                            Accidentes Personales
+                            Industria y comercio
                         </a>
                         <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
                         <div class="px-0 d-flex justify-content-center align-items-center" id="heading198" rl="tab">
                         </div>
-                    </div> -->
+                    </div> 
+
                     <!-- <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
                                 <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
                                     data-toggle="collapse" href="#collapse198" aria-expanded="true"
