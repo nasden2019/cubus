@@ -95,7 +95,7 @@ Template Name: segurosCubus
                                 <p>CONSEJOS</p>
                                 <p>ROBO</p>
                                 <p>DAÑOS TOTALES</p>
-                                
+                                <p>ROBO</p>
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ Template Name: segurosCubus
                                 <p>CONSEJOS</p>
                                 <p>ROBO</p>
                                 <p>DAÑOS TOTALES</p>
-                                
+                                <p>ROBO</p>
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ Template Name: segurosCubus
                                 <p>CONSEJOS</p>
                                 <p>ROBO</p>
                                 <p>DAÑOS TOTALES</p>
-                                
+                                <p>ROBO</p>
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ Template Name: segurosCubus
                                 <p>CONSEJOS</p>
                                 <p>ROBO</p>
                                 <p>DAÑOS TOTALES</p>
-                                
+                                <p>ROBO</p>
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ Template Name: segurosCubus
                                 <p>CONSEJOS</p>
                                 <p>ROBO</p>
                                 <p>DAÑOS TOTALES</p>
-                                
+                                <p>ROBO</p>
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
