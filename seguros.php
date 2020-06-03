@@ -107,11 +107,11 @@ Template Name: segurosCubus
                     <!-- tercer -->
                      <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
-                            href="#collapse197" aria-expanded="true" aria-controls="collapse19">
+                            href="#collapse7" aria-expanded="true" aria-controls="collapse19">
                             Accidentes personales
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+                            <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
                                 <h2>Familiar</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
@@ -124,7 +124,6 @@ Template Name: segurosCubus
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
-                        <!-- <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" id="accidentesImg"/> -->
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
                             class="img-fluid imgPurple" id="accidentesImg" />
                     </div> 
