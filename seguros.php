@@ -106,7 +106,7 @@ Template Name: segurosCubus
 
                     <!-- tercer -->
                      <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto" id="accidentes" data-toggle="collapse"
                             href="#collapse7" aria-expanded="true" aria-controls="collapse19">
                             Accidentes personales
                         </a>
