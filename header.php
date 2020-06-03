@@ -32,7 +32,7 @@
             <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
             <!-- <a class="navbar-brand" href="#"> -->
               <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt="" style="width: 215px;" />
             </a>
             <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
             <!-- </a> -->

@@ -117,14 +117,14 @@
                   <img
                     src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
                     class="img-fluid"
-                    style="width: 250px;"
+                    style="width: 215px;"
                   />
                 </div>
                 <div class="">
                   <img
                     src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
                     class="img-fluid"
-                    style="width: 250px;"
+                    style="width: 215px;"
                   />
                 </div>
               </div>
