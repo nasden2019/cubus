@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: seguros
+Template Name: segurosCubus
 */
 ?>
 
@@ -41,25 +41,50 @@ Template Name: seguros
 
                     <!-- fin  primer div -->
 
-                    <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
+                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                            Familiar
+                        </a>
+                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
+                                <h2>Familiar</h2>
+                                <p>RESP CIVIL</p>
+                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <button class="botonSeguros">Contactar Asesor</button>
+                            </div>
+                        </div>
+                        <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" id="familiaImg"/>
+                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading196" rl="tab">
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
-                            href="#collapse197" aria-expanded="true" aria-controls="collapse197">
+                            href="#collapse197" aria-expanded="true" aria-controls="collapse19">
                             Familiar
                         </a>
                         <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading197" rl="tab">
+                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading1" rl="tab">
                         </div>
                     </div>
 
                     <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
                         <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo" data-toggle="collapse"
-                            href="#collapse198" aria-expanded="true" aria-controls="collapse198">
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse19">
                             Accidentes Personales
                         </a>
                         <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
                         <div class="px-0 d-flex justify-content-center align-items-center" id="heading198" rl="tab">
                         </div>
-                    </div>
+                    </div> -->
                     <!-- <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
                                 <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
                                     data-toggle="collapse" href="#collapse198" aria-expanded="true"
@@ -159,11 +184,11 @@ Template Name: seguros
 <section>
     <div class="container-fluid">
         <div class="row">
-            <!-- <div class="col-md-12 col-12"> -->
+            <div class="col-md-12 col-12">
             <div class="" style="background-image: url('img/cinturon.jpg');"></div>
             <!-- <img src="img/familiaDeskt.jpg" alt=""> -->
             <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
-            <!-- </div> -->
+            </div>
         </div>
     </div>
 </section>
