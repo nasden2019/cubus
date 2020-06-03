@@ -274,11 +274,11 @@ Template Name: segurosCubus
             $(this).hide();
             $('#familiaTexto').show();
         })
-        // $('.boton#automotor').click(function () {
-        //     $('#automotorImg').addClass('overlay');
-        //     $(this).hide();
-        //     $('#automotorTexto').show();
-        // })
+        $('.boton#accidentes').click(function () {
+            $('#accidentesImg').addClass('overlay');
+            $(this).hide();
+            $('#accidentesTexto').show();
+        })
         // $('.boton#automotor').click(function () {
         //     $('#automotorImg').addClass('overlay');
         //     $(this).hide();
