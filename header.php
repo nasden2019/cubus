@@ -57,7 +57,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-                </li>
+                </li>x
                 <li class="nav-item">
                   <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>seguros">SEGUROS</a>
                 </li>
