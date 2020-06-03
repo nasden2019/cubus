@@ -254,7 +254,7 @@ Template Name: segurosCubus
             $(this).hide();
             $('#industriaTexto').show();
         })
-        $('.boton#agro').click(function () {
+        $('.boton#agro').mouseEnter(function () {
             $('#agroImg').addClass('overlay');
             $(this).hide();
             $('#agroTexto').show();
