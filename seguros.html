@@ -117,23 +117,35 @@
                 <div class="row mx-0 px-0">
                     <div class="col-12 col-md-12 px-0 text-center">
                         <div class="row">
-                            <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Confianza" data-toggle="collapse"
-                                    href="#collapse196" aria-expanded="true" aria-controls="collapse196">
+                            <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                                <a class="btn violetBtn position-absolute my-auto boton" id="automotor"
+                                    data-toggle="collapse" href="#collapse19" aria-expanded="true"
+                                    aria-controls="collapse196">
                                     Automotor
                                 </a>
-                                <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                                <div class="d-flex justify-content-center align-items-center position-absolute">
+                                    <div class="text-white position-absolute" style="display: none;"
+                                        id="automotorTexto">
+                                        <h2>Automotor</h2>
+                                        <p>RESP CIVIL</p>
+                                        <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                        <p>ROBO</p>
+                                        <p>DAÑOS TOTALES</p>
+                                        <p>CONSEJOS</p>
+                                        <p>ROBO</p>
+                                        <p>DAÑOS TOTALES</p>
+                                        <p>CONSEJOS</p>
+                                        <button class="botonSeguros">Contactar Asesor</button>
+                                    </div>
+                                </div>
+                                <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" />
                                 <div class="px-0 d-flex justify-content-center align-items-center" id="heading196"
                                     rl="tab"></div>
                             </div>
 
-                            <script>
-                                $(document).ready(function () {
-                                    $(".violetBtn").click(function () {
-                                        $(".holis").html("<h1>Hello, World!</h1>");
-                                    });
-                                });
-                            </script>
+
+
+                            <!-- fin  primer div -->
 
                             <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
                                 <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
@@ -209,6 +221,9 @@
                                 </div>
                             </div>
 
+
+
+
                             <div class="col-md-4 px-0">
                                 <div id="collapse197" class="collapse" role="tabpanel" aria-labelledby="heading197"
                                     data-parent="#accordionEx123">
@@ -250,11 +265,11 @@
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 col-12">
-                        <div class="" style="background-image: url('img/pcDeskt.jpg');"></div>
-                        <img src="img/familiaDeskt.jpg" alt="">
-                        <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
-                    </div>
+                    <!-- <div class="col-md-12 col-12"> -->
+                    <div class="" style="background-image: url('img/cinturon.jpg');"></div>
+                    <!-- <img src="img/familiaDeskt.jpg" alt=""> -->
+                    <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -370,6 +385,8 @@
         </footer>
 
 
+
+
         <!-- JS SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -379,6 +396,20 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+
+        <script>
+            $(document).ready(function () {
+                $('.boton#automotor').click(function () {
+                    $('#automotorImg').addClass('overlay');
+                    $(this).hide();
+                    $('#automotorTexto').show();
+                })
+            })
+            // function ok() {
+            //     $(".btn-efecto").fadeToggle(1000, function () {});
+            // }
         </script>
 
 
