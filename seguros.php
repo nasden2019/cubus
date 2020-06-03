@@ -77,13 +77,11 @@ Template Name: segurosCubus
                             </div>
                         </div>
                     </div>
-
-
-
                     <!-- fin  primer div -->
 
+
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familiar
                         </a>
@@ -104,8 +102,6 @@ Template Name: segurosCubus
                         <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
                             class="img-fluid imgPurple" id="familiaImg" />
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading19" rl="tab">
-                        </div>
                     </div>
 
                     <!-- <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
