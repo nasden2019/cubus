@@ -147,9 +147,10 @@
 
                             <!-- fin  primer div -->
 
-                            <div class="col-md-4 px-0 d-flex btn-efecto align-items-center justify-content-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Ética" data-toggle="collapse"
-                                    href="#collapse197" aria-expanded="true" aria-controls="collapse197">
+                            <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                                <a class="btn violetBtn position-absolute my-auto boton" id="familia"
+                                    data-toggle="collapse" href="#collapse197" aria-expanded="true"
+                                    aria-controls="collapse197">
                                     Familiar
                                 </a>
                                 <img src="img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
@@ -157,10 +158,14 @@
                                     rl="tab"></div>
                             </div>
 
+
+
+
+                            <!--tercero-->
+
                             <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
-                                    data-toggle="collapse" href="#collapse198" aria-expanded="true"
-                                    aria-controls="collapse198">
+                                <a class="btn violetBtn position-absolute my-auto" id="familia" data-toggle="collapse"
+                                    href="#collapse198" aria-expanded="true" aria-controls="collapse198">
                                     Accidentes Personales
                                 </a>
                                 <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
@@ -401,6 +406,31 @@
 
         <script>
             $(document).ready(function () {
+                $('.boton#automotor').click(function () {
+                    $('#automotorImg').addClass('overlay');
+                    $(this).hide();
+                    $('#automotorTexto').show();
+                })
+                $('.boton#familia').click(function () {
+                    $('#familiaImg').addClass('overlay');
+                    $(this).hide();
+                    $('#familiaTexto').show();
+                })
+                $('.boton#automotor').click(function () {
+                    $('#automotorImg').addClass('overlay');
+                    $(this).hide();
+                    $('#automotorTexto').show();
+                })
+                $('.boton#automotor').click(function () {
+                    $('#automotorImg').addClass('overlay');
+                    $(this).hide();
+                    $('#automotorTexto').show();
+                })
+                $('.boton#automotor').click(function () {
+                    $('#automotorImg').addClass('overlay');
+                    $(this).hide();
+                    $('#automotorTexto').show();
+                })
                 $('.boton#automotor').click(function () {
                     $('#automotorImg').addClass('overlay');
                     $(this).hide();
