@@ -31,17 +31,12 @@
 
             <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
             <!-- <a class="navbar-brand" href="#"> -->
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
+              <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt="" style="width: 215px;" />
+            </a>
             <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
             <!-- </a> -->
             <!-- </ul> -->
-
-            <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="animated-icon1 spanNav text-white">___<br />
-                        ___</span>
-                </button> -->
 
             <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
