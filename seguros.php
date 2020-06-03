@@ -153,94 +153,52 @@ Template Name: segurosCubus
                             class="img-fluid imgPurple" id="industriaImg" />
                     </div>
 
-                    <!-- <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
-                                    data-toggle="collapse" href="#collapse198" aria-expanded="true"
-                                    aria-controls="collapse198">
-                                    Industria y comercio
-                                </a>
-                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading198"
-                                    rl="tab"></div>
-                            </div>
-                            <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
-                                    data-toggle="collapse" href="#collapse198" aria-expanded="true"
-                                    aria-controls="collapse198">
-                                    Agro
-                                </a>
-                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading198"
-                                    rl="tab"></div>
-                            </div>
-                            <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                                <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
-                                    data-toggle="collapse" href="#collapse198" aria-expanded="true"
-                                    aria-controls="collapse198">
-                                    Empleadores
-                                </a>
-                                <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                                <div class="px-0 d-flex justify-content-center align-items-center" id="heading198"
-                                    rl="tab"></div>
-                            </div> -->
-                </div>
-
-
-
-                <!-- accordion -->
-
-                <div class="row px-0">
-                    <div class="col-md-4 px-0 align-items-center justify-content-center holis">
-                        <div id="collapse196" class="collapse" role="tabpanel" aria-labelledby="heading196"
-                            data-parent="#accordionEx123">
-                            <div class="d-flex justify-content-center align-items-center my-auto">
-                                <p class="text-white position-absolute my-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris
-                                </p>
-
-                                <img src="img/familiaDeskt.jpg" alt="" style="width: 100%; height: 40vh;"
-                                    class="overlay" />
+                    <!-- quinto-->
+                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
+                            href="#collapse7" aria-expanded="true" aria-controls="collapse">
+                            Agro
+                        </a>
+                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none;" id="agroTexto">
+                                <h2>Familiar</h2>
+                                <p>RESP CIVIL</p>
+                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                
+                                <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg"
+                            class="img-fluid imgPurple" id="agroImg" />
                     </div>
 
-
-
-
-                    <div class="col-md-4 px-0">
-                        <div id="collapse197" class="collapse" role="tabpanel" aria-labelledby="heading197"
-                            data-parent="#accordionEx123">
-                            <div class="d-flex justify-content-center align-items-center my-auto">
-                                <p class="text-white w-100 position-absolute">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris
-                                </p>
-
-                                <img src="img/eticaDeskt.jpg" alt="" style="width: 100%; height: 40vh;"
-                                    class="overlay" />
+                      <!-- sexto-->
+                      <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="empleadores" data-toggle="collapse"
+                            href="#collapse" aria-expanded="true" aria-controls="collapse9">
+                            Empleadores
+                        </a>
+                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none;" id="empleadoresTexto">
+                                <h2>Familiar</h2>
+                                <p>RESP CIVIL</p>
+                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                
+                                <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 px-0">
-                        <div id="collapse198" class="collapse" role="tabpanel" aria-labelledby="heading198"
-                            data-parent="#accordionEx123">
-                            <div class="d-flex justify-content-center align-items-center my-auto">
-                                <p class="w-100 position-absolute">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris
-                                </p>
-
-                                <img src="img/chicaDeskIndex.jpg" alt="" style="width: 100%; height: 40vh;"
-                                    class="overlay" />
-                            </div>
-                        </div>
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
+                            class="img-fluid imgPurple" id="empleadoresImg" />
                     </div>
                 </div>
             </div>
@@ -296,16 +254,16 @@ Template Name: segurosCubus
             $(this).hide();
             $('#industriaTexto').show();
         })
-        // $('.boton#automotor').click(function () {
-        //     $('#automotorImg').addClass('overlay');
-        //     $(this).hide();
-        //     $('#automotorTexto').show();
-        // })
-        // $('.boton#automotor').click(function () {
-        //     $('#automotorImg').addClass('overlay');
-        //     $(this).hide();
-        //     $('#automotorTexto').show();
-        // })
+        $('.boton#agro').click(function () {
+            $('#agroImg').addClass('overlay');
+            $(this).hide();
+            $('#agroTexto').show();
+        })
+        $('.boton#empleadores').click(function () {
+            $('#empleadoresImg').addClass('overlay');
+            $(this).hide();
+            $('#empleadoresTexto').show();
+        })
     })
     // function ok() {
     //     $(".btn-efecto").fadeToggle(1000, function () {});
