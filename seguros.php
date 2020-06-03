@@ -79,7 +79,7 @@ Template Name: segurosCubus
                     </div>
                     <!-- fin  primer div -->
 
-
+                     <!-- segundo-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
@@ -112,7 +112,7 @@ Template Name: segurosCubus
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
-                                <h2>Familiar</h2>
+                                <h2>Accidentes personales</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
                                 <p>ROBO</p>
@@ -137,7 +137,7 @@ Template Name: segurosCubus
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
-                                <h2>Familiar</h2>
+                                <h2>Industria y comercio</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
                                 <p>ROBO</p>
@@ -161,7 +161,7 @@ Template Name: segurosCubus
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none;" id="agroTexto">
-                                <h2>Familiar</h2>
+                                <h2>Agro</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
                                 <p>ROBO</p>
@@ -185,7 +185,7 @@ Template Name: segurosCubus
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none;" id="empleadoresTexto">
-                                <h2>Familiar</h2>
+                                <h2>Empleadores</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
                                 <p>ROBO</p>
