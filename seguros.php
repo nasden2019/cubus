@@ -32,8 +32,49 @@ Template Name: segurosCubus
                             </div>
                         </div>
                         <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple" id="automotorImg"/>
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading196" rl="tab">
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple"
+                            id="automotorImg" />
+
+                    </div>
+
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-label
+                        ledby="exampleModalLabel " aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content modales">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto;">
+                                        INSCRIBIRME
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="recipient-name"
+                                                class="col-form-label ml-md-3 ml-2">Nombre</label>
+                                            <input type="text" class="form-control" id="recipient-name" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-name"
+                                                class="col-form-label ml-md-3 ml-2">Apellido</label>
+                                            <input type="text" class="form-control" id="recipient-name" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-name"
+                                                class="col-form-label ml-md-3 ml-2">E-Mail</label>
+                                            <input type="text" class="form-control" id="recipient-name" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-name"
+                                                class="col-form-label ml-md-3 ml-2">Teléfono</label>
+                                            <input type="text" class="form-control" id="recipient-name" />
+                                        </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -43,11 +84,11 @@ Template Name: segurosCubus
 
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familiar
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
+                            <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
                                 <h2>Familiar</h2>
                                 <p>RESP CIVIL</p>
                                 <p>INCENDIO TOTAL Y/O PARCIAL</p>
@@ -61,8 +102,9 @@ Template Name: segurosCubus
                             </div>
                         </div>
                         <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" id="familiaImg"/>
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading196" rl="tab">
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
+                            class="img-fluid imgPurple" id="familiaImg" />
+                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading19" rl="tab">
                         </div>
                     </div>
 
@@ -185,9 +227,9 @@ Template Name: segurosCubus
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-12">
-            <div class="" style="background-image: url('img/cinturon.jpg');"></div>
-            <!-- <img src="img/familiaDeskt.jpg" alt=""> -->
-            <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
+                <div class="" style="background-image: url('img/cinturon.jpg');"></div>
+                <!-- <img src="img/familiaDeskt.jpg" alt=""> -->
+                <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
             </div>
         </div>
     </div>
@@ -196,53 +238,53 @@ Template Name: segurosCubus
 
 <!-- JS SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-        </script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
 
 
-        <script>
-            $(document).ready(function () {
-                $('.boton#automotor').click(function () {
-                    $('#automotorImg').addClass('overlay');
-                    $(this).hide();
-                    $('#automotorTexto').show();
-                })
-                // $('.boton#familia').click(function () {
-                //     $('#familiaImg').addClass('overlay');
-                //     $(this).hide();
-                //     $('#familiaTexto').show();
-                // })
-                // $('.boton#automotor').click(function () {
-                //     $('#automotorImg').addClass('overlay');
-                //     $(this).hide();
-                //     $('#automotorTexto').show();
-                // })
-                // $('.boton#automotor').click(function () {
-                //     $('#automotorImg').addClass('overlay');
-                //     $(this).hide();
-                //     $('#automotorTexto').show();
-                // })
-                // $('.boton#automotor').click(function () {
-                //     $('#automotorImg').addClass('overlay');
-                //     $(this).hide();
-                //     $('#automotorTexto').show();
-                // })
-                // $('.boton#automotor').click(function () {
-                //     $('#automotorImg').addClass('overlay');
-                //     $(this).hide();
-                //     $('#automotorTexto').show();
-                // })
-            })
-            // function ok() {
-            //     $(".btn-efecto").fadeToggle(1000, function () {});
-            // }
-        </script>
+<script>
+    $(document).ready(function () {
+        $('.boton#automotor').click(function () {
+            $('#automotorImg').addClass('overlay');
+            $(this).hide();
+            $('#automotorTexto').show();
+        })
+        $('.boton#familia').click(function () {
+            $('#familiaImg').addClass('overlay');
+            $(this).hide();
+            $('#familiaTexto').show();
+        })
+        // $('.boton#automotor').click(function () {
+        //     $('#automotorImg').addClass('overlay');
+        //     $(this).hide();
+        //     $('#automotorTexto').show();
+        // })
+        // $('.boton#automotor').click(function () {
+        //     $('#automotorImg').addClass('overlay');
+        //     $(this).hide();
+        //     $('#automotorTexto').show();
+        // })
+        // $('.boton#automotor').click(function () {
+        //     $('#automotorImg').addClass('overlay');
+        //     $(this).hide();
+        //     $('#automotorTexto').show();
+        // })
+        // $('.boton#automotor').click(function () {
+        //     $('#automotorImg').addClass('overlay');
+        //     $(this).hide();
+        //     $('#automotorTexto').show();
+        // })
+    })
+    // function ok() {
+    //     $(".btn-efecto").fadeToggle(1000, function () {});
+    // }
+</script>
 
 <?php get_footer(); ?>
 <?php get_footer('2'); ?>
