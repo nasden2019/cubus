@@ -130,15 +130,28 @@ Template Name: segurosCubus
 
 
                     <!-- cuarto-->
-                    <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
-                        <a class="btn violetBtn position-absolute my-auto" id="accidentes" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
+                            href="#collapse7" aria-expanded="true" aria-controls="collapse19">
                             Industria y comercio
                         </a>
-                        <img src="img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                        <div class="px-0 d-flex justify-content-center align-items-center" id="heading198" rl="tab">
+                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
+                                <h2>Familiar</h2>
+                                <p>RESP CIVIL</p>
+                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                <p>CONSEJOS</p>
+                                <p>ROBO</p>
+                                <p>DAÑOS TOTALES</p>
+                                
+                                <button class="botonSeguros">Contactar Asesor</button>
+                            </div>
                         </div>
-                    </div> 
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg"
+                            class="img-fluid imgPurple" id="industriaImg" />
+                    </div>
 
                     <!-- <div class="col-md-4 px-0 d-flex btn-efecto justify-content-center align-items-center">
                                 <a class="btn violetBtn position-absolute my-auto" id="Profesionalismo"
