@@ -371,6 +371,12 @@ Template Name: pFrecuentes
 </section>
 
 
+<<<<<<< HEAD
 
 <!-- <php get_footer(); ?> -->
 <?php get_footer('2'); ?>
+=======
+<script src="<?php echo bloginfo('template_url' ); ?>/main.js"></script>
+
+<?php get_footer(); ?>
+>>>>>>> 86b7ef581ee1307ba53992801bbcb2b92974b915
