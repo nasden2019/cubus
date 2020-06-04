@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../sass/seguros.scss"
+    ],
+    "names": [],
+    "file": "seguros.min.css"
+}

@@ -90,6 +90,19 @@ body {
 
 
 // }
+@media (max-width: 720px) {
+    //esta raro esto Alex
+    // padding: 50px 23px;
+
+    h2 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .modal-content {
+        width: 97%;
+    }
+}
 
 .overlayAzul {
     // position: absolute;
@@ -97,6 +110,16 @@ body {
     // left: 0;
     // width: 100%;
     // height: 100%;
-    background: rgb(17, 142, 180)(0, 0, 0, 6.9) !important;
-    opacity: .5 !important;
+    // background: rgb(17, 142, 180)(0, 0, 0, 6.9) !important;
+    // opacity: .5 !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(63, 81, 181, 0.61);
+    z-index: 2;
+    cursor: pointer;
 }
