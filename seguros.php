@@ -305,7 +305,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2">DAÑOS TOTALES</div>
                                 <div class="mb-md-4">CONSEJOS</div>
 
-                                <button type="button" class="botonSeguros" data-toggle="modal5"
+                                <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal5" style="z-index: 200000!important;">Contactar
                                     asesor</button>
 
