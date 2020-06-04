@@ -12,7 +12,77 @@ Template Name: segurosCubus
         <div class="row mx-0 px-0">
             <div class="col-12 col-md-12 px-0 text-center">
                 <div class="row">
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                                <a class="btn violetBtn position-absolute my-auto boton" id="automotor"
+                                    data-toggle="collapse" href="#collapse19" aria-expanded="true"
+                                    aria-controls="collapse196">
+                                    Automotor
+                                </a>
+                                <div class="d-flex justify-content-center align-items-center position-absolute"
+                                    style="z-index: 2000;">
+                                    <div class="text-white position-absolute" style="display: none;"
+                                        id="automotorTexto">
+                                        <h2 class="mb-md-4">Automotor</h2>
+                                        <div class="mb-md-2">RESP CIVIL</div>
+                                        <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
+                                        <div class="mb-md-2">ROBO</div>
+                                        <div class="mb-md-2">DAÑOS TOTALES</div>
+                                        <div class="mb-md-2">CONSEJOS</div>
+                                        <div class="mb-md-2">ROBO</div>
+                                        <div class="mb-md-2">DAÑOS TOTALES</div>
+                                        <div class="mb-md-4">CONSEJOS</div>
+
+                                        <button type="button" class="botonSeguros" data-toggle="modal"
+                                            data-target="#exampleModal" style="z-index: 200000!important;">Contactar
+                                            asesor</button>
+
+                                        <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content modales">
+                                                    <div class="modal-header mx-auto">
+                                                        <h2 class="text-black">AUTOMOTORES</h2>
+                                                        <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                                        <button class="close" data-dismiss="modal">
+                                                            <span>&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control"
+                                                                    placeholder="MARCA" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" />
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                                        <button class="segurosBtn">Enviar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple"
+                            id="automotorImg" />
+                            </div>
+
+                    <!-- <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
@@ -31,15 +101,13 @@ Template Name: segurosCubus
                                 <button class="botonSeguros">Contactar Asesor</button>
                             </div>
                         </div>
-                        <!-- <img src="img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="automotorImg" /> -->
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple"
+                        <img src="?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple"
                             id="automotorImg" />
-
-                    </div>
+                    </div> -->
 
 
                     <!-- MODAL -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-label
+                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-label
                         ledby="exampleModalLabel " aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content modales">
@@ -76,7 +144,7 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- fin  primer div -->
 
                      <!-- segundo-->
