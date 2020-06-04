@@ -231,7 +231,7 @@
 
     <!-- PURPLE SECTION DESKTOP-->
     <section
-      class="seccionVioleta d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
+      class="seccionVioleta desktop d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
       id="accordionEx123"
       role="tablist"
     style="padding: 0;">
