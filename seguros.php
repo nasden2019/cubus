@@ -224,7 +224,7 @@ Template Name: segurosCubus
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
                             Industria y comercio
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
                                 <h2 class="mb-md-4">Industria y Comercio</h2>
