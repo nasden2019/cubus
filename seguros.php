@@ -38,7 +38,7 @@ Template Name: segurosCubus
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
-                                                <h2 class="text-black">AUTOMOTORES</h2>
+                                                <h2 class="">AUTOMOTORES</h2>
                                                 <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                                 <button class="close" data-dismiss="modal">
                                                     <span>&times;</span>
@@ -82,8 +82,8 @@ Template Name: segurosCubus
                     <!-- segundo-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse196">
-                            Automotor
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse1">
+                            Familia
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 2000;">
@@ -106,7 +106,7 @@ Template Name: segurosCubus
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
-                                                <h2 class="text-black">FAMILIA</h2>
+                                                <h2 class="">FAMILIA</h2>
                                                 <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                                 <button class="close" data-dismiss="modal">
                                                     <span>&times;</span>
