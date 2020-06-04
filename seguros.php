@@ -428,7 +428,7 @@ Template Name: segurosCubus
 </section>
 
 <!-- SECCION AZUL (CON OVERLAY)-->
-<section class="seccionAzul img-fluid" style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/chicaDeskIndex.jpg');">
+<section class="seccionAzul img-fluid" style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>img/chicaDeskIndex.jpg');">
     <div class="overlayAzul position-relative">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">

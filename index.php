@@ -230,179 +230,222 @@
     <!--Accordion wrapper-->
 
     <!-- PURPLE SECTION DESKTOP-->
-    <section
-      class="seccionVioleta desktop d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
-      id="accordionEx123"
-      role="tablist"
-    style="padding: 0;">
-      <div class="container-fluid" section="padding-top: -10px;">
+    <section class="seccionVioleta d-md-block d-none mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
+      style="margin-top: 128px;" id="accordionEx123" role="tablist">
+      <div class="container-fluid">
         <div class="row mx-0 px-0">
           <div class="col-12 col-md-12 px-0 text-center">
             <div class="row">
-              <div
-                class="col-md-4 px-0 d-flex align-items-center justify-content-center"
-              >
-                <a
-                  class="btn violetBtn position-absolute my-auto"
-                  data-toggle="collapse"
-                  href="#collapse196"
-                  aria-expanded="true"
-                  aria-controls="collapse196"
-                >
+              <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                <a class="btn violetBtn position-absolute my-auto boton" id="confianza" data-toggle="collapse"
+                  href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                   Confianza
                 </a>
-                <img
-                  src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
-                  class="img-fluid imgPurple"
-                  alt=""
-                />
-                <div
-                  class="px-0 d-flex justify-content-center align-items-center"
-                  id="heading196"
-                  rl="tab"
-                ></div>
+                <!--col-md-6 para q el contenido no quede apretado y alargado -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
+                  style="z-index: 20000;">
+                  <div class="text-white position-absolute" style="display: none;" id="confianzaTexto">
+                    <h2 class="mb-md-4 mb-3">Confianza</h2>
+                    <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                    <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-2 mb-1">CONSEJOS</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-4 mb-3">CONSEJOS</div>
+
+                    <!-- BOTON MODAL -->
+                    <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal"
+                      style="z-index: 200000!important;">Contactar
+                      asesor</button>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                      <div class="modal-dialog">
+                        <div class="modal-content modales">
+                          <div class="modal-header mx-auto">
+                            <h2 class="">CONFIANZA</h2>
+                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                            <button class="close" data-dismiss="modal">
+                              <span>&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="MARCA" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center mt-md-3">
+                            <button class="segurosBtn">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid img-purple" alt="" />
               </div>
 
-              <div
-                class="col-md-4 px-0 d-flex align-items-center justify-content-center"
-              >
-                <a
-                  class="btn violetBtn position-absolute my-auto"
-                  data-toggle="collapse"
-                  href="#collapse197"
-                  aria-expanded="true"
-                  aria-controls="collapse197"
-                >
+
+              <!-- segundo-->
+              <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
+                  href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                   Ética
                 </a>
-                <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
-                  class="img-fluid imgPurple"
-                  alt=""
-                />
-                <div
-                  class="px-0 d-flex justify-content-center align-items-center"
-                  id="heading197"
-                  rl="tab"
-                ></div>
+                <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
+                  style="z-index: 20000;">
+                  <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+                    <h2 class="mb-md-4 mb-3">Ética</h2>
+                    <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                    <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-2 mb-1">CONSEJOS</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-4 mb-3">CONSEJOS</div>
+
+                    <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
+                    <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal2"
+                      style="z-index: 200000!important;">Contactar
+                      asesor</button>
+
+                    <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
+                      <div class="modal-dialog">
+                        <div class="modal-content modales">
+                          <div class="modal-header mx-auto">
+                            <h2 class="">Ética</h2>
+                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                            <button class="close" data-dismiss="modal">
+                              <span>&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="MARCA" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center mt-md-3">
+                            <button class="segurosBtn">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
               </div>
 
-              <div
-                class="col-md-4 px-0 d-flex justify-content-center align-items-center"
-              >
-                <a
-                  class="btn violetBtn position-absolute my-auto"
-                  data-toggle="collapse"
-                  href="#collapse198"
-                  aria-expanded="true"
-                  aria-controls="collapse198"
-                >
+
+              <!-- tercero -->
+              <div class="col-md-4 px-0 d-flex align-items-center justify-content-center overlay">
+                <a class="btn violetBtn position-absolute my-auto boton" id="accidentes" data-toggle="collapse"
+                  href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                   Profesionalismo
                 </a>
-                <img src="<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg" class="img-fluid imgPurple" alt="" />
-                <div
-                  class="px-0 d-flex justify-content-center align-items-center"
-                  id="heading198"
-                  rl="tab"
-                ></div>
-              </div>
-            </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
+                  style="z-index: 20000;">
+                  <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
+                    <h2 class="mb-md-4 mb-3">Profesionalismo</h2>
+                    <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                    <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-2 mb-1">CONSEJOS</div>
+                    <div class="mb-md-2 mb-1">ROBO</div>
+                    <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                    <div class="mb-md-4 mb-3">CONSEJOS</div>
 
-            <!-- accordion -->
+                    <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal3"
+                      style="z-index: 200000!important;">Contactar
+                      asesor</button>
 
-            <div class="row px-0">
-              <div
-                class="col-md-4 px-0 align-items-center justify-content-center"
-              >
-                <!-- <div class="card-body p-0 m-0"> -->
-                <div
-                  id="collapse196"
-                  class="collapse"
-                  role="tabpanel"
-                  aria-labelledby="heading196"
-                  data-parent="#accordionEx123"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-center my-auto"
-                  >
-                    <p class="text-white position-absolute my-auto">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris
-                    </p>
-
-                    <img
-                      src="<?php echo bloginfo('template_url' ); ?>img/familiaDeskt.jpg"
-                      alt=""
-                      style="width: 100%; height: 40vh;"
-                      class="overlay"
-                    />
+                    <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
+                      <div class="modal-dialog">
+                        <div class="modal-content modales">
+                          <div class="modal-header mx-auto">
+                            <h2 class="">PROFESIONALISMO</h2>
+                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                            <button class="close" data-dismiss="modal">
+                              <span>&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="MARCA" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" />
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center mt-md-3">
+                            <button class="segurosBtn">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <!-- </div> -->
-              <div class="col-md-4 px-0">
-                <div
-                  id="collapse197"
-                  class="collapse"
-                  role="tabpanel"
-                  aria-labelledby="heading197"
-                  data-parent="#accordionEx123"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-center my-auto"
-                  >
-                    <p class="text-white w-100 position-absolute">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris
-                    </p>
-
-                    <img
-                      src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
-                      alt=""
-                      style="width: 100%; height: 40vh;"
-                      class="overlay"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 px-0">
-                <!-- <div class="card-body p-0 m-0"> -->
-                <div
-                  id="collapse198"
-                  class="collapse"
-                  role="tabpanel"
-                  aria-labelledby="heading198"
-                  data-parent="#accordionEx123"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-center my-auto"
-                  >
-                    <p class="w-100 position-absolute">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris
-                    </p>
-
-                    <img
-                      src="<?php echo bloginfo('template_url' ); ?>/img/chicaDeskIndex.jpg"
-                      alt=""
-                      style="width: 100%; height: 40vh;"
-                      class="overlay"
-                    />
-                  </div>
-                </div>
-                <!-- </div> -->
+                <!-- <img src="/img/familiaDeskt.jpg" class="img-fluid imgPurple" id="accidentesImg" /> -->
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- seccion texto2 mobile-->
     <section class="seccionTextoDos d-block d-md-none" style="padding-top: 0;">
@@ -513,6 +556,42 @@
         </div>
       </div>
     </section>
+
+    <script>
+    $(document).ready(function () {
+        $('.boton#automotor').click(function () {
+            $('#automotorImg').addClass('overlay');
+            $(this).hide();
+            $('#automotorTexto').show();
+        })
+        $('.boton#familia').click(function () {
+            $('#familiaImg').addClass('overlay');
+            $(this).hide();
+            $('#familiaTexto').show();
+        })
+        $('.boton#accidentes').click(function () {
+            $('#accidentesImg').addClass('overlay');
+            $(this).hide();
+            $('#accidentesTexto').show();
+        })
+        $('.boton#industria').click(function () {
+            $('#industriaImg').addClass('overlay');
+            $(this).hide();
+            $('#industriaTexto').show();
+        })
+        $('.boton#agro').click(function () {
+            $('#agroImg').addClass('overlay');
+            $(this).hide();
+            $('#agroTexto').show();
+        })
+        $('.boton#empleadores').click(function () {
+            $('#empleadoresImg').addClass('overlay');
+            $(this).hide();
+            $('#empleadoresTexto').show();
+        })
+    })
+</script>
+
     <?php get_footer(); ?>
 
 
