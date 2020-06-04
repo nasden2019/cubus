@@ -88,7 +88,7 @@ Template Name: segurosCubus
                         <div class="d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 2000;">
                             <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
-                                <h2 class="mb-md-4">Automotor</h2>
+                                <h2 class="mb-md-4">Familia</h2>
                                 <div class="mb-md-2">RESP CIVIL</div>
                                 <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
                                 <div class="mb-md-2">ROBO</div>
@@ -106,7 +106,7 @@ Template Name: segurosCubus
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
-                                                <h2 class="text-black">AUTOMOTORES</h2>
+                                                <h2 class="text-black">FAMILIA</h2>
                                                 <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                                 <button class="close" data-dismiss="modal">
                                                     <span>&times;</span>
