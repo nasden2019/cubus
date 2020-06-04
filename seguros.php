@@ -161,15 +161,15 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
-                                <h2 class="mb-md-4">Accidentes</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-3">Accidentes</h2>
+                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-1">CONSEJOS</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal3" style="z-index: 200000!important;">Contactar
@@ -229,15 +229,15 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
-                                <h2 class="mb-md-4">Industria y Comercio</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-3">Industria y Comercio</h2>
+                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-1">CONSEJOS</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal4" style="z-index: 200000!important;">Contactar
@@ -297,15 +297,15 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="agroTexto">
-                                <h2 class="mb-md-4">AGRO</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-3">AGRO</h2>
+                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-1">CONSEJOS</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal5" style="z-index: 200000!important;">Contactar
@@ -365,15 +365,15 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="empleadoresTexto">
-                                <h2 class="mb-md-4">Empleadores</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-3">Empleadores</h2>
+                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-1">CONSEJOS</div>
+                                <div class="mb-md-2 mb-1">ROBO</div>
+                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal6" style="z-index: 200000!important;">Contactar
