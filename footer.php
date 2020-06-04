@@ -4,23 +4,23 @@
         <div class="row py-3 justify-content-center">
           <div class="col-8 col-md-12">
             <p>Redes sociales</p>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex">
               <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-twitter fa-2x"></i>
                 </a>
               </div>
-              <div class="text-center ml-1">
+              <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-facebook fa-2x"></i>
                 </a>
               </div>
-              <div class="text-center ml-2">
+              <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-linkedin fa-2x"></i>
                 </a>
               </div>
-              <div class="text-center ml-2">
+              <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-instagram fa-2x"></i>
                 </a>
