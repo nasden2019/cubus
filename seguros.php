@@ -488,5 +488,5 @@ Template Name: segurosCubus
     })
 </script>
 
-<?php get_footer(); ?>
+<!-- ?php get_footer(); ?> -->
 <?php get_footer('2'); ?>
