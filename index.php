@@ -79,6 +79,7 @@
       </div>
     </section>
 
+
     <!-- PURPLE SECTION MOBILE-->
     <div
       class="seccionVioleta pt-0 d-block d-md-none accordion md-accordion accordion-1"
@@ -227,7 +228,8 @@
         </div>
       </div>
     </div>
-    <!--Accordion wrapper-->
+    <!-- fin Accordion wrapper MOBILE-->
+
 
     <!-- PURPLE SECTION DESKTOP-->
     <section class="seccionVioleta d-md-block d-none mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
@@ -301,7 +303,7 @@
                     </div>
                   </div>
                 </div>
-                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid img-purple" alt="" />
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
               </div>
 
 
@@ -559,10 +561,10 @@
 
     <script>
     $(document).ready(function () {
-        $('.boton#automotor').click(function () {
-            $('#automotorImg').addClass('overlay');
+        $('.boton#confianza').click(function () {
+            $('#confianzaImg').addClass('overlay');
             $(this).hide();
-            $('#automotorTexto').show();
+            $('#confianzaTexto').show();
         })
         $('.boton#familia').click(function () {
             $('#familiaImg').addClass('overlay');
