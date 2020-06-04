@@ -21,10 +21,10 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
-                                <h2 class="mb-md-4">Automotor</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
+                                <h2 class="mb-md-4 mb-4">Automotor</h2>
+                                <div class="mb-md-2 mb-2">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-2">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-2">ROBO</div>
                                 <div class="mb-md-2">DAÑOS TOTALES</div>
                                 <div class="mb-md-2">CONSEJOS</div>
                                 <div class="mb-md-2">ROBO</div>
