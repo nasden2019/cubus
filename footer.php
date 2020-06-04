@@ -76,7 +76,7 @@
 
                       <h5 class="text-white">Redes sociales</h5>
                       <div
-                      class="d-flex justify-content-between"
+                      class="d-flex justify-content-center"
                       style="margin-left: 45px;"
                       >
                       <div class="text-center mr-md-2">
