@@ -290,12 +290,12 @@ Template Name: segurosCubus
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
-                            Industria y comercio
+                            Agro
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="agroTexto">
-                                <h2 class="mb-md-4">Industria y Comercio</h2>
+                                <h2 class="mb-md-4">AGRO</h2>
                                 <div class="mb-md-2">RESP CIVIL</div>
                                 <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
                                 <div class="mb-md-2">ROBO</div>
@@ -313,7 +313,7 @@ Template Name: segurosCubus
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
-                                                <h2 class="">Industria y Comercio</h2>
+                                                <h2 class="">Agro</h2>
                                                 <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                                 <button class="close" data-dismiss="modal">
                                                     <span>&times;</span>
