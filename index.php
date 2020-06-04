@@ -348,9 +348,8 @@
                 </div>
               </div>
             </div>
-            <!-- <img src="/img/familiaDeskt.jpg" class="img-fluid imgPurple" id="accidentesImg" /> -->
             <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
-              alt="" id=""/>
+              alt="" id="profesionalismoImg"/>
           </div>
         </div>
       </div>
