@@ -213,15 +213,15 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple"
                             id="accidentesImg" />
                     </div>
 
 
                     <!-- cuarto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="accidentes" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse1">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
+                            href="#collapse9" aria-expanded="true" aria-controls="collapse1">
                             Industria y comercio
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
@@ -281,7 +281,7 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg" class="img-fluid imgPurple"
                             id="industriaImg" />
                     </div>
 
@@ -309,7 +309,7 @@ Template Name: segurosCubus
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg" class="img-fluid imgPurple"
                             id="agroImg" />
                     </div>
-                    
+
 
                     <!-- sexto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
