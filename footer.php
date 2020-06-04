@@ -12,12 +12,12 @@
               </div>
               <div class="text-center">
                 <a href="#" class="text-white">
-                  <i class="fa fa-facebook fa-2x"></i>
+                  <i class="fa fa-facebook fa-2x mx-1"></i>
                 </a>
               </div>
               <div class="text-center">
                 <a href="#" class="text-white">
-                  <i class="fa fa-linkedin fa-2x"></i>
+                  <i class="fa fa-linkedin fa-2x mx-1"></i>
                 </a>
               </div>
               <div class="text-center">
