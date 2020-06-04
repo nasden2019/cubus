@@ -240,7 +240,7 @@
             <div class="row">
               <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                 <a class="btn violetBtn position-absolute my-auto boton" id="confianza" data-toggle="collapse"
-                  href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                  href="#collapse" aria-expanded="true" aria-controls="collapse196">
                   Confianza
                 </a>
                 <!--col-md-6 para q el contenido no quede apretado y alargado -->
@@ -303,7 +303,7 @@
                     </div>
                   </div>
                 </div>
-                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt="" id="confianzaImg"/>
               </div>
 
 
