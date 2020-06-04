@@ -25,11 +25,11 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-2">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-2">INCENDIO TOTAL Y/O PARCIAL</div>
                                 <div class="mb-md-2 mb-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <div class="mb-md-2 mb-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-2">CONSEJOS</div>
+                                <div class="mb-md-2 mb-2">ROBO</div>
+                                <div class="mb-md-2 mb-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-4">CONSEJOS</div>
 
                                 <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
@@ -92,15 +92,15 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
-                                <h2 class="mb-md-4">Familia</h2>
-                                <div class="mb-md-2">RESP CIVIL</div>
-                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-2">CONSEJOS</div>
-                                <div class="mb-md-2">ROBO</div>
-                                <div class="mb-md-2">DAÑOS TOTALES</div>
-                                <div class="mb-md-4">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-4">Familia</h2>
+                                <div class="mb-md-2 mb-2">RESP CIVIL</div>
+                                <div class="mb-md-2 mb-2">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2 mb-2">ROBO</div>
+                                <div class="mb-md-2 mb-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-2 mb-2">CONSEJOS</div>
+                                <div class="mb-md-2 mb-2">ROBO</div>
+                                <div class="mb-md-2 mb-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-4 mb-4">CONSEJOS</div>
 
                                 <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
