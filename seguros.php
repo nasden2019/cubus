@@ -292,7 +292,7 @@ Template Name: segurosCubus
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
                             Agro
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="agroTexto">
                                 <h2 class="mb-md-4">AGRO</h2>
