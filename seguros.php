@@ -37,7 +37,7 @@ Template Name: segurosCubus
                                     asesor</button>
 
                                 <!-- MODAL -->
-                                <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                                <div class="col-12 modal fade" id="exampleModal" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
