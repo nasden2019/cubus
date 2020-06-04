@@ -65,10 +65,15 @@ body {
     }
 
     @media (max-width: 720px) {
-        // padding: 35px 40px;
+        padding: 50px 23px;
 
         h2 {
             font-weight: 400;
+            font-size: 20px;
+        }
+
+        .modal-content {
+            width: 97%;
         }
     }
 }
