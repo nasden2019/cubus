@@ -381,5 +381,6 @@ Template Name: pFrecuentes
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script>
 
+<script src="<?php echo bloginfo('template_url' ); ?>/main.js"></script>
+
 <?php get_footer(); ?>
-<?php get_footer('2'); ?>
