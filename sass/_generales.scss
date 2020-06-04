@@ -78,18 +78,20 @@ body {
     }
 }
 
-// .sectionAzul {
-//     // position: absolute;
-//     // top: 0;
-//     background: url('img/chicaDeskIndex.jpg');
-//     width: 100%;
-//     height: 650px;
-//     background-size: cover;
-//     position: relative;
-//     overflow: hidden;
+.seccionAzul {
+    h2 {
+        margin-top: 170px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 2.3rem;
+    }
 
+    .btnAzul {
+        padding: 5px 25px;
+        background-color: $azul;
+    }
+}
 
-// }
 @media (max-width: 720px) {
 
     h2 {
