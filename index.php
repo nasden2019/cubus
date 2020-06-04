@@ -281,7 +281,7 @@
                 </div>
               </div>
             </div>
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" />
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" id="familiaImg" />
           </div>
 
 
