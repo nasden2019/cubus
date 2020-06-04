@@ -17,7 +17,8 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                        <!--col-md-6 para q el contenido no quede apretado y alargado -->
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
                                 <h2 class="mb-md-4">Automotor</h2>
@@ -87,7 +88,8 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                        <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
                                 <h2 class="mb-md-4">Familia</h2>
@@ -156,7 +158,7 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Accidentes
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
                                 <h2 class="mb-md-4">Accidentes</h2>
@@ -357,25 +359,68 @@ Template Name: segurosCubus
                     <!-- sexto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="empleadores" data-toggle="collapse"
-                            href="#collapse" aria-expanded="true" aria-controls="collapse9">
+                            href="#collapse99" aria-expanded="true" aria-controls="collapse7">
                             Empleadores
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
+                            style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="empleadoresTexto">
-                                <h2>Empleadores</h2>
-                                <p>RESP CIVIL</p>
-                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
-                                <p>ROBO</p>
-                                <p>DAÑOS TOTALES</p>
-                                <p>CONSEJOS</p>
-                                <p>ROBO</p>
-                                <p>DAÑOS TOTALES</p>
-                                <p>ROBO</p>
-                                <button class="botonSeguros">Contactar Asesor</button>
+                                <h2 class="mb-md-4">Empleadores</h2>
+                                <div class="mb-md-2">RESP CIVIL</div>
+                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2">ROBO</div>
+                                <div class="mb-md-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-2">CONSEJOS</div>
+                                <div class="mb-md-2">ROBO</div>
+                                <div class="mb-md-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-4">CONSEJOS</div>
+
+                                <button type="button" class="botonSeguros" data-toggle="modal"
+                                    data-target="#exampleModal6" style="z-index: 200000!important;">Contactar
+                                    asesor</button>
+
+                                <div class="modal fade" id="exampleModal6" style="margin-top: 7%;">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content modales">
+                                            <div class="modal-header mx-auto">
+                                                <h2 class="">Empleadores</h2>
+                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                                <button class="close" data-dismiss="modal">
+                                                    <span>&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="MARCA" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                                <button class="segurosBtn">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
-                            class="img-fluid imgPurple" id="empleadoresImg" />
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg" class="img-fluid imgPurple"
+                            id="empleadoresImg" />
                     </div>
                 </div>
             </div>
@@ -442,9 +487,6 @@ Template Name: segurosCubus
             $('#empleadoresTexto').show();
         })
     })
-    // function ok() {
-    //     $(".btn-efecto").fadeToggle(1000, function () {});
-    // }
 </script>
 
 <?php get_footer(); ?>
