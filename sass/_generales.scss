@@ -63,19 +63,45 @@ body {
         border: 1px solid gray;
         padding: 10px 35px;
     }
+
+    @media (max-width: 720px) {
+        padding: 50px 23px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .modal-content {
+            width: 97%;
+        }
+    }
 }
 
-.sectionAzul {
-    // position: absolute;
-    // top: 0;
-    background: url('img/chicaDeskIndex.jpg');
-    width: 100%;
-    height: 650px;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
+// .sectionAzul {
+//     // position: absolute;
+//     // top: 0;
+//     background: url('img/chicaDeskIndex.jpg');
+//     width: 100%;
+//     height: 650px;
+//     background-size: cover;
+//     position: relative;
+//     overflow: hidden;
 
 
+// }
+@media (max-width: 720px) {
+    //esta raro esto Alex
+    // padding: 50px 23px;
+
+    h2 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .modal-content {
+        width: 97%;
+    }
 }
 
 .overlayAzul {
