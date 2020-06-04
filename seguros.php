@@ -30,10 +30,12 @@ Template Name: segurosCubus
                                 <div class="mb-md-2">DAÑOS TOTALES</div>
                                 <div class="mb-md-4">CONSEJOS</div>
 
+                                <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal" style="z-index: 200000!important;">Contactar
                                     asesor</button>
 
+                                <!-- MODAL -->
                                 <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
@@ -98,11 +100,12 @@ Template Name: segurosCubus
                                 <div class="mb-md-2">DAÑOS TOTALES</div>
                                 <div class="mb-md-4">CONSEJOS</div>
 
-                                <button type="button" class="botonSeguros" data-toggle="modal"
+                                <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
+                                <button type="button" class="botonSeguros" data-toggle="modal2"
                                     data-target="#exampleModal2" style="z-index: 200000!important;">Contactar
                                     asesor</button>
 
-                                <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
+                                <div class="modal2 fade" id="exampleModal2" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
@@ -166,11 +169,11 @@ Template Name: segurosCubus
                                 <div class="mb-md-2">DAÑOS TOTALES</div>
                                 <div class="mb-md-4">CONSEJOS</div>
 
-                                <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal" style="z-index: 200000!important;">Contactar
+                                <button type="button" class="botonSeguros" data-toggle="modal3"
+                                    data-target="#exampleModal3" style="z-index: 200000!important;">Contactar
                                     asesor</button>
 
-                                <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                                <div class="modal3 fade" id="exampleModal3" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
