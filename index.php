@@ -139,7 +139,7 @@
 <!-- fin Accordion wrapper MOBILE-->
 
 
-<!-- PURPLE SECTION DESKTOP-->
+<!----- PURPLE SECTION DESKTOP----->
 <section class="seccionVioleta d-md-block d-none mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
   style="margin-top: 128px;" id="accordionEx123" role="tablist">
   <div class="container-fluid">
@@ -287,13 +287,13 @@
 
           <!-- tercero -->
           <div class="col-md-4 px-0 d-flex align-items-center justify-content-center overlay">
-            <a class="btn violetBtn position-absolute my-auto boton" id="accidentes" data-toggle="collapse"
+            <a class="btn violetBtn position-absolute my-auto boton" id="profesionalismo" data-toggle="collapse"
               href="#collapse19" aria-expanded="true" aria-controls="collapse1">
               Profesionalismo
             </a>
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
               style="z-index: 20000;">
-              <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
+              <div class="text-white position-absolute" style="display: none;" id="profesionalismoTexto">
                 <h2 class="mb-md-4 mb-3">Profesionalismo</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -350,7 +350,7 @@
             </div>
             <!-- <img src="/img/familiaDeskt.jpg" class="img-fluid imgPurple" id="accidentesImg" /> -->
             <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
-              alt="" />
+              alt="" id=""/>
           </div>
         </div>
       </div>
@@ -492,10 +492,10 @@
       $(this).hide();
       $('#familiaTexto').show();
     })
-    $('.boton#accidentes').click(function () {
-      $('#accidentesImg').addClass('overlay');
+    $('.boton#profesionalismo').click(function () {
+      $('#profesionalismoImg').addClass('overlay');
       $(this).hide();
-      $('#accidentesTexto').show();
+      $('#profesionalismoTexto').show();
     })
   })
 </script>
