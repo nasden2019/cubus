@@ -65,9 +65,24 @@ body {
     }
 }
 
-.overlayAzul {
+.sectionAzul {
     // position: absolute;
     // top: 0;
-    background: #00B0E4(0, 0, 0, 0.6) !important;
-    opacity: .5 !important;
+    background: url('img/chicaDeskIndex.jpg');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+
+    .overlayAzul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(17, 142, 180)(0, 0, 0, 6.9) !important;
+        opacity: .5 !important;
+    }
 }
