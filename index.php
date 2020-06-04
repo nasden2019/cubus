@@ -234,7 +234,7 @@
       class="seccionVioleta d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
       id="accordionEx123"
       role="tablist"
-    >
+    style="padding: 0;">
       <div class="container-fluid" section="padding-top: -10px;">
         <div class="row mx-0 px-0">
           <div class="col-12 col-md-12 px-0 text-center">
