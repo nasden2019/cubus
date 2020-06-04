@@ -141,7 +141,7 @@
 
 <!----- PURPLE SECTION DESKTOP----->
 <section class="seccionVioleta d-md-block d-none mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
-  style="margin-top: 128px;" id="accordionEx123" role="tablist">
+   id="accordionEx123" role="tablist">
   <div class="container-fluid">
     <div class="row mx-0 px-0">
       <div class="col-12 col-md-12 px-0 text-center">
@@ -286,7 +286,7 @@
 
 
           <!-- tercero -->
-          <div class="col-md-4 px-0 d-flex align-items-center justify-content-center overlay">
+          <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
             <a class="btn violetBtn position-absolute my-auto boton" id="profesionalismo" data-toggle="collapse"
               href="#collapse19" aria-expanded="true" aria-controls="collapse1">
               Profesionalismo
