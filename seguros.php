@@ -18,7 +18,7 @@ Template Name: segurosCubus
                             Automotor
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 2000;">
+                            style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
                                 <h2 class="mb-md-4">Automotor</h2>
                                 <div class="mb-md-2">RESP CIVIL</div>
@@ -86,7 +86,7 @@ Template Name: segurosCubus
                             Familia
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 2000;">
+                            style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
                                 <h2 class="mb-md-4">Familia</h2>
                                 <div class="mb-md-2">RESP CIVIL</div>
@@ -99,10 +99,10 @@ Template Name: segurosCubus
                                 <div class="mb-md-4">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal" style="z-index: 200000!important;">Contactar
+                                    data-target="#exampleModal2" style="z-index: 200000!important;">Contactar
                                     asesor</button>
 
-                                <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                                <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
@@ -154,7 +154,7 @@ Template Name: segurosCubus
                             Accidentes
                         </a>
                         <div class="d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 2000;">
+                            style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
                                 <h2 class="mb-md-4">Accidentes</h2>
                                 <div class="mb-md-2">RESP CIVIL</div>
