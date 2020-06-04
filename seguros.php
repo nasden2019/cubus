@@ -288,7 +288,7 @@ Template Name: segurosCubus
 
                     <!-- quinto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
                             Industria y comercio
                         </a>
