@@ -76,13 +76,14 @@ body {
     overflow: hidden;
 
 
-    .overlayAzul {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgb(17, 142, 180)(0, 0, 0, 6.9) !important;
-        opacity: .5 !important;
-    }
+}
+
+.overlayAzul {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    // height: 100%;
+    background: rgb(17, 142, 180)(0, 0, 0, 6.9) !important;
+    opacity: .5 !important;
 }

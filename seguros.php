@@ -6,7 +6,7 @@ Template Name: segurosCubus
 
 <?php get_header('2'); ?>
 
-<section class="seccionVioleta d-none d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
+<section class="seccionVioleta d-md-block mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
     style="margin-top: 128px;" id="accordionEx123" role="tablist">
     <div class="container-fluid">
         <div class="row mx-0 px-0">
