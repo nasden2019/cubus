@@ -147,8 +147,8 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
-                            id="familiaImg" />
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
+                            class="img-fluid imgPurple" id="familiaImg" />
                     </div>
 
 
@@ -215,8 +215,8 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple"
-                            id="accidentesImg" />
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
+                            class="img-fluid imgPurple" id="accidentesImg" />
                     </div>
 
 
@@ -224,7 +224,7 @@ Template Name: segurosCubus
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
-                            Industria 
+                            Industria
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
@@ -418,8 +418,8 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg" class="img-fluid imgPurple"
-                            id="empleadoresImg" />
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
+                            class="img-fluid imgPurple" id="empleadoresImg" />
                     </div>
                 </div>
             </div>
@@ -427,14 +427,15 @@ Template Name: segurosCubus
     </div>
 </section>
 
-<!-- imagen azul -->
-<section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-12">
-                <div class="" style="background-image: url('img/cinturon.jpg');"></div>
-                <!-- <img src="img/familiaDeskt.jpg" alt=""> -->
-                <!-- <div class="" style="background-image: url('img/pcDeskt.jpg');"> -->
+<!-- SECCION AZUL (CON OVERLAY)-->
+<section class="seccionAzul img-fluid" style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/chicaDeskIndex.jpg');">
+    <div class="overlayAzul position-relative">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="text-black">Querés cotizar algunas<br> de nuestras coberturas?</h2>
+                <div class=" col-md-12 col-12 d-flex text-center justify-content-center align-items-center">
+                    <button class="btnAzul">Contactar asesor</button>
+                </div>
             </div>
         </div>
     </div>

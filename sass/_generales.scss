@@ -79,6 +79,8 @@ body {
 }
 
 .seccionAzul {
+    width: 100%;
+
     h2 {
         margin-top: 170px;
         font-weight: 900;
@@ -87,8 +89,12 @@ body {
     }
 
     .btnAzul {
-        padding: 5px 25px;
-        background-color: $azul;
+        margin-top: 20px;
+        padding: 13px 27px;
+        background-color: #015168;
+        border-radius: 23px;
+        color: white;
+        border: none;
     }
 }
 
