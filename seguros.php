@@ -245,7 +245,7 @@ Template Name: segurosCubus
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
-                                                <h2 class="">INDUSTRIA</h2>
+                                                <h2 class="">Industria y Comercio</h2>
                                                 <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                                 <button class="close" data-dismiss="modal">
                                                     <span>&times;</span>
@@ -288,25 +288,68 @@ Template Name: segurosCubus
 
                     <!-- quinto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
-                            href="#collapse7" aria-expanded="true" aria-controls="collapse">
-                            Agro
+                        <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
+                            href="#collapse99" aria-expanded="true" aria-controls="collapse15">
+                            Industria y comercio
                         </a>
-                        <div class="d-flex justify-content-center align-items-center position-absolute">
+                        <div class="d-flex justify-content-center align-items-center position-absolute"
+                            style="z-index: 20000;">
                             <div class="text-white position-absolute" style="display: none;" id="agroTexto">
-                                <h2>Agro</h2>
-                                <p>RESP CIVIL</p>
-                                <p>INCENDIO TOTAL Y/O PARCIAL</p>
-                                <p>ROBO</p>
-                                <p>DAÑOS TOTALES</p>
-                                <p>CONSEJOS</p>
-                                <p>ROBO</p>
-                                <p>DAÑOS TOTALES</p>
-                                <p>ROBO</p>
-                                <button class="botonSeguros">Contactar Asesor</button>
+                                <h2 class="mb-md-4">Industria y Comercio</h2>
+                                <div class="mb-md-2">RESP CIVIL</div>
+                                <div class="mb-md-2">INCENDIO TOTAL Y/O PARCIAL</div>
+                                <div class="mb-md-2">ROBO</div>
+                                <div class="mb-md-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-2">CONSEJOS</div>
+                                <div class="mb-md-2">ROBO</div>
+                                <div class="mb-md-2">DAÑOS TOTALES</div>
+                                <div class="mb-md-4">CONSEJOS</div>
+
+                                <button type="button" class="botonSeguros" data-toggle="modal"
+                                    data-target="#exampleModal5" style="z-index: 200000!important;">Contactar
+                                    asesor</button>
+
+                                <div class="modal fade" id="exampleModal5" style="margin-top: 7%;">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content modales">
+                                            <div class="modal-header mx-auto">
+                                                <h2 class="">Industria y Comercio</h2>
+                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                                <button class="close" data-dismiss="modal">
+                                                    <span>&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="MARCA" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" />
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                                <button class="segurosBtn">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg" class="img-fluid imgPurple"
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/tractor.jpg" class="img-fluid imgPurple"
                             id="agroImg" />
                     </div>
 
