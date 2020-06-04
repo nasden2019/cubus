@@ -20,12 +20,15 @@
     .verdeBtnContacto {
         margin-left: 210px;
     }
+
 }
 
 .botonSeguros {
-    padding: 5px 8px;
-    color: $fotterVioleta;
+    padding: 10px 13px;
+    color: $violetaFooter;
     border-radius: 20px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: none;
 }

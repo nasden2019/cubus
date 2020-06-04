@@ -33,3 +33,41 @@ body {
 // .linea {
 //     padding-top: -30px !important;
 // }
+
+
+// MODAL SEGUROS!
+.modales {
+    background-color: lightgray !important;
+    border-radius: 75px !important;
+    // text-align: left;
+
+    padding: 50px 60px;
+
+    h2 {
+        color: $violetaFooter;
+        font-weight: 900;
+    }
+
+    .segurosBtn {
+        background: $violetaFooter;
+        border-radius: 15px;
+        color: white !important;
+        padding: 12px 65px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+
+    input {
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 10px 35px;
+    }
+}
+
+.overlayAzul {
+    // position: absolute;
+    // top: 0;
+    background: #00B0E4(0, 0, 0, 0.6) !important;
+    opacity: .5 !important;
+}
