@@ -4,7 +4,7 @@
         <div class="row py-3 justify-content-center">
           <div class="col-8 col-md-12">
             <p>Redes sociales</p>
-            <div class="d-flex">
+            <div class="d-flex justify-content-center">
               <div class="text-center">
                 <a href="#" class="text-white">
                   <i class="fa fa-twitter fa-2x"></i>
