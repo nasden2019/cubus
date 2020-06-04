@@ -224,7 +224,7 @@ Template Name: segurosCubus
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
-                            Industria y comercio
+                            Industria 
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
                             style="z-index: 20000;">
