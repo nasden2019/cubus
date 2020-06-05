@@ -19,7 +19,7 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 2000;">
+                            style="z-index: 1200;">
                             <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
                                 <h2 class="mb-md-4 mb-3">Automotor</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
