@@ -74,71 +74,51 @@
     </nav>
 
     <!-- nav mobile -->
-    <nav
-      class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block"
-    >
-      <div class="container-fluid cianColor py-4">
-        <ul class="nav navbar-nav mx-auto mt-5 item1">
-          <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-          <a class="navbar-brand" href="#">
-            <img
-              src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
-              class="img-fluid"
-              alt=""
-              style="width: 215px;"
-            />
-            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-          </a>
-        </ul>
+    <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
+            <div class="container-fluid cianColor py-4">
+                <ul class="nav navbar-nav mx-auto mt-5 item1"></ul>
+                <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+                <a class="navbar-brand" href="#">
+                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
+                        style="width: 215px;" />
+                    <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                </a>
+                </ul>
 
-        <div
-          class="navbar navbar-expand-sm fixed-top test navBarra test navItem2"
-        >
-          <button
-            class="navbar-toggler mr-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div id="nav-icon1">
-              <!-- cada span representa una linea -->
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </button>
+                <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2">
+                    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div id="nav-icon1">
+                            <!-- cada span representa una linea -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
 
-          <div
-            class="collapse navbar-collapse"
-            id="navbarSupportedContent"
-            style="background: #220326;"
-          >
-            <ul class="navbar-nav ml-auto text-black">
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3" href="index.html"
-                  >INICIO <span></span
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3">SEGUROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3">R.R.H.H</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background: #220326;">
+                        <ul class="navbar-nav ml-auto text-black">
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3">SEGUROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3">R.R.H.H</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ml-3">CONTACTO</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+        </nav>
