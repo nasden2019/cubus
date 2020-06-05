@@ -33,7 +33,7 @@ Template Name: segurosCubus
 
                                 <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal" style="z-index: 200000!important;">Contactar
+                                    data-target="#exampleModal">Contactar
                                     asesor</button>
 
                                 <!-- MODAL -->
