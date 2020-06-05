@@ -29,7 +29,7 @@ Template Name: pFrecuentes
 
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -58,7 +58,7 @@ Template Name: pFrecuentes
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -87,7 +87,7 @@ Template Name: pFrecuentes
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -116,7 +116,7 @@ Template Name: pFrecuentes
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -145,7 +145,7 @@ Template Name: pFrecuentes
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -174,7 +174,7 @@ Template Name: pFrecuentes
                                 </div>
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="card-body pFrecuenTextos">
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid.
                                         3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck

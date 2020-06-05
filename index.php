@@ -154,7 +154,7 @@
             <!--col-md-6 para q el contenido no quede apretado y alargado -->
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
               style="z-index: 20000;">
-              <div class="text-white " style="display: none;" id="confianzaTexto">
+              <div class="text-white position-absolute" style="display: none;" id="confianzaTexto">
                 <h2 class="mb-md-4 mb-3">Confianza</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -225,7 +225,7 @@
             <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
               style="z-index: 20000;">
-              <div class="text-white" style="display: none;" id="familiaTexto">
+              <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
                 <h2 class="mb-md-4 mb-3">Ética</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -287,7 +287,7 @@
 
           <!-- tercero -->
           <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-            <a class="btn violetBtn  my-auto boton" id="profesionalismo" data-toggle="collapse"
+            <a class="btn violetBtn position-absolute my-auto boton" id="profesionalismo" data-toggle="collapse"
               href="#collapse19" aria-expanded="true" aria-controls="collapse1">
               Profesionalismo
             </a>
@@ -404,7 +404,7 @@
           <div class="col-md-6 text-center">
             <h1 class="cianColor"  style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
             <div class="text-center margText">
-              <p class="" style="margin-top: 40px;">
+              <p class="aloha">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
                 quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
