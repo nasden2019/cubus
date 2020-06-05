@@ -225,7 +225,7 @@
             <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
               style="z-index: 20000;">
-              <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+              <div class="text-white " style="display: none;" id="familiaTexto">
                 <h2 class="mb-md-4 mb-3">Ética</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
