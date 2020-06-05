@@ -402,9 +402,9 @@
       <div class="col-12 col-md-12">
         <div class="row align-items-center">
           <div class="col-md-6 text-center">
-            <h1 class="cianColor pb-md-5 pt-md-5">CUBUS <br />BROKER</h1>
+            <h1 class="cianColor"  style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
             <div class="text-center margText">
-              <p class="aloha">
+              <p class="" style="margin-top: 40px;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
                 quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
