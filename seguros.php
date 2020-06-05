@@ -90,7 +90,7 @@ Template Name: segurosCubus
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="familiaTexto" style="z-index: -83px;">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="familiaTexto">
                                 <h2 class="mb-md-4 mb-3">Familia</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -103,7 +103,7 @@ Template Name: segurosCubus
 
                                 <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal2" ">Contactar
+                                    data-target="#exampleModal2">Contactar
                                     asesor</button>
                                 
                             </div>
@@ -157,9 +157,8 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Accidentes
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
-                            <div class="text-white position-absolute" style="display: none;" id="accidentesTexto">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="accidentesTexto">
                                 <h2 class="mb-md-4 mb-3">Accidentes</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -173,7 +172,7 @@ Template Name: segurosCubus
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal3" style="z-index: 200000!important;">Contactar
                                     asesor</button>
-
+                            </div>
                                 <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
@@ -213,7 +212,6 @@ Template Name: segurosCubus
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
                             class="img-fluid imgPurple" id="accidentesImg" />
                     </div>
