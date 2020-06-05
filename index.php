@@ -1,4 +1,4 @@
-<?php get_header('2'); ?>
+<?php get_header(); ?>
 <!-- SLIDER DESKTOP -->
 <header class="d-none d-md-block">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
