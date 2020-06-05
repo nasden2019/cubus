@@ -153,7 +153,7 @@
             </a>
             <!--col-md-6 para q el contenido no quede apretado y alargado -->
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 20000;">
+              style="z-index: 2000;">
               <div class="text-white position-absolute" style="display: none;" id="confianzaTexto">
                 <h2 class="mb-md-4 mb-3">Confianza</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
@@ -167,11 +167,11 @@
 
                 <!-- BOTON MODAL -->
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal"
-                  style="z-index: 200000!important;">Contactar
+                  style="z-index: 2000!important;">Contactar
                   asesor</button>
 
                 <!-- MODAL -->
-                <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                <div class="modal fade" id="exampleModal" style="margin-top: 7%;" style="z-index: 2100">
                   <div class="modal-dialog">
                     <div class="modal-content modales">
                       <div class="modal-header mx-auto">
@@ -224,7 +224,7 @@
             </a>
             <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 20000;">
+              style="z-index: 2000;">
               <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
                 <h2 class="mb-md-4 mb-3">Ética</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
@@ -241,7 +241,7 @@
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
 
-                <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
+                <div class="modal fade" id="exampleModal2" style="margin-top: 7%;" style="z-index: 2100">
                   <div class="modal-dialog">
                     <div class="modal-content modales">
                       <div class="modal-header mx-auto">
@@ -292,7 +292,7 @@
               Profesionalismo
             </a>
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 20000;">
+              style="z-index: 2000;">
               <div class="text-white position-absolute" style="display: none;" id="profesionalismoTexto">
                 <h2 class="mb-md-4 mb-3">Profesionalismo</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
@@ -305,10 +305,10 @@
                 <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal3"
-                  style="z-index: 200000!important;">Contactar
+                  style="z-index: 2000!important;">Contactar
                   asesor</button>
 
-                <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
+                <div class="modal fade" id="exampleModal3" style="margin-top: 7%;" style="z-index: 2100">
                   <div class="modal-dialog">
                     <div class="modal-content modales">
                       <div class="modal-header mx-auto">
