@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <hr class="" style="border: 1px white solid; width: 280px;" />
+        <hr class="" style="border: 1px white solid; width: 220px;" />
 
         <div class="row">
           <div class="col-12 text-center">
