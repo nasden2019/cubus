@@ -37,7 +37,7 @@ Template Name: segurosCubus
                                     asesor</button>
 
                                 <!-- MODAL -->
-                                <div class="modal fade" id="exampleModal" style="margin-top: 7%;" style="z-index: 2500">
+                                <div class="modal fade position-absolute" id="exampleModal" style="margin-top: 7%;" style="z-index: 2500">
                                     <div class="modal-dialog">
                                         <div class="modal-content modales">
                                             <div class="modal-header mx-auto">
@@ -90,7 +90,7 @@ Template Name: segurosCubus
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 2000;">
+                            style="z-index: 1200;">
                             <div class="text-white position-absolute" style="display: none;" id="familiaTexto" style="z-index: -83px;">
                                 <h2 class="mb-md-4 mb-3">Familia</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
@@ -227,7 +227,7 @@ Template Name: segurosCubus
                             Industria
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
+                            style="z-index: 1200;">
                             <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
                                 <h2 class="mb-md-4 mb-3">Industria y Comercio</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
