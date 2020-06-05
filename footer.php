@@ -1,4 +1,4 @@
-    <!-- Footer-->
+    <!-- Footer mobile-->
     <footer class="footerVioleta d-md-none d-block" id="menu" >
       <div class="container-fluid">
         <div class="row py-3 justify-content-center">
@@ -28,7 +28,8 @@
             </div>
           </div>
         </div>
-        <!-- <hr class="" style="border: 1px white solid; width: 280px;" /> -->
+        <hr class="" style="border: 1px white solid; width: 180px;" />
+
         <div class="row">
           <div class="col-12 text-center">
             <span class="margRedes text-center">Córdoba 2531, Rosario</span>
