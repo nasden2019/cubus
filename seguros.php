@@ -19,7 +19,7 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
+                            style="z-index: 2000;">
                             <div class="text-white position-absolute" style="display: none;" id="automotorTexto">
                                 <h2 class="mb-md-4 mb-3">Automotor</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
@@ -90,8 +90,8 @@ Template Name: segurosCubus
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
-                            <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+                            style="z-index: 2000;">
+                            <div class="text-white position-absolute" style="display: none;" id="familiaTexto" style="z-index: -83px;">
                                 <h2 class="mb-md-4 mb-3">Familia</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
