@@ -1,7 +1,7 @@
     <!-- Footer mobile-->
     <footer class="footerVioleta d-md-none d-block" id="menu" >
       <div class="container-fluid">
-        <div class="row py-3 justify-content-center">
+        <div class="row pt-3 pb-1 justify-content-center">
           <div class="col-8 col-md-12">
             <p>Redes sociales</p>
             <div class="d-flex justify-content-center">
@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <hr class="" style="border: 1px white solid; width: 180px;" />
+        <hr class="" style="border: 1px white solid; width: 280px;" />
 
         <div class="row">
           <div class="col-12 text-center">
