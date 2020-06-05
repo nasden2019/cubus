@@ -104,7 +104,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4 order-1">
+              <div class="col-md-4 order-1 pl-5 pt-3">
                 <span class="margRedes">Córdoba 2531, Rosario</span>
                 <span class="margRedes">
                   2000 - 0341-4401298. info@cubusbroker.com.ar
