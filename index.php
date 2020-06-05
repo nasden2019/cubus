@@ -141,7 +141,7 @@
 
 <!----- PURPLE SECTION DESKTOP----->
 <section class="seccionVioleta d-md-block d-none mx-0 px-md-0 pt-md-0 pt-0 pb-0 accordion md-accordion accordion-1"
-   id="accordionEx123" role="tablist">
+  id="accordionEx123" role="tablist">
   <div class="container-fluid">
     <div class="row mx-0 px-0">
       <div class="col-12 col-md-12 px-0 text-center">
@@ -152,9 +152,8 @@
               Confianza
             </a>
             <!--col-md-6 para q el contenido no quede apretado y alargado -->
-            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 2000;">
-              <div class="text-white position-absolute" style="display: none;" id="confianzaTexto">
+            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+              <div class="text-white position-absolute" style="display: none; z-index: 1;" id="confianzaTexto">
                 <h2 class="mb-md-4 mb-3">Confianza</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -169,43 +168,42 @@
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal"
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
-
-                <!-- MODAL -->
-                <div class="modal fade" id="exampleModal" style="margin-top: 7%;" style="z-index: 2100">
-                  <div class="modal-dialog">
-                    <div class="modal-content modales">
-                      <div class="modal-header mx-auto">
-                        <h2 class="">CONFIANZA</h2>
-                        <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                        <button class="close" data-dismiss="modal">
-                          <span>&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="MARCA" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer d-flex justify-content-center mt-md-3">
-                        <button class="segurosBtn">Enviar</button>
-                      </div>
+              </div>
+              <!-- MODAL -->
+              <div class="modal fade" id="exampleModal" style="margin-top: 7%;" style="z-index: 2100">
+                <div class="modal-dialog">
+                  <div class="modal-content modales">
+                    <div class="modal-header mx-auto">
+                      <h2 class="">CONFIANZA</h2>
+                      <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                      <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="MARCA" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center mt-md-3">
+                      <button class="segurosBtn">Enviar</button>
                     </div>
                   </div>
                 </div>
@@ -223,9 +221,8 @@
               Ética
             </a>
             <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
-            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 2000;">
-              <div class="text-white position-absolute" style="display: none;" id="familiaTexto">
+            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+              <div class="text-white position-absolute" style="display: none; z-index: 1;" id="familiaTexto">
                 <h2 class="mb-md-4 mb-3">Ética</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -240,48 +237,48 @@
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal2"
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
-
-                <div class="modal fade" id="exampleModal2" style="margin-top: 7%;" style="z-index: 2100">
-                  <div class="modal-dialog">
-                    <div class="modal-content modales">
-                      <div class="modal-header mx-auto">
-                        <h2 class="">Ética</h2>
-                        <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                        <button class="close" data-dismiss="modal">
-                          <span>&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="MARCA" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer d-flex justify-content-center mt-md-3">
-                        <button class="segurosBtn">Enviar</button>
-                      </div>
+              </div>
+              <div class="modal fade" id="exampleModal2" style="margin-top: 7%;" style="z-index: 2100">
+                <div class="modal-dialog">
+                  <div class="modal-content modales">
+                    <div class="modal-header mx-auto">
+                      <h2 class="">Ética</h2>
+                      <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                      <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="MARCA" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center mt-md-3">
+                      <button class="segurosBtn">Enviar</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple" alt="" id="familiaImg" />
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg" class="img-fluid imgPurple" alt=""
+              id="familiaImg" />
           </div>
 
 
@@ -291,9 +288,8 @@
               href="#collapse19" aria-expanded="true" aria-controls="collapse1">
               Profesionalismo
             </a>
-            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-              style="z-index: 2000;">
-              <div class="text-white position-absolute" style="display: none;" id="profesionalismoTexto">
+            <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+              <div class="text-white position-absolute" style="display: none; z-index: 1;" id="profesionalismoTexto">
                 <h2 class="mb-md-4 mb-3">Profesionalismo</h2>
                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -307,49 +303,48 @@
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal3"
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
-
-                <div class="modal fade" id="exampleModal3" style="margin-top: 7%;" style="z-index: 2100">
-                  <div class="modal-dialog">
-                    <div class="modal-content modales">
-                      <div class="modal-header mx-auto">
-                        <h2 class="">PROFESIONALISMO</h2>
-                        <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                        <button class="close" data-dismiss="modal">
-                          <span>&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-group">
-                            <input type="text" class="form-control" placeholder="MARCA" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" />
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer d-flex justify-content-center mt-md-3">
-                        <button class="segurosBtn">Enviar</button>
-                      </div>
+              </div>
+              <div class="modal fade" id="exampleModal3" style="margin-top: 7%;" style="z-index: 2100">
+                <div class="modal-dialog">
+                  <div class="modal-content modales">
+                    <div class="modal-header mx-auto">
+                      <h2 class="">PROFESIONALISMO</h2>
+                      <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                      <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="MARCA" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center mt-md-3">
+                      <button class="segurosBtn">Enviar</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
-              alt="" id="profesionalismoImg"/>
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt=""
+              id="profesionalismoImg" />
           </div>
         </div>
       </div>
@@ -402,7 +397,7 @@
       <div class="col-12 col-md-12">
         <div class="row align-items-center">
           <div class="col-md-6 text-center">
-            <h1 class="cianColor"  style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
+            <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
             <div class="text-center margText">
               <p class="aloha">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -470,13 +465,13 @@
 
 <!-- JS SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script>
 
 <script>
