@@ -74,22 +74,22 @@
                 <div class="row justify-content-between">
                   <div class="col-12 col-md-7 mx-auto">
 
-                      <h5 class="text-white">Redes sociales</h5>
+                      <h5 class="text-white d-flex mr-auto">Redes sociales</h5>
                       <div
-                      class="d-flex justify-content-center"
-                      style="margin-left: 45px;"
+                      class="d-flex justify-content-start"
+                      style=""
                       >
-                      <div class="text-center mr-md-2">
+                      <div class="text-center mr-md-3">
                         <a href="#" class="text-white">
                           <i class="fa fa-twitter fa-2x"></i>
                         </a>
                       </div>
-                      <div class="text-center mr-md-2">
+                      <div class="text-center mr-md-3">
                         <a href="#" class="text-white">
                           <i class="fa fa-facebook fa-2x"></i>
                         </a>
                       </div>
-                      <div class="text-center mr-md-2">
+                      <div class="text-center mr-md-3">
                         <a href="#" class="text-white">
                           <i class="fa fa-linkedin fa-2x"></i>
                         </a>
