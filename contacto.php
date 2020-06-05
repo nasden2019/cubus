@@ -5,7 +5,7 @@ Template Name: contacto
 ?>
 
 <?php get_header('2'); ?>
-<section class="formulario" style="margin-top: 150px; padding-top: 65px;">
+<section class="formulario" style="margin-top: 140px; padding-top: 65px;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 col-12 mx-auto my-sm-5 text-center">
