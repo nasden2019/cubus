@@ -238,7 +238,7 @@
 
                 <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
                 <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal2"
-                  style="z-index: 200000!important;">Contactar
+                  style="z-index: 2000!important;">Contactar
                   asesor</button>
 
                 <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
