@@ -71,8 +71,8 @@
           <div class="col-12 col-md-12 py-md-4">
             <div class="row align-items-center">
               <div class="col-md-4 order-2 text-center">
-                <div class="row justify-content-between">
-                  <div class="col-12 col-md-5 offset-2 mx-auto">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-5">
 
                       <h5 class="text-white d-flex mr-auto">Redes sociales</h5>
                       <div
