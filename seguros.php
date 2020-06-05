@@ -19,7 +19,8 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="automotorTexto">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;"
+                                id="automotorTexto">
                                 <h2 class="mb-md-4 mb-3">Automotor</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -36,46 +37,46 @@ Template Name: segurosCubus
                                     asesor</button>
 
                                 <!-- MODAL -->
-                                
+
                             </div>
                             <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">AUTOMOTORES</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">AUTOMOTORES</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/cinturon.jpg" class="img-fluid imgPurple"
                             id="automotorImg" />
@@ -90,7 +91,8 @@ Template Name: segurosCubus
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="familiaTexto">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;"
+                                id="familiaTexto">
                                 <h2 class="mb-md-4 mb-3">Familia</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -105,46 +107,46 @@ Template Name: segurosCubus
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal2">Contactar
                                     asesor</button>
-                                
+
                             </div>
                             <div class="modal fade" id="exampleModal2" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">FAMILIA</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">FAMILIA</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg"
                             class="img-fluid imgPurple" id="familiaImg" />
@@ -158,7 +160,8 @@ Template Name: segurosCubus
                             Accidentes
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
-                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="accidentesTexto">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;"
+                                id="accidentesTexto">
                                 <h2 class="mb-md-4 mb-3">Accidentes</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -170,48 +173,48 @@ Template Name: segurosCubus
                                 <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal3" style="z-index: 200000!important;">Contactar
+                                    data-target="#exampleModal3">Contactar
                                     asesor</button>
                             </div>
-                                <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">ACCIDENTES</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                            <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">ACCIDENTES</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/eticaDeskt.jpg"
                             class="img-fluid imgPurple" id="accidentesImg" />
                     </div>
@@ -223,9 +226,9 @@ Template Name: segurosCubus
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
                             Industria
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
-                            <div class="text-white position-absolute" style="display: none;" id="industriaTexto">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;"
+                                id="industriaTexto">
                                 <h2 class="mb-md-4 mb-3">Industria y Comercio</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -236,49 +239,49 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal4" style="z-index: 200000!important;">Contactar
+                                    data-target="#exampleModal4">Contactar
                                     asesor</button>
-
-                                <div class="modal fade" id="exampleModal4" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">Industria y Comercio</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal4" style="margin-top: 7%;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">Industria y Comercio</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/camiones.jpg" class="img-fluid imgPurple"
                             id="industriaImg" />
                     </div>
@@ -290,9 +293,8 @@ Template Name: segurosCubus
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
                             Agro
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
-                            <div class="text-white position-absolute" style="display: none;" id="agroTexto">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;" id="agroTexto">
                                 <h2 class="mb-md-4 mb-3">AGRO</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -304,44 +306,43 @@ Template Name: segurosCubus
                                 <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                                 <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal5" style="z-index: 200000!important;">Contactar
+                                    data-target="#exampleModal5">Contactar
                                     asesor</button>
-
-                                <div class="modal fade" id="exampleModal5" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">Agro</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal5" style="margin-top: 7%;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">Agro</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -358,9 +359,9 @@ Template Name: segurosCubus
                             href="#collapse99" aria-expanded="true" aria-controls="collapse7">
                             Empleadores
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute"
-                            style="z-index: 20000;">
-                            <div class="text-white position-absolute" style="display: none;" id="empleadoresTexto">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                            <div class="text-white position-absolute" style="display: none; z-index: 1;"
+                                id="empleadoresTexto">
                                 <h2 class="mb-md-4 mb-3">Empleadores</h2>
                                 <div class="mb-md-2 mb-1">RESP CIVIL</div>
                                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
@@ -374,58 +375,58 @@ Template Name: segurosCubus
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal6" style="z-index: 200000!important;">Contactar
                                     asesor</button>
-
-                                <div class="modal fade" id="exampleModal6" style="margin-top: 7%;">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content modales">
-                                            <div class="modal-header mx-auto">
-                                                <h2 class="">Empleadores</h2>
-                                                <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
-                                                <button class="close" data-dismiss="modal">
-                                                    <span>&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="MARCA" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer d-flex justify-content-center mt-md-3">
-                                                <button class="segurosBtn">Enviar</button>
-                                            </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal6" style="margin-top: 7%;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modales">
+                                        <div class="modal-header mx-auto">
+                                            <h2 class="">Empleadores</h2>
+                                            <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                                            <button class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                            <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
-                            class="img-fluid imgPurple" id="empleadoresImg" />
-                    </div>
+                    <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg" class="img-fluid imgPurple"
+                        id="empleadoresImg" />
                 </div>
             </div>
         </div>
     </div>
+    </div>
 </section>
 
 <!-- SECCION AZUL (CON OVERLAY)-->
-<section class="seccionAzul img-fluid" style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>img/chicaDeskIndex.jpg');">
+<section class="seccionAzul img-fluid"
+    style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>img/chicaDeskIndex.jpg');">
     <div class="overlayAzul position-relative">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
