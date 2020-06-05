@@ -474,7 +474,7 @@
   integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script>
 
-<!-- <script>
+<script>
   $(document).ready(function () {
     $('.boton#confianza').click(function () {
       $('#confianzaImg').addClass('overlay');
@@ -492,6 +492,6 @@
       $('#profesionalismoTexto').show();
     })
   })
-</script> -->
+</script>
 
 <?php get_footer(); ?>
