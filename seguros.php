@@ -132,7 +132,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Vivienda permanente"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" min="10" max="100" class="form-control" placeholder="Metros cuadrados"/>
+                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Metros cuadrados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Comunica con algún condominio?"/>
@@ -216,10 +216,10 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI"/>
+                                                    <input type="number" class="form-control" placeholder="C.U.I.T / DNI"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Cantidad de empleados"/>
+                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Actividad de los empleados"/>
@@ -285,10 +285,10 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI" />
+                                                    <input type="number" class="form-control" placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="MTR2 del local" />
+                                                    <input type="number" min="0" max="100" class="form-control" placeholder="MTR2 del local" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Rubro al que se dedica" />
@@ -421,16 +421,16 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI"/>
+                                                    <input type="number" class="form-control" placeholder="C.U.I.T/DNI"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Cantidad de empleados"/>
+                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
+                                                    <input type="number class="form-control" placeholder="Sueldo bruto empleados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
