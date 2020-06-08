@@ -169,6 +169,8 @@
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
               </div>
+              <!-- cierro div para q se aplique el z-index de arriba, sino estaria todo en la misma capa -->
+              
               <!-- MODAL -->
               <div class="modal fade" id="exampleModal" style="margin-top: 7%;" style="z-index: 2100">
                 <div class="modal-dialog">

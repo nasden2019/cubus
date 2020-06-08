@@ -21,15 +21,13 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <h2 class="mb-md-4 mb-3">Automotor</h2>
-                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
-                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2 mb-1">ROBO</div>
-                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
-                                <div class="mb-md-2 mb-1">CONSEJOS</div>
-                                <div class="mb-md-2 mb-1">ROBO</div>
-                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
-                                <div class="mb-md-4 mb-3">CONSEJOS</div>
+                                <h2 class="mb-md-4 mb-3">Cuidá tu vehículo de la forma mas conveniente</h2>
+                                <div class="mb-md-2 mb-1">Responsabilidad civil</div>
+                                <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
+                                <div class="mb-md-2 mb-1">Robo</div>
+                                <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
+                                <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
+                                <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
 
                                 <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
