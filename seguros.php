@@ -21,16 +21,21 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" style="margin-left: 0; margin-top: 20px;">
-                                <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
-                                <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
-                                <div class="mb-md-2 mb-1">Responsabilidad civil</div>
-                                <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
-                                <div class="mb-md-2 mb-1">Robo</div>
-                                <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
-                                <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
-                                <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
-
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div>
+                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" style="margin-left: 0; margin-top: 20px;">
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
+                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
+                                        <div class="mb-md-2 mb-1">Responsabilidad civil</div>
+                                        <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
+                                        <div class="mb-md-2 mb-1">Robo</div>
+                                        <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
+                                        <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
+                                        <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
+                                    </div>
+                                </div>
                                 <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal">Contactar
