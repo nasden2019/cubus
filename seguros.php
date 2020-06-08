@@ -575,8 +575,8 @@ Template Name: segurosCubus
             $('#empleadoresImg').addClass('overlay');
             $(this).hide();
             $('#empleadoresTexto').show();
-        })
-    )}
+        });
+    
 
     // $(function () {
     //     $("#datepicker").datepicker();
