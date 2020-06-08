@@ -18,25 +18,30 @@ Template Name: segurosCubus
                             Automotor
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                        <div class="col-md-10 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg automotor">
-                                <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas
-                                    conveniente</h4>
-                                <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
-                                <div class="mb-md-2 mb-1">Responsabilidad civil</div>
-                                <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
-                                <div class="mb-md-2 mb-1">Robo</div>
-                                <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
-                                <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
-                                <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
-
-                                <!-- BOTON MODAL -->
-                                <button type="button" class="botonSeguros" data-toggle="modal"
-                                    data-target="#exampleModal">Contactar
-                                    asesor</button>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="col-1">
+                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                    </div>
+                                    <div class="vol-8">
+                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
+                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
+                                        <div class="mb-md-2 mb-1">Responsabilidad civil</div>
+                                        <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
+                                        <div class="mb-md-2 mb-1">Robo</div>
+                                        <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
+                                        <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
+                                        <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
+                                        <!-- BOTON MODAL -->
+                                        <button type="button" class="botonSeguros" data-toggle="modal"
+                                            data-target="#exampleModal">Contactar asesor
+                                        </button>
+                                    </div>
+                                    <div class="col-1"></div>
+                                </div>
+                                
 
                                 <!-- MODAL -->
 
