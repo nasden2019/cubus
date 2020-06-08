@@ -1,12 +1,44 @@
-// $('.custom-file-input').on('change', function () {
-//     var fileName = $(this).val();
-// })
-
-// $('.custom-file-input').on('change', function () {
-//     let fileName = $(this).val().split('\\').pop();
-//     $(this).next('.custom-file-label').addClass("selected").html(fileName);
-// });
-
+$(document).ready(function () {
+    // $('.boton#automotor').click(function () {
+    //     $('#automotorImg').addClass('overlay');
+    //     $(this).hide();
+    //     $('#automotorTexto').show();
+    $('.automotor').click(function () {
+        $('#automotorImg').toggleClass('overlay');
+        $('.automotor').toggle();
+        $('#automotorTexto').toggle();
+    });
+    $('.familia').click(function () {
+        $('#familiaImg').toggleClass('overlay');
+        $(this).toggle();
+        $('#familiaTexto').toggle();
+    });
+    // $('.boton#familia').click(function () {
+    //     $('#familiaImg').addClass('overlay');
+    //     $(this).hide();
+    //     $('#familiaTexto').show();
+    // })
+    $('.boton#accidentes').click(function () {
+        $('#accidentesImg').addClass('overlay');
+        $(this).hide();
+        $('#accidentesTexto').show();
+    });
+    $('.boton#industria').click(function () {
+        $('#industriaImg').addClass('overlay');
+        $(this).hide();
+        $('#industriaTexto').show();
+    });
+    $('.boton#agro').click(function () {
+        $('#agroImg').addClass('overlay');
+        $(this).hide();
+        $('#agroTexto').show();
+    });
+    $('.boton#empleadores').click(function () {
+        $('#empleadoresImg').addClass('overlay');
+        $(this).hide();
+        $('#empleadoresTexto').show();
+    });
+});
 // SCROLL NAVBAR DESKTOP: cambio de color, size and margin
 // $(window).scroll(function () {
 //     var scroll = $(window).scrollTop();

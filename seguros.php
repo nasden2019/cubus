@@ -23,17 +23,20 @@ Template Name: segurosCubus
                                 id="automotorTexto">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="col-1">
-                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                            class="automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                     </div>
                                     <div class="vol-8">
-                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
+                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
+                                            mas conveniente</h4>
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
                                         <div class="mb-md-2 mb-1">Responsabilidad civil</div>
                                         <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
                                         <div class="mb-md-2 mb-1">Robo</div>
                                         <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
                                         <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
-                                        <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
+                                        <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los
+                                            vehículos</div>
                                         <!-- BOTON MODAL -->
                                         <button type="button" class="botonSeguros" data-toggle="modal"
                                             data-target="#exampleModal">Contactar asesor
@@ -41,7 +44,7 @@ Template Name: segurosCubus
                                     </div>
                                     <div class="col-1"></div>
                                 </div>
-                                
+
 
                                 <!-- MODAL -->
 
@@ -104,8 +107,8 @@ Template Name: segurosCubus
 
                     <!-- segundo-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton familia" id="familia" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse1">
+                        <a class="btn violetBtn position-absolute my-auto boton familia" id="familia"
+                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
@@ -536,51 +539,46 @@ Template Name: segurosCubus
 
 
 <script>
-    $(document).ready(function () {
-        // $('.boton#automotor').click(function () {
-        //     $('#automotorImg').addClass('overlay');
-        //     $(this).hide();
-        //     $('#automotorTexto').show();
-        $('.automotor').click(function () {
-            $('#automotorImg').toggleClass('overlay');
-            $('.automotor').toggle();
-            $('#automotorTexto').toggle();
-        })
-        $('.familia').click(function () {
-            $('#familiaImg').toggleClass('overlay');
-            $(this).toggle();
-            $('#familiaTexto').toggle();
-        })
-        // $('.boton#familia').click(function () {
-        //     $('#familiaImg').addClass('overlay');
-        //     $(this).hide();
-        //     $('#familiaTexto').show();
-        // })
-        $('.boton#accidentes').click(function () {
-            $('#accidentesImg').addClass('overlay');
-            $(this).hide();
-            $('#accidentesTexto').show();
-        })
-        $('.boton#industria').click(function () {
-            $('#industriaImg').addClass('overlay');
-            $(this).hide();
-            $('#industriaTexto').show();
-        })
-        $('.boton#agro').click(function () {
-            $('#agroImg').addClass('overlay');
-            $(this).hide();
-            $('#agroTexto').show();
-        })
-        $('.boton#empleadores').click(function () {
-            $('#empleadoresImg').addClass('overlay');
-            $(this).hide();
-            $('#empleadoresTexto').show();
-        });
-    
-
-    // $(function () {
-    //     $("#datepicker").datepicker();
-    // });
+    // $(document).ready(function () {
+                // $('.boton#automotor').click(function () {
+                //     $('#automotorImg').addClass('overlay');
+                //     $(this).hide();
+                //     $('#automotorTexto').show();
+                // $('.automotor').click(function () {
+                //     $('#automotorImg').toggleClass('overlay');
+                //     $('.automotor').toggle();
+                //     $('#automotorTexto').toggle();
+                // });
+                // $('.familia').click(function () {
+                //     $('#familiaImg').toggleClass('overlay');
+                //     $(this).toggle();
+                //     $('#familiaTexto').toggle();
+                // });
+                // // $('.boton#familia').click(function () {
+                // //     $('#familiaImg').addClass('overlay');
+                // //     $(this).hide();
+                // //     $('#familiaTexto').show();
+                // // })
+                // $('.boton#accidentes').click(function () {
+                //     $('#accidentesImg').addClass('overlay');
+                //     $(this).hide();
+                //     $('#accidentesTexto').show();
+                // });
+                // $('.boton#industria').click(function () {
+                //     $('#industriaImg').addClass('overlay');
+                //     $(this).hide();
+                //     $('#industriaTexto').show();
+                // });
+                // $('.boton#agro').click(function () {
+                //     $('#agroImg').addClass('overlay');
+                //     $(this).hide();
+                //     $('#agroTexto').show();
+                // });
+                // $('.boton#empleadores').click(function () {
+                //     $('#empleadoresImg').addClass('overlay');
+                //     $(this).hide();
+                //     $('#empleadoresTexto').show();
+                // });             
 </script>
 
 <?php get_footer(); ?>
