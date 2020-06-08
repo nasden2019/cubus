@@ -433,7 +433,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
+                                                    <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"  placeholder="Tel."/>
