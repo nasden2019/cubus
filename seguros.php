@@ -576,11 +576,11 @@ Template Name: segurosCubus
             $(this).hide();
             $('#empleadoresTexto').show();
         })
-    })
+    
 
-    $(function () {
-        $("#datepicker").datepicker();
-    });
+    // $(function () {
+    //     $("#datepicker").datepicker();
+    // });
 </script>
 
 <?php get_footer(); ?>
