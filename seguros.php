@@ -189,7 +189,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
-                                <h2 class="mb-md-4 mb-3">Asistencia Médica - Farmacéutica</h2>
+                                <h4 class="mb-md-4 mb-3">Asistencia Médica - Farmacéutica</h4>
                                 <div class="mb-md-2 mb-1">Renta diaria por internación</div>
                                 <div class="mb-md-2 mb-1">Invalidez</div>
                                 <div class="mb-md-2 mb-1">Muerte</div>
@@ -281,22 +281,25 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                    <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="MTR2 del local" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Rubro al que se dedica" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Email" />
                                                 </div>
                                             </form>
                                         </div>
