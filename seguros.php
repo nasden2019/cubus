@@ -57,7 +57,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Modelo"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" id="birth-date"  class="form-control" placeholder="Año"/>
+                                                    <input type="text"  value="____-__-__" data-mask="____-__-__" class="form-control" placeholder="Año"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Nafta, Diesel o Gas?"/>
@@ -489,7 +489,7 @@ Template Name: segurosCubus
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script> -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js">
+
 
 
 <script>
