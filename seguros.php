@@ -53,30 +53,28 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Marca" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Modelo" />
+                                                    <input type="text" class="form-control" placeholder="Modelo"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Año" />
+                                                    <input type="text" class="form-control" placeholder="Año"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Nafta, Diesel o Gas?" />
+                                                    <input type="text" class="form-control" placeholder="Nafta, Diesel o Gas?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre" />
+                                                    <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Localidad" />
+                                                    <input type="text" class="form-control" placeholder="Localidad"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Mail" />
+                                                    <input type="text" class="form-control" placeholder="Mail"/>
                                                 </div>
                                             </form>
                                         </div>
@@ -130,53 +128,43 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Ciudad" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Vivienda permanente" />
+                                                    <input type="text" class="form-control" placeholder="Vivienda permanente"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Metros cuadrados" />
+                                                    <input type="text" class="form-control" placeholder="Metros cuadrados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Comunica con algun condominio?" />
+                                                    <input type="text" class="form-control" placeholder="Comunica con algun condominio?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Depto, Casa, Barrio?" />
+                                                    <input type="text" class="form-control" placeholder="Depto, Casa, Barrio?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Tiene rejas?" />
+                                                    <input type="text" class="form-control" placeholder="Tiene rejas?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Tiene alarmas?" />
+                                                    <input type="text" class="form-control" placeholder="Tiene alarmas?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Tiene disyuntor?" />
+                                                    <input type="text" class="form-control" placeholder="Tiene disyuntor?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Tiene vigilancia?" />
+                                                    <input type="text" class="form-control" placeholder="Tiene vigilancia?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Tiene puerta blindada?" />
+                                                    <input type="text" class="form-control" placeholder="Tiene puerta blindada?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre" />
+                                                    <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email" />
+                                                    <input type="text" class="form-control" placeholder="Email"/>
                                                 </div>
                                             </form>
                                         </div>
@@ -224,34 +212,28 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Empresa o tomador del seguro" />
+                                                    <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="C.U.I.T / DNI" />
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Cantidad de empleados" />
+                                                    <input type="text" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Actividad de los empleados" />
+                                                    <input type="text" class="form-control" placeholder="Actividad de los empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Actividad de la empresa" />
+                                                    <input type="text" class="form-control" placeholder="Actividad de la empresa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email" />
+                                                    <input type="text" class="form-control" placeholder="Email"/>
                                                 </div>
                                             </form>
                                         </div>
@@ -299,27 +281,22 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Empresa o tomador del seguro" />
+                                                    <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="C.U.I.T / DNI" />
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="MTR2 del local" />
+                                                    <input type="text" class="form-control" placeholder="MTR2 del local" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Rubro al que se dedica" />
+                                                    <input type="text" class="form-control" placeholder="Rubro al que se dedica" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Email" />
@@ -374,29 +351,25 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Ubicación" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Cantidad hectárea" />
+                                                    <input type="text" class="form-control" placeholder="Cantidad hectárea"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Cultivo sembrado" />
+                                                    <input type="text" class="form-control" placeholder="Cultivo sembrado"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Suma asegurada" />
+                                                    <input type="text" class="form-control" placeholder="Suma asegurada"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre" />
+                                                    <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email" />
+                                                    <input type="text" class="form-control" placeholder="Email"/>
                                                 </div>
                                             </form>
                                         </div>
@@ -447,30 +420,28 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI" />
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Cantidad de empleados" />
+                                                    <input type="text" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="dd/mm/aa" />
+                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Sueldo bruto empleados" />
+                                                    <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="dd/mm/aa" />
+                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="Tel." />
+                                                    <input type="text" class="form-control"  placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="Horario de contacto" />
+                                                    <input type="text" class="form-control"  placeholder="Horario de contacto"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="Email" />
+                                                    <input type="text" class="form-control"  placeholder="Email"/>
                                                 </div>
                                             </form>
                                         </div>
@@ -481,12 +452,12 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
-                            class="img-fluid imgPurple" id="empleadoresImg" />
-                    </div>
+                    <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg" class="img-fluid imgPurple"
+                        id="empleadoresImg" />
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 
