@@ -427,7 +427,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
+                                                    <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
@@ -523,6 +523,10 @@ Template Name: segurosCubus
             $('#empleadoresTexto').show();
         })
     })
+
+    $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
 </script>
 
 <?php get_footer(); ?>

@@ -9,6 +9,8 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_url' ); ?>/webroot/css/style.min.css" />
     <link rel="stylesheet" href="<?php echo bloginfo('template_url' ); ?>/webroot/css/mixin.min.css" />
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url' ); ?>//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="<?php echo bloginfo('template_url' ); ?>/resources/demos/style.css">
 
 
     <link
