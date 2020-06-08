@@ -107,7 +107,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">Responsabilidad civil</div>
 
                                 <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
-                                <button type="button" class="botonSeguros mt-md-3" data-toggle="modal"
+                                <button type="button" class="botonSeguros mt-md-3 mt-3" data-toggle="modal"
                                     data-target="#exampleModal2">Contactar
                                     asesor</button>
 
@@ -195,7 +195,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">Muerte</div>
                                 <div class="mb-md-2 mb-1">Sepelio</div>
 
-                                <button type="button" class="botonSeguros mt-md-3" data-toggle="modal"
+                                <button type="button" class="botonSeguros mt-md-3 mt-3" data-toggle="modal"
                                     data-target="#exampleModal3">Contactar
                                     asesor</button>
                             </div>
@@ -264,7 +264,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
                                 <div class="mb-md-2 mb-1">Responsabilidad civil</div>
 
-                                <button type="button" class="botonSeguros mt-md-3" data-toggle="modal"
+                                <button type="button" class="botonSeguros mt-md-3 mt-3" data-toggle="modal"
                                     data-target="#exampleModal4">Contactar
                                     asesor</button>
                             </div>
@@ -331,7 +331,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">Silos</div>
                                 <div class="mb-md-2 mb-1">Acopios</div>
 
-                                <button type="button" class="botonSeguros mt-md-3" data-toggle="modal"
+                                <button type="button" class="botonSeguros mt-md-3 mt-3" data-toggle="modal"
                                     data-target="#exampleModal5">Contactar
                                     asesor</button>
                             </div>
@@ -400,7 +400,7 @@ Template Name: segurosCubus
                                 <div class="mb-md-2 mb-1">Convenio Mercantil</div>
                                 <div class="mb-md-2 mb-1">Peón Rural</div>
 
-                                <button type="button" class="botonSeguros mt-md-3" data-toggle="modal"
+                                <button type="button" class="botonSeguros mt-md-3 mt-3" data-toggle="modal"
                                     data-target="#exampleModal6" style="z-index: 200000!important;">Contactar
                                     asesor</button>
                             </div>
