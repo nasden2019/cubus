@@ -125,22 +125,46 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                    <input type="text" class="form-control" placeholder="Ciudad" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Vivienda permanente"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Metros cuadrados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Comunica con algun condominio?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Depto, Casa, Barrio?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Tiene rejas?"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tiene alarmas?"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tiene disyuntor?"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tiene vigilancia?"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tiene puerta blindada?"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Nombre"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Email"/>
                                                 </div>
                                             </form>
                                         </div>
