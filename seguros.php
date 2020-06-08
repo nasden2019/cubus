@@ -13,8 +13,8 @@ Template Name: segurosCubus
             <div class="col-12 col-md-12 px-0 text-center">
                 <div class="row">
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
-                            href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                        <a class="btn violetBtn position-absolute my-auto boton automotor" id="automotor"
+                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
@@ -62,28 +62,31 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Marca" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Modelo"/>
+                                                    <input type="text" class="form-control" placeholder="Modelo" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text"  value="____-__-__" data-mask="____-__-__" class="form-control" placeholder="Año"/>
+                                                    <input type="text" value="____-__-__" data-mask="____-__-__"
+                                                        class="form-control" placeholder="Año" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nafta, Diesel o Gas?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Nafta, Diesel o Gas?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre"/>
+                                                    <input type="text" class="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Localidad"/>
+                                                    <input type="text" class="form-control" placeholder="Localidad" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Mail"/>
+                                                    <input type="text" class="form-control" placeholder="Mail" />
                                                 </div>
                                             </form>
                                         </div>
@@ -109,7 +112,8 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="familiaTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                    class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
@@ -138,43 +142,53 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Ciudad" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Vivienda permanente"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Vivienda permanente" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Metros cuadrados"/>
+                                                    <input type="number" min="0" max="100" class="form-control"
+                                                        placeholder="Metros cuadrados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Comunica con algún condominio?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Comunica con algún condominio?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Depto, Casa, Barrio?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Depto, Casa, Barrio?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tiene rejas?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Tiene rejas?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tiene alarmas?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Tiene alarmas?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tiene disyuntor?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Tiene disyuntor?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tiene vigilancia?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Tiene vigilancia?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tiene puerta blindada?"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Tiene puerta blindada?" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre"/>
+                                                    <input type="text" class="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email"/>
+                                                    <input type="text" class="form-control" placeholder="Email" />
                                                 </div>
                                             </form>
                                         </div>
@@ -199,7 +213,8 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                    class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">Asistencia Médica - Farmacéutica</h4>
                                 <div class="mb-md-2 mb-1">Renta diaria por internación</div>
                                 <div class="mb-md-2 mb-1">Invalidez</div>
@@ -223,28 +238,34 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="C.U.I.T / DNI"/>
+                                                    <input type="number" class="form-control"
+                                                        placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
+                                                    <input type="number" min="0" max="100" class="form-control"
+                                                        placeholder="Cantidad de empleados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Actividad de los empleados"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Actividad de los empleados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Actividad de la empresa"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Actividad de la empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email"/>
+                                                    <input type="text" class="form-control" placeholder="Email" />
                                                 </div>
                                             </form>
                                         </div>
@@ -269,7 +290,8 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="industriaTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                    class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">La tranquilidad de que tu negocio esté protegido</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio</div>
                                 <div class="mb-md-2 mb-1">Incendio contenido</div>
@@ -293,22 +315,27 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI" />
+                                                    <input type="text" class="form-control"
+                                                        placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" min="0" max="100" class="form-control" placeholder="MTR2 del local" />
+                                                    <input type="number" min="0" max="100" class="form-control"
+                                                        placeholder="MTR2 del local" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Rubro al que se dedica" />
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Rubro al que se dedica" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Horario de contacto" />
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Email" />
@@ -336,7 +363,8 @@ Template Name: segurosCubus
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;" id="agroTexto">
-                            <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                    class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">Asegure su cosecha</h4>
                                 <div class="mb-md-2 mb-1">Protección para el campo</div>
                                 <div class="mb-md-2 mb-1">Granizo</div>
@@ -364,25 +392,29 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Ubicación" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="Cantidad hectárea"/>
+                                                    <input type="number" class="form-control"
+                                                        placeholder="Cantidad hectárea" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" value="____-__-__" data-mask="____-__-__" class="form-control" placeholder="Cultivo sembrado"/>
+                                                    <input type="text" value="____-__-__" data-mask="____-__-__"
+                                                        class="form-control" placeholder="Cultivo sembrado" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Suma asegurada"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Suma asegurada" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Nombre"/>
+                                                    <input type="text" class="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email"/>
+                                                    <input type="text" class="form-control" placeholder="Email" />
                                                 </div>
                                             </form>
                                         </div>
@@ -407,7 +439,8 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="empleadoresTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
+                                    class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
@@ -434,22 +467,25 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI"/>
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
+                                                    <input type="number" min="0" max="100" class="form-control"
+                                                        placeholder="Cantidad de empleados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Sueldo bruto empleados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"  placeholder="Tel."/>
+                                                    <input type="text" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"  placeholder="Horario de contacto"/>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Horario de contacto" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"  placeholder="Email"/>
+                                                    <input type="text" class="form-control" placeholder="Email" />
                                                 </div>
                                             </form>
                                         </div>
@@ -460,12 +496,12 @@ Template Name: segurosCubus
                                 </div>
                             </div>
                         </div>
-                    <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg" class="img-fluid imgPurple"
-                        id="empleadoresImg" />
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/empleadores.jpg"
+                            class="img-fluid imgPurple" id="empleadoresImg" />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -501,10 +537,14 @@ Template Name: segurosCubus
 
 <script>
     $(document).ready(function () {
-        $('.boton#automotor').click(function () {
-            $('#automotorImg').addClass('overlay');
-            $(this).hide();
-            $('#automotorTexto').show();
+        // $('.boton#automotor').click(function () {
+        //     $('#automotorImg').addClass('overlay');
+        //     $(this).hide();
+        //     $('#automotorTexto').show();
+        $('.automotor').click(function () {
+            $('#automotorImg').toggleClass('overlay')
+            $(this).toggle();
+            $('#automotorTexto.boton').toggle();
         })
         $('.boton#familia').click(function () {
             $('#familiaImg').addClass('overlay');
@@ -533,9 +573,9 @@ Template Name: segurosCubus
         })
     })
 
-    $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+    $(function () {
+        $("#datepicker").datepicker();
+    });
 </script>
 
 <?php get_footer(); ?>
