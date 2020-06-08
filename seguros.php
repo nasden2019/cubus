@@ -17,7 +17,6 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
-                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png">
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
