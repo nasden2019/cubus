@@ -421,13 +421,13 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="C.U.I.T/DNI"/>
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T/DNI"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="Sueldo bruto empleados"/>
+                                                    <input type="text" class="form-control" placeholder="Sueldo bruto empleados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"  placeholder="Tel."/>
