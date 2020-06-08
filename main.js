@@ -5,7 +5,7 @@ $(document).ready(function () {
     //     $('#automotorTexto').show();
     $('.automotor').click(function () {
         $('#automotorImg').toggleClass('overlay');
-        $('.automotor').toggle();
+        $(this).toggle();
         $('#automotorTexto').toggle();
     });
     $('.familia').click(function () {
