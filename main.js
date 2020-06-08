@@ -57,6 +57,6 @@ $(window).scroll(function () {
 
 
 
-$(":input").inputmask({
+$("#date").inputmask({
     "mask": "(999) 999-9999"
 });
