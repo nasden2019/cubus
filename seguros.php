@@ -21,6 +21,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
+<<<<<<< HEAD
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div>
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" style="margin-left: 0; margin-top: 20px;">
@@ -36,6 +37,18 @@ Template Name: segurosCubus
                                         <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
                                     </div>
                                 </div>
+=======
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
+                                <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
+                                <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
+                                <div class="mb-md-2 mb-1">Responsabilidad civil</div>
+                                <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
+                                <div class="mb-md-2 mb-1">Robo</div>
+                                <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
+                                <div class="mb-md-2 mb-1">Daños parciales por granizo</div>
+                                <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos para los vehículos</div>
+
+>>>>>>> 42c44cfa82fc7d1017dd386f5f0e80139f4da99f
                                 <!-- BOTON MODAL -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
                                     data-target="#exampleModal">Contactar
@@ -107,6 +120,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="familiaTexto">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
@@ -196,6 +210,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">Asistencia Médica - Farmacéutica</h4>
                                 <div class="mb-md-2 mb-1">Renta diaria por internación</div>
                                 <div class="mb-md-2 mb-1">Invalidez</div>
@@ -265,6 +280,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="industriaTexto">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">La tranquilidad de que tu negocio esté protegido</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio</div>
                                 <div class="mb-md-2 mb-1">Incendio contenido</div>
@@ -291,7 +307,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="C.U.I.T / DNI" />
+                                                    <input type="text" class="form-control" placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="number" min="0" max="100" class="form-control" placeholder="MTR2 del local" />
@@ -331,6 +347,7 @@ Template Name: segurosCubus
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;" id="agroTexto">
+                            <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">Asegure su cosecha</h4>
                                 <div class="mb-md-2 mb-1">Protección para el campo</div>
                                 <div class="mb-md-2 mb-1">Granizo</div>
@@ -401,6 +418,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="empleadoresTexto">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="position-absolute flechaSeg">
                                 <h4 class="mb-md-4 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
