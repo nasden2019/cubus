@@ -83,12 +83,12 @@
         <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
             <div class="container-fluid cianColor py-5">
                 <ul class="nav navbar-nav mx-auto mt-5 item1">
-                <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-                <a class="navbar-brand" href="#">
-                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
-                        style="width: 215px;" />
-                    <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-                </a>
+                    <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
+                    <a class="navbar-brand" href="#">
+                        <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
+                            style="width: 215px;" />
+                        <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+                    </a>
                 </ul>
 
                 <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2">
@@ -106,25 +106,30 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background: #220326;">
                         <ul class="navbar-nav ml-auto text-black">
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>INDEX">INICIO </a>
+                                <a class="nav-link text-white ml-3"
+                                    href="<?php echo esc_url( home_url('/') ); ?>INDEX">INICIO </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>seguros">SEGUROS</a>
+                                <a class="nav-link text-white ml-3"
+                                    href="<?php echo esc_url( home_url('/') ); ?>seguros">SEGUROS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>pFrecuentes">PREGUNTAS FRECUENTES</a>
+                                <a class="nav-link text-white ml-3"
+                                    href="<?php echo esc_url( home_url('/') ); ?>pFrecuentes">PREGUNTAS FRECUENTES</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white ml-3">R.R.H.H</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>contacto">CONTACTO</a>
+                                <a class="nav-link text-white ml-3"
+                                    href="<?php echo esc_url( home_url('/') ); ?>contacto">CONTACTO</a>
                             </li>
                         </ul>
 
                     </div>
                 </div>
+            </div>
         </nav>
