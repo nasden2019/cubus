@@ -55,6 +55,8 @@ $(window).scroll(function () {
 //     $("#menu-blanco").addClass("shadow-sm");
 // }
 
+
+// DATEPICKER! seguros
 Array.prototype.forEach.call(document.body.querySelectorAll("*[data-mask]"), applyDataMask);
 
 function applyDataMask(field) {
