@@ -37,11 +37,11 @@ Template Name: segurosCubus
                                 <!-- MODAL -->
 
                             </div>
-                            <div class="modal fade" id="exampleModal" style="margin-top: 7%;">
+                            <div class="modal fade" id="exampleModal" style="">
                                 <div class="modal-dialog">
                                     <div class="modal-content modales">
                                         <div class="modal-header mx-auto">
-                                            <h2 class="">AUTOMOTORE</h2>
+                                            <h2 class="">AUTOMOTORES</h2>
                                             <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                             <button class="close" data-dismiss="modal">
                                                 <span>&times;</span>
@@ -100,15 +100,11 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="familiaTexto">
-                                <h2 class="mb-md-4 mb-3">Familia</h2>
-                                <div class="mb-md-2 mb-1">RESP CIVIL</div>
-                                <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
-                                <div class="mb-md-2 mb-1">ROBO</div>
-                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
-                                <div class="mb-md-2 mb-1">CONSEJOS</div>
-                                <div class="mb-md-2 mb-1">ROBO</div>
-                                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
-                                <div class="mb-md-4 mb-3">CONSEJOS</div>
+                                <h4 class="mb-md-4 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
+                                <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
+                                <div class="mb-md-2 mb-1">Robo contenido</div>
+                                <div class="mb-md-2 mb-1">Cristales</div>
+                                <div class="mb-md-2 mb-1">Responsabilidad civil</div>
 
                                 <!--LOS MODALES TIENEN QUE TENER DIFERENTES ID'S!!! -->
                                 <button type="button" class="botonSeguros" data-toggle="modal"
