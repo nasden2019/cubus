@@ -69,7 +69,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Localidad"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="number" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Horario de contacto"/>
@@ -159,7 +159,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="number" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Horario de contacto"/>
@@ -228,7 +228,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Actividad de la empresa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="number" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Horario de contacto"/>
@@ -294,7 +294,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Rubro al que se dedica" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="number" class="form-control" placeholder="Tel." />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Horario de contacto" />
@@ -352,7 +352,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Ubicación" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Cantidad hectárea"/>
+                                                    <input type="number" class="form-control" placeholder="Cantidad hectárea"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Cultivo sembrado"/>
@@ -364,7 +364,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                    <input type="number" class="form-control" placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Horario de contacto"/>
@@ -430,13 +430,13 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number class="form-control" placeholder="Sueldo bruto empleados"/>
+                                                    <input type="number" class="form-control" placeholder="Sueldo bruto empleados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"  placeholder="Tel."/>
+                                                    <input type="number" class="form-control"  placeholder="Tel."/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"  placeholder="Horario de contacto"/>
