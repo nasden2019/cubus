@@ -21,7 +21,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png">
+                                <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" style="margin-left: 0; margin-top: 20px;">
                                 <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
                                 <h4 class="mb-md-4 mt-md-5 mb-3 d-block d-md-none">Cuidá tu vehículo</h4>
                                 <div class="mb-md-2 mb-1">Responsabilidad civil</div>
