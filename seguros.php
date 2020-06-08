@@ -23,7 +23,7 @@ Template Name: segurosCubus
                                 id="automotorTexto">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="col-1">
-                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class="flechaSeg automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                        <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png" class=" automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                     </div>
                                     <div class="vol-8">
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma mas conveniente</h4>
