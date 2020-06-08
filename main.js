@@ -36,7 +36,7 @@
 // });
 $(window).scroll(function () {
     if (screen.width > 768) {
-        if ($("#menu").offset().top > 56 ) {
+        if ($("#menu").offset().top > 56) {
             $("#menu").addClass("footerVioleta");
             $("#menu").addClass("shadow-sm");
             $("#menu").removeClass("footer-transparente");
@@ -54,3 +54,8 @@ $(window).scroll(function () {
 //     $(".nav-link").addClass("text-primary");
 //     $("#menu-blanco").addClass("shadow-sm");
 // }
+
+$(document).ready(function () {
+    $('#birth-date').mask('00/00/0000');
+    $('#phone-number').mask('0000-0000');
+});
