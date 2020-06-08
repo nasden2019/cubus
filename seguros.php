@@ -50,22 +50,31 @@ Template Name: segurosCubus
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="MARCA" />
+                                                    <input type="text" class="form-control" placeholder="Marca" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Modelo"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Año"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Nafta, Diesel o Gas?"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Nombre"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" class="form-control" placeholder="Localidad"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Tel."/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Horario de contacto"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Mail"/>
                                                 </div>
                                             </form>
                                         </div>
