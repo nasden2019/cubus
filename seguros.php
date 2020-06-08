@@ -536,9 +536,9 @@ Template Name: segurosCubus
         //     $('#automotorImg').addClass('overlay');
         //     $(this).hide();
         //     $('#automotorTexto').show();
-        $('.boton.automotor').click(function () {
+        $('.automotor').click(function () {
             $('#automotorImg').toggleClass('overlay')
-            $(this).toggle();
+            $(this).toggle('.boton');
             $('#automotorTexto').toggle();
         })
         $('.boton#familia').click(function () {
