@@ -543,7 +543,7 @@ Template Name: segurosCubus
         //     $('#automotorTexto').show();
         $('.automotor').click(function () {
             $('#automotorImg').toggleClass('overlay');
-            $(.'automotor').toggle()
+            $(.'automotor').toggle();
             $('#automotorTexto').toggle();
         })
         $('.familia').click(function () {
