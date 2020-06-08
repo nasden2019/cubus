@@ -13,7 +13,7 @@ Template Name: segurosCubus
             <div class="col-12 col-md-12 px-0 text-center">
                 <div class="row">
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton automotor" id="automotor"
+                        <a class="btn violetBtn position-absolute my-auto boton automotor" 
                             data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
@@ -24,7 +24,7 @@ Template Name: segurosCubus
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="col-1">
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                            class="" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                            class="automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                     </div>
                                     <div class="vol-8">
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
