@@ -57,7 +57,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Modelo"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Año"/>
+                                                    <input type="text" id="date" data-inputmask="'alias': 'date'"  class="form-control" placeholder="Año"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Nafta, Diesel o Gas?"/>
@@ -427,7 +427,7 @@ Template Name: segurosCubus
                                                     <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
+                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="number" class="form-control" placeholder="Sueldo bruto empleados"/>
