@@ -132,7 +132,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Vivienda permanente"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control" placeholder="Metros cuadrados"/>
+                                                    <input type="number" min="10" max="100" class="form-control" placeholder="Metros cuadrados"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Comunica con algún condominio?"/>
