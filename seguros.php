@@ -168,7 +168,7 @@ Template Name: segurosCubus
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                        <div class="modal-footer d-flex justify-content-center mt-md-5">
                                             <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@ Template Name: segurosCubus
                                     data-target="#exampleModal3">Contactar
                                     asesor</button>
                             </div>
-                            <div class="modal fade" id="exampleModal3" style="margin-top: 7%;">
+                            <div class="modal fade" id="exampleModal3" style=";">
                                 <div class="modal-dialog">
                                     <div class="modal-content modales">
                                         <div class="modal-header mx-auto">
@@ -237,7 +237,7 @@ Template Name: segurosCubus
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class="modal-footer d-flex justify-content-center mt-md-3">
+                                        <div class="modal-footer d-flex justify-content-center mt-md-5">
                                             <button class="segurosBtn">Enviar</button>
                                         </div>
                                     </div>
