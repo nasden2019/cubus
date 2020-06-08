@@ -41,7 +41,7 @@ Template Name: segurosCubus
                                 <div class="modal-dialog">
                                     <div class="modal-content modales">
                                         <div class="modal-header mx-auto">
-                                            <h2 class="">AUTOMOTORES</h2>
+                                            <h2 class="">AUTOMOTORE</h2>
                                             <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
                                             <button class="close" data-dismiss="modal">
                                                 <span>&times;</span>
