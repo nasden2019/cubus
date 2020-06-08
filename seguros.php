@@ -355,7 +355,7 @@ Template Name: segurosCubus
                                                     <input type="number" class="form-control" placeholder="Cantidad hectárea"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Cultivo sembrado"/>
+                                                    <input type="text" value="____-__-__" data-mask="____-__-__" class="form-control" placeholder="Cultivo sembrado"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Suma asegurada"/>
@@ -427,13 +427,7 @@ Template Name: segurosCubus
                                                     <input type="number" min="0" max="100" class="form-control" placeholder="Cantidad de empleados"/>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="dd/mm/aa"/>
-                                                </div>
-                                                <div class="form-group">
                                                     <input type="number" class="form-control" placeholder="Sueldo bruto empleados"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="datepicker" placeholder="dd/mm/aa"/>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"  placeholder="Tel."/>
