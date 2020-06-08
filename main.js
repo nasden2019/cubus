@@ -55,8 +55,11 @@ $(window).scroll(function () {
 //     $("#menu-blanco").addClass("shadow-sm");
 // }
 
-
-
-$("#date").inputmask({
-    "mask": "(999) 999-9999"
+$(document).ready(function () {
+    $('#birth-date').mask('00/00/0000');
+    $('#phone-number').mask('0000-0000');
 });
+
+// $("#date").inputmask({
+//     "mask": "(999) 999-9999"
+// });
