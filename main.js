@@ -7,6 +7,7 @@ $(document).ready(function () {
         $("#automotorImg").toggleClass("overlay");
         $(".automotor").toggle();
         $("#automotorTexto").toggle();
+
     });
     $(".familia").click(function () {
         $("#familiaImg").toggleClass("overlay");
