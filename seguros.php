@@ -25,7 +25,7 @@ Template Name: segurosCubus
                                     <div class="col-1">
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                            class="flechaSeg" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                            class="flechaSeg" >
                                             <!-- </a> -->
                                     </div>
                                     <div class="">
