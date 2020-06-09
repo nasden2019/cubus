@@ -21,13 +21,13 @@ Template Name: segurosCubus
                         <div class="col-md-10 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="col-1">
+                                <!-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="col-1"> -->
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                             class="flechaSeg" >
                                             <!-- </a> -->
-                                    </div>
+                                    <!-- </div> -->
                                     <div class="">
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
                                             mas conveniente</h4>
