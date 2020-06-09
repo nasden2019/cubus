@@ -127,10 +127,17 @@ body {
     // z-index: 1;
 }
 
+// ------------SEGUROS ----------------
 // flechita seguros modales 
 .flechaSeg {
     position: absolute;
     top: 15%;
     left: -36%;
     width: 40px;
+}
+
+@media (max-width: 728px) {
+    .automotorMobile {
+        margin-top: 60px;
+    }
 }
