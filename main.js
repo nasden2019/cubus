@@ -8,6 +8,7 @@ $(document).ready(function () {
         // $(".automotor").toggle();
         $(this).toggle();
         $("#automotorTexto").toggle();
+        $('.automotor').show();
 
     });
     $(".familia").click(function () {
