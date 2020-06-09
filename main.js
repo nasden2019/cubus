@@ -5,7 +5,8 @@ $(document).ready(function () {
     //     $('#automotorTexto').show();
     $(".automotor").click(function () {
         $("#automotorImg").toggleClass("overlay");
-        $(".automotor").toggle();
+        // $(".automotor").toggle();
+        $(this).toggle();
         $("#automotorTexto").toggle();
 
     });
