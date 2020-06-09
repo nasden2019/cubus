@@ -286,7 +286,7 @@ Template Name: segurosCubus
 
                     <!-- cuarto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto boton industria" id="industria" data-toggle="collapse"
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
                             Industria
                         </a>
@@ -360,14 +360,14 @@ Template Name: segurosCubus
 
                     <!-- quinto-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
+                        <a class="btn violetBtn position-absolute my-auto boton agro" id="agro" data-toggle="collapse"
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
                             Agro
                         </a>
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;" id="agroTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg agro">
                                 <h4 class="mb-md-4 mb-3">Asegure su cosecha</h4>
                                 <div class="mb-md-2 mb-1">Protección para el campo</div>
                                 <div class="mb-md-2 mb-1">Granizo</div>
