@@ -247,7 +247,7 @@ Template Name: segurosCubus
                                                         placeholder="Empresa o tomador del seguro" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="number" class="form-control"
+                                                    <input type="text" class="form-control"
                                                         placeholder="C.U.I.T / DNI" />
                                                 </div>
                                                 <div class="form-group">
