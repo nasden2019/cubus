@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // boton inicial que muestra 
+    // boton automotor inicial que muestra 
     $(".boton#automotor").click(function () {
         $("#automotorImg").addClass("overlay");
         $(this).hide();
@@ -27,6 +27,7 @@ $(document).ready(function () {
         $('.boton#familia').show();
     })
 
+    // accidentes
     $(".boton#accidentes").click(function () {
         $("#accidentesImg").addClass("overlay");
         $(this).hide();
@@ -38,21 +39,22 @@ $(document).ready(function () {
         $("#accidentesTexto").hide();
         $('.boton#accidentes').show();
     });
+
+    // Industria
     $(".boton#industria").click(function () {
-        $("#industriaImg").toggleClass("overlay");
+        $("#industriaImg").addClass("overlay");
         $(this).hide();
         $("#industriaTexto").show();
     });
-    $(".boton#agro").click(function () {
-        $("#agroImg").addClass("overlay");
-        $('.agro').toggle();
-        $("#agroTexto").toggle();
-    });
-    $(".boton#empleadores").click(function () {
-        $("#empleadoresImg").addClass("overlay");
+    $(".flechaSeg").click(function () {
+        $("#industriaImg").removeClass("overlay");
         $(this).hide();
-        $("#empleadoresTexto").show();
+        $("#industriaTexto").hide();
+        $('.boton#industria').show();
     });
+
+
+
 });
 
 
