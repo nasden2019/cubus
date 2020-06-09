@@ -136,13 +136,23 @@ body {
     width: 40px;
 
     @media (max-width: 728px) {
-        .flechaSeg#agro {
-            left: -23%;
+        .mediaq1 {
+            left: -4%;
+        }
+
+        .mediaq2 {
+            left: -4%;
+        }
+
+        .mediaq6 {
+            left: -28%;
         }
     }
 }
 
 
+
+// div automotor el 1ro en mobile
 @media (max-width: 728px) {
     .automotorMobile {
         margin-top: 5px;
