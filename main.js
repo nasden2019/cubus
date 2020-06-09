@@ -5,11 +5,9 @@ $(document).ready(function () {
     //     $('#automotorTexto').show();
     $(".automotor").click(function () {
         $("#automotorImg").toggleClass("overlay");
-        // $(".automotor").toggle();
-        $(this).toggle();
+        $(".automotor").toggle();
         $("#automotorTexto").toggle();
-        $('.automotor').show();
-
+        $('.automotor').hide();
     });
     $(".familia").click(function () {
         $("#familiaImg").toggleClass("overlay");
