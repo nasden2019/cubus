@@ -14,7 +14,7 @@ Template Name: segurosCubus
                 <div class="row">
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton automotor" 
-                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196" style="z-index: 2">
+                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
@@ -25,7 +25,7 @@ Template Name: segurosCubus
                                     <div class="col-1">
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                            class="automotor" style="margin-left: 0; margin-top: 20px; width: 35px;">
+                                            class="flechaSeg" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                             <!-- </a> -->
                                     </div>
                                     <div class="">

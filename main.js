@@ -1,14 +1,15 @@
 $(document).ready(function () {
-    // $('.boton#automotor').click(function () {
-    //     $('#automotorImg').addClass('overlay');
-    //     $(this).hide();
-    //     $('#automotorTexto').show();
     $(".automotor").click(function () {
-        $("#automotorImg").toggleClass("overlay");
-        $(".automotor").toggle();
-        $("#automotorTexto").toggle();
-        $('.automotor').hide();
+        $("#automotorImg").addClass("overlay");
+        $(this).hide();
+        $("#automotorTexto").show();
     });
+    $('.flechaSeg').click(function () {
+        $('.automotorImg').removeClass("overlay");
+        $('this').hide();
+        $('.automotorTexto').hide();
+        $('.boton#accidentes').show();
+    })
     $(".familia").click(function () {
         $("#familiaImg").toggleClass("overlay");
         $(this).toggle();
@@ -23,6 +24,12 @@ $(document).ready(function () {
         $("#accidentesImg").addClass("overlay");
         $(this).hide();
         $("#accidentesTexto").show();
+    });
+    $(".flechaSeg").click(function () {
+        $("#accidentesImg").removeClass("overlay");
+        $(this).hide();
+        $("#accidentesTexto").hide();
+        $('.boton#accidentes').show();
     });
     $(".boton#industria").click(function () {
         $("#industriaImg").toggleClass("overlay");
