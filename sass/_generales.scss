@@ -146,27 +146,32 @@ body {
 
 @media (max-width: 728px) {
     .mediaq2 {
-        left: -4%;
+        left: 2%;
         top: 30%;
     }
 
     @media (max-width: 728px) {
         .mediaq3 {
-            left: 3%;
+            left: 13%;
         }
-
 
         @media (max-width: 728px) {
-            .mediaq5 {
-                left: -22%;
+            .mediaq4 {
+                left: 13%;
             }
-        }
 
 
-        // div automotor el 1ro en mobile
-        @media (max-width: 728px) {
-            .automotorMobile {
-                margin-top: 5px;
+            @media (max-width: 728px) {
+                .mediaq5 {
+                    left: -22%;
+                }
+            }
+
+
+            // div automotor el 1ro en mobile
+            @media (max-width: 728px) {
+                .automotorMobile {
+                    margin-top: 5px;
+                }
             }
         }
-    }
