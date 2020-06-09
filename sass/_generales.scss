@@ -139,22 +139,25 @@ body {
         .mediaq1 {
             left: -4%;
         }
-
-        .mediaq2 {
-            left: -4%;
-        }
-
-        .mediaq6 {
-            left: -28%;
-        }
     }
 }
 
-
-
-// div automotor el 1ro en mobile
 @media (max-width: 728px) {
-    .automotorMobile {
-        margin-top: 5px;
+    .mediaq2 {
+        left: -4%;
+    }
+
+    @media (max-width: 728px) {
+        .mediaq5 {
+            left: -22%;
+        }
+    }
+
+
+    // div automotor el 1ro en mobile
+    @media (max-width: 728px) {
+        .automotorMobile {
+            margin-top: 5px;
+        }
     }
 }
