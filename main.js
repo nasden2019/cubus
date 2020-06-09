@@ -5,11 +5,12 @@ $(document).ready(function () {
         $("#automotorTexto").show();
     });
     $('.flechaSeg').click(function () {
-        $('.automotorImg').removeClass("overlay");
-        $('this').hide();
-        $('.automotorTexto').hide();
-        $('.boton#accidentes').show();
-    })
+        $('#automotorImg').removeClass("overlay");
+        $(this).hide();
+        $('#automotorTexto').hide();
+        $('.boton#automotor').show();
+    });
+
     $(".familia").click(function () {
         $("#familiaImg").toggleClass("overlay");
         $(this).toggle();
