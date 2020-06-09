@@ -10,17 +10,17 @@
                 </a>
               </div>
               <div class="text-center ml-1">
-                <a href="https://www.facebook.com/cubusbroker/photos/" class="text-white">
+                <a href="https://www.facebook.com/cubusbroker/photos" class="text-white">
                   <i class="fa fa-facebook fa-2x"></i>
                 </a>
               </div>
               <div class="text-center ml-2">
-                <a href="https://www.linkedin.com/company/cubus-broker-de-seguros/" class="text-white">
+                <a href="https://www.linkedin.com/company/cubus-broker-de-seguros" class="text-white">
                   <i class="fa fa-linkedin fa-2x"></i>
                 </a>
               </div>
               <div class="text-center ml-2">
-                <a href="https://www.instagram.com/gbbrokerseguros/" class="text-white">
+                <a href="https://www.instagram.com/gbbrokerseguros" class="text-white">
                   <i class="fa fa-instagram fa-2x"></i>
                 </a>
               </div>
