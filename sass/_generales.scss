@@ -135,10 +135,12 @@ body {
     left: -36%;
     width: 40px;
 
-    @media (max-width: 728px) {
-        .mediaq1 {
-            left: 16%;
-        }
+
+}
+
+@media (max-width: 728px) {
+    .mediaq1 {
+        left: 16%;
     }
 }
 
@@ -149,16 +151,22 @@ body {
     }
 
     @media (max-width: 728px) {
-        .mediaq5 {
-            left: -22%;
+        .mediaq3 {
+            left: 3%;
         }
-    }
 
 
-    // div automotor el 1ro en mobile
-    @media (max-width: 728px) {
-        .automotorMobile {
-            margin-top: 5px;
+        @media (max-width: 728px) {
+            .mediaq5 {
+                left: -22%;
+            }
+        }
+
+
+        // div automotor el 1ro en mobile
+        @media (max-width: 728px) {
+            .automotorMobile {
+                margin-top: 5px;
+            }
         }
     }
-}
