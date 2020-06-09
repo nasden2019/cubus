@@ -53,7 +53,31 @@ $(document).ready(function () {
         $('.boton#industria').show();
     });
 
+    // Agro
+    $(".boton#agro").click(function () {
+        $("#agroImg").addClass("overlay");
+        $(this).hide();
+        $("#agroTexto").show();
+    });
+    $(".flechaSeg").click(function () {
+        $("#agroImg").removeClass("overlay");
+        $(this).hide();
+        $("#agroTexto").hide();
+        $('.boton#agro').show();
+    });
 
+    // Empleadores
+    $(".boton#empleadores").click(function () {
+        $("#empleadoresImg").addClass("overlay");
+        $(this).hide();
+        $("#empleadoresTexto").show();
+    });
+    $(".flechaSeg").click(function () {
+        $("#empleadoresImg").removeClass("overlay");
+        $(this).hide();
+        $("#empleadoresTexto").hide();
+        $('.boton#empleadores').show();
+    });
 
 });
 
