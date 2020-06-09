@@ -14,7 +14,7 @@ Template Name: segurosCubus
                 <div class="row">
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton automotor" 
-                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196" style="z-index: 2">
                             Automotor
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
