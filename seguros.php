@@ -118,7 +118,7 @@ Template Name: segurosCubus
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="familiaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg" style="margin-left: 0; margin-top: 10px; width: 35px;">
                                 <h4 class="mb-md-4 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
@@ -219,7 +219,7 @@ Template Name: segurosCubus
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                 <h4 class="mb-md-4 mb-3">Asistencia Médica - Farmacéutica</h4>
                                 <div class="mb-md-2 mb-1">Renta diaria por internación</div>
                                 <div class="mb-md-2 mb-1">Invalidez</div>
@@ -296,7 +296,7 @@ Template Name: segurosCubus
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="industriaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                 <h4 class="mb-md-4 mb-3">La tranquilidad de que tu negocio esté protegido</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio</div>
                                 <div class="mb-md-2 mb-1">Incendio contenido</div>
@@ -369,7 +369,7 @@ Template Name: segurosCubus
                         <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;" id="agroTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg" style="margin-left: 0; margin-top: 20px; width: 35px;">
                                 <h4 class="mb-md-4 mb-3">Asegure su cosecha</h4>
                                 <div class="mb-md-2 mb-1">Protección para el campo</div>
                                 <div class="mb-md-2 mb-1">Granizo</div>
@@ -445,7 +445,7 @@ Template Name: segurosCubus
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="empleadoresTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg">
+                                    class="position-absolute flechaSeg" >
                                 <h4 class="mb-md-4 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
