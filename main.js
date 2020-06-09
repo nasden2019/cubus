@@ -1,9 +1,11 @@
 $(document).ready(function () {
+    // boton inicial que muestra 
     $(".automotor").click(function () {
         $("#automotorImg").addClass("overlay");
         $(this).hide();
         $("#automotorTexto").show();
     });
+    // flechita gris para ocultar todo y volver al inicio
     $('.flechaSeg').click(function () {
         $('#automotorImg').removeClass("overlay");
         $(this).hide();
@@ -11,16 +13,19 @@ $(document).ready(function () {
         $('.boton#automotor').show();
     });
 
+    // boton familia que muestra 
     $(".familia").click(function () {
-        $("#familiaImg").toggleClass("overlay");
+        $("#familiaImg").addClass("overlay");
         $(this).toggle();
-        $("#familiaTexto").toggle();
+        $("#familiaTexto").show();
     });
-    // $('.boton#familia').click(function () {
-    //     $('#familiaImg').addClass('overlay');
-    //     $(this).hide();
-    //     $('#familiaTexto').show();
-    // })
+    // boton flecha familia que oculta
+    $('.flechaSeg').click(function () {
+        $('#familiaImg').removeClass('overlay');
+        $(this).hide();
+        $('.boton#familia').show();
+    })
+
     $(".boton#accidentes").click(function () {
         $("#accidentesImg").addClass("overlay");
         $(this).hide();
