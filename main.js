@@ -23,6 +23,7 @@ $(document).ready(function () {
     $('.flechaSeg').click(function () {
         $('#familiaImg').removeClass('overlay');
         $(this).hide();
+        $('#familiaTexto').hide();
         $('.boton#familia').show();
     })
 
