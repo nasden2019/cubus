@@ -13,20 +13,21 @@ Template Name: segurosCubus
             <div class="col-12 col-md-12 px-0 text-center">
                 <div class="row">
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="automotor"
-                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse196">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="automotor" data-toggle="collapse"
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse196">
                             Automotor
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
-                        <div class="col-md-10 d-flex justify-content-center align-items-center position-absolute automotorMobile">
+                        <div
+                            class="col-md-10 d-flex justify-content-center align-items-center position-absolute automotorMobile">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
                                 <div class="d-flex justify-content-between align-items-center ">
                                     <div class="col-1">
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                            class="flechaSeg mediaq1" >
-                                            <!-- </a> -->
+                                            class="flechaSeg mediaq1">
+                                        <!-- </a> -->
                                     </div>
                                     <div class="">
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
@@ -109,8 +110,8 @@ Template Name: segurosCubus
 
                     <!-- segundo-->
                     <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
-                        <a class="btn violetBtn position-absolute my-auto boton" id="familia"
-                            data-toggle="collapse" href="#collapse19" aria-expanded="true" aria-controls="collapse1">
+                        <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
+                            href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
@@ -336,7 +337,7 @@ Template Name: segurosCubus
                                                         placeholder="Rubro al que se dedica" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
@@ -412,7 +413,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
@@ -445,7 +446,7 @@ Template Name: segurosCubus
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="empleadoresTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                    class="position-absolute flechaSeg mediaq6" >
+                                    class="position-absolute flechaSeg mediaq6">
                                 <h4 class="mb-md-4 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
@@ -483,7 +484,7 @@ Template Name: segurosCubus
                                                         placeholder="Sueldo bruto empleados" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
@@ -513,13 +514,15 @@ Template Name: segurosCubus
 <!-- SECCION AZUL (CON OVERLAY)-->
 <section class="seccionAzul img-fluid"
     style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/chicaDeskIndex.jpg');">
-            
+
     <div class="overlayAzul position-relative">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
                 <h2 class="text-black h2SeccionAzul">Querés cotizar algunas<br> de nuestras coberturas?</h2>
                 <div class=" col-md-12 col-12 d-flex text-center justify-content-center align-items-center">
-                    <button class="btnAzul">Contactar asesor</button>
+                    <a href="#">
+                        <button class="btnAzul">Contactar asesor</button>
+                    </a>
                 </div>
             </div>
         </div>
