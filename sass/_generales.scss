@@ -139,6 +139,7 @@ body {
 
 }
 
+// MEDIA QUERIES MOBILE SEGURO FLECHITAS
 @media (max-width: 728px) {
     .mediaq1 {
         left: 16%;
@@ -178,4 +179,9 @@ body {
     .automotorMobile {
         margin-top: 5px;
     }
+}
+
+// MENSAJES DE ERROR FORM
+.wpcf7-not-valid-tip {
+    color: red;
 }
