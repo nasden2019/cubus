@@ -106,16 +106,10 @@
                 <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>INDEX">INICIO </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>seguros">SEGUROS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>pFrecuentes">PREGUNTAS FRECUENTES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ml-3">R.R.H.H</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white ml-3" href="<?php echo esc_url( home_url('/') ); ?>contacto">CONTACTO</a>
