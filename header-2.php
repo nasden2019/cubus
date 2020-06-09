@@ -82,7 +82,7 @@
         <!-- nav mobile -->
         <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
             <div class="container-fluid cianColor pt-5">
-                <ul class="nav navbar-nav mx-auto mt-3 item1">
+                <ul class="nav navbar-nav mx-auto mt-1 item1">
                     <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
                     <a class="navbar-brand" href="#">
                         <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
