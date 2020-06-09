@@ -181,11 +181,19 @@ body {
     }
 }
 
-// MENSAJES DE ERROR FORM
+// MENSAJES DE ERROR en CONTACTO FORM
 .wpcf7-not-valid-tip {
     color: red;
 }
 
-.wpcf7-validation-errorsz {
+.wpcf7-response-output {
+    color: red;
+}
+
+.screen-reader-response {
+    display: none;
+}
+
+.wpcf7-validation-errors {
     color: red;
 }
