@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // boton inicial que muestra 
-    $(".automotor").click(function () {
+    $(".boton#automotor").click(function () {
         $("#automotorImg").addClass("overlay");
         $(this).hide();
         $("#automotorTexto").show();
@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
 
     // boton familia que muestra 
-    $(".familia").click(function () {
+    $(".boton#familia").click(function () {
         $("#familiaImg").addClass("overlay");
         $(this).toggle();
         $("#familiaTexto").show();
