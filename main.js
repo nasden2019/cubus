@@ -1,43 +1,43 @@
 $(document).ready(function () {
-    // $('.boton#automotor').click(function () {
-    //     $('#automotorImg').addClass('overlay');
-    //     $(this).hide();
-    //     $('#automotorTexto').show();
-    $('.automotor').click(function () {
-        $('#automotorImg').toggleClass('overlay');
-        $('.automotor').toggle();
-        $('#automotorTexto').toggle();
-    });
-    $('.familia').click(function () {
-        $('#familiaImg').toggleClass('overlay');
-        $(this).toggle();
-        $('#familiaTexto').toggle();
-    });
-    // $('.boton#familia').click(function () {
-    //     $('#familiaImg').addClass('overlay');
-    //     $(this).hide();
-    //     $('#familiaTexto').show();
-    // })
-    $('.boton#accidentes').click(function () {
-        $('#accidentesImg').addClass('overlay');
-        $(this).hide();
-        $('#accidentesTexto').show();
-    });
-    $('.boton#industria').click(function () {
-        $('#industriaImg').addClass('overlay');
-        $(this).hide();
-        $('#industriaTexto').show();
-    });
-    $('.boton#agro').click(function () {
-        $('#agroImg').addClass('overlay');
-        $(this).hide();
-        $('#agroTexto').show();
-    });
-    $('.boton#empleadores').click(function () {
-        $('#empleadoresImg').addClass('overlay');
-        $(this).hide();
-        $('#empleadoresTexto').show();
-    });
+  // $('.boton#automotor').click(function () {
+  //     $('#automotorImg').addClass('overlay');
+  //     $(this).hide();
+  //     $('#automotorTexto').show();
+  $(".automotor").click(function () {
+    $("#automotorImg").toggleClass("overlay");
+    $("#automotorTexto").toggle();
+    $(".automotor").toggle();
+  });
+  $(".familia").click(function () {
+    $("#familiaImg").toggleClass("overlay");
+    $(this).toggle();
+    $("#familiaTexto").toggle();
+  });
+  // $('.boton#familia').click(function () {
+  //     $('#familiaImg').addClass('overlay');
+  //     $(this).hide();
+  //     $('#familiaTexto').show();
+  // })
+  $(".boton#accidentes").click(function () {
+    $("#accidentesImg").addClass("overlay");
+    $(this).hide();
+    $("#accidentesTexto").show();
+  });
+  $(".boton#industria").click(function () {
+    $("#industriaImg").addClass("overlay");
+    $(this).hide();
+    $("#industriaTexto").show();
+  });
+  $(".boton#agro").click(function () {
+    $("#agroImg").addClass("overlay");
+    $(this).hide();
+    $("#agroTexto").show();
+  });
+  $(".boton#empleadores").click(function () {
+    $("#empleadoresImg").addClass("overlay");
+    $(this).hide();
+    $("#empleadoresTexto").show();
+  });
 });
 // SCROLL NAVBAR DESKTOP: cambio de color, size and margin
 // $(window).scroll(function () {
@@ -60,71 +60,74 @@ $(document).ready(function () {
 //     }
 // });
 
-// hamburger menu 
+// hamburger menu
 // $(document).ready(function () {
 //     $('#nav-icon1').click(function () {
 //         $(this).toggleClass('open');
 //     });
 // });
 $(window).scroll(function () {
-    if (screen.width > 768) {
-        if ($("#menu").offset().top > 56) {
-            $("#menu").addClass("footerVioleta");
-            $("#menu").addClass("shadow-sm");
-            $("#menu").removeClass("footer-transparente");
-        } else {
-            $("#menu").addClass("footer-transparente");
-            $("#menu").removeClass("footerVioleta");
-            $("#menu").removeClass("shadow-sm");
-        }
+  if (screen.width > 768) {
+    if ($("#menu").offset().top > 56) {
+      $("#menu").addClass("footerVioleta");
+      $("#menu").addClass("shadow-sm");
+      $("#menu").removeClass("footer-transparente");
     } else {
-        $("#menu").addClass("footerVioleta");
-
+      $("#menu").addClass("footer-transparente");
+      $("#menu").removeClass("footerVioleta");
+      $("#menu").removeClass("shadow-sm");
     }
+  } else {
+    $("#menu").addClass("footerVioleta");
+  }
 });
 // if ($('#menu-blanco').length) {
 //     $(".nav-link").addClass("text-primary");
 //     $("#menu-blanco").addClass("shadow-sm");
 // }
 
-
 // DATEPICKER! seguros
-Array.prototype.forEach.call(document.body.querySelectorAll("*[data-mask]"), applyDataMask);
+Array.prototype.forEach.call(
+  document.body.querySelectorAll("*[data-mask]"),
+  applyDataMask
+);
 
 function applyDataMask(field) {
-    var mask = field.dataset.mask.split('');
+  var mask = field.dataset.mask.split("");
 
-    // For now, this just strips everything that's not a number
-    function stripMask(maskedData) {
-        function isDigit(char) {
-            return /\d/.test(char);
-        }
-        return maskedData.split('').filter(isDigit);
+  // For now, this just strips everything that's not a number
+  function stripMask(maskedData) {
+    function isDigit(char) {
+      return /\d/.test(char);
     }
+    return maskedData.split("").filter(isDigit);
+  }
 
-    // Replace `_` characters with characters from `data`
-    function applyMask(data) {
-        return mask.map(function (char) {
-            if (char != '_') return char;
-            if (data.length == 0) return char;
-            return data.shift();
-        }).join('')
-    }
+  // Replace `_` characters with characters from `data`
+  function applyMask(data) {
+    return mask
+      .map(function (char) {
+        if (char != "_") return char;
+        if (data.length == 0) return char;
+        return data.shift();
+      })
+      .join("");
+  }
 
-    function reapplyMask(data) {
-        return applyMask(stripMask(data));
-    }
+  function reapplyMask(data) {
+    return applyMask(stripMask(data));
+  }
 
-    function changed() {
-        var oldStart = field.selectionStart;
-        var oldEnd = field.selectionEnd;
+  function changed() {
+    var oldStart = field.selectionStart;
+    var oldEnd = field.selectionEnd;
 
-        field.value = reapplyMask(field.value);
+    field.value = reapplyMask(field.value);
 
-        field.selectionStart = oldStart;
-        field.selectionEnd = oldEnd;
-    }
+    field.selectionStart = oldStart;
+    field.selectionEnd = oldEnd;
+  }
 
-    field.addEventListener('click', changed)
-    field.addEventListener('keyup', changed)
+  field.addEventListener("click", changed);
+  field.addEventListener("keyup", changed);
 }
