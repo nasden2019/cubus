@@ -85,7 +85,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Localidad" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
@@ -187,7 +187,7 @@ Template Name: segurosCubus
                                                     <input type="text" class="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
@@ -264,7 +264,7 @@ Template Name: segurosCubus
                                                         placeholder="Actividad de la empresa" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Tel." />
+                                                    <input type="text" class="form-control" placeholder="Teléfono" />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control"
