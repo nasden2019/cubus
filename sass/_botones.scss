@@ -7,18 +7,19 @@
     background: $violeta !important;
 }
 
-.verdeBtnContacto {
-    background: $verdeBtn !important;
-    padding: 5px 25px;
-    color: white;
-    border-radius: 10px;
-    margin-left: 350px !important;
-
+@media (min-width: 730px) {
+    .verdeBtnContacto {
+        background: $verdeBtn !important;
+        padding: 5px 25px;
+        color: white;
+        border-radius: 10px;
+        margin-left: 350px !important;
+    }
 }
 
 @media (max-width: 728px) {
     .verdeBtnContacto {
-        margin-left: 90px;
+        margin-left: 130px;
     }
 
 }
