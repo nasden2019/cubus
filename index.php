@@ -301,16 +301,21 @@
             <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
               <div class="text-white position-absolute" style="display: none; z-index: 1;" id="profesionalismoTexto">
                 <h2 class="mb-md-4 mb-3">Profesionalismo</h2>
-                <div class="mb-md-2 mb-1">RESP CIVIL</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum.</p>
+                <!-- <div class="mb-md-2 mb-1">RESP CIVIL</div>
                 <div class="mb-md-2 mb-1">INCENDIO TOTAL Y/O PARCIAL</div>
                 <div class="mb-md-2 mb-1">ROBO</div>
                 <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
                 <div class="mb-md-2 mb-1">CONSEJOS</div>
                 <div class="mb-md-2 mb-1">ROBO</div>
                 <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
-                <div class="mb-md-4 mb-3">CONSEJOS</div>
-
-                <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal3"
+                <div class="mb-md-4 mb-3">CONSEJOS</div> -->
+              </div>
+            </div>
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt=""
+              id="profesionalismoImg" />
+          </div>
+          <!-- <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal3"
                   style="z-index: 2000!important;">Contactar
                   asesor</button>
               </div>
@@ -319,7 +324,7 @@
                   <div class="modal-content modales">
                     <div class="modal-header mx-auto">
                       <h2 class="">PROFESIONALISMO</h2>
-                      <!-- <h5 class="modal-title">AUTOMOTOR</h5> -->
+                     
                       <button class="close" data-dismiss="modal">
                         <span>&times;</span>
                       </button>
@@ -353,9 +358,8 @@
                 </div>
               </div>
             </div>
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt=""
-              id="profesionalismoImg" />
-          </div>
+           
+          </div> -->
         </div>
       </div>
     </div>
