@@ -478,7 +478,23 @@
 </script> -->
 
 <script>
-
+  $(document).ready(function () {
+    $('.boton#confianza').click(function () {
+      $('#confianzaImg').addClass('overlay');
+      $(this).hide();
+      $('#confianzaTexto').show();
+    })
+    $('.boton#familia').click(function () {
+      $('#familiaImg').addClass('overlay');
+      $(this).hide();
+      $('#familiaTexto').show();
+    })
+    $('.boton#profesionalismo').click(function () {
+      $('#profesionalismoImg').addClass('overlay');
+      $(this).hide();
+      $('#profesionalismoTexto').show();
+    })
+  })
 </script>
 
 <?php get_footer(); ?>
