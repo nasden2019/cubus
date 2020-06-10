@@ -41,7 +41,7 @@
         <div class="row mt-3">
           <div class="col-12">
             <div class="row">
-              <div class="col-5 ml-4">
+              <div class="col-5 ml-4 pb-3">
                 <div>
                   <!-- <a href="?php echo esc_url( home_url('/') ); ?>INDEX"> -->
                     <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png" class="img-fluid"
@@ -49,11 +49,11 @@
                   <!-- </a> -->
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-5 pb-3">
                 <div class="">
                   <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                     <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
-                      style="width: 150px;" />
+                      style="width: 160px;" />
                   </a>
                 </div>
               </div>
