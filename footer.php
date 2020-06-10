@@ -110,8 +110,10 @@
 
               <div class="col-md-4 d-flex order-3">
                 <div>
+                <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png" class="img-fluid"
                     style="width: 200px;" />
+                    </a>
                 </div>
                 <div class="">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
