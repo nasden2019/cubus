@@ -72,7 +72,7 @@
 
     <!-- nav mobile -->
     <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
-      <div class="container-fluid cianColor py-2">
+      <div class="container-fluid cianColor py-3">
         <ul class="nav navbar-nav mx-auto item1">
           <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
 
