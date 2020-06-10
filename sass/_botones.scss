@@ -17,9 +17,13 @@
     }
 }
 
-@media (max-width: 728px) {
+@media (max-width: 700px) {
     .verdeBtnContacto {
         margin-left: 130px;
+        background: $verdeBtn !important;
+        padding: 5px 25px;
+        color: white;
+        border-radius: 10px;
     }
 
 }
