@@ -208,6 +208,11 @@ body {
 }
 
 // barra mapa contacto 
-.i4ewOd-pzNkMb-tJHJj {
-    display: none !important;
+// .i4ewOd-pzNkMb-tJHJj {
+//     display: none !important;
+// }
+
+.barraGris {
+    overflow: hidden;
+    clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0% 100%);
 }
