@@ -37,6 +37,7 @@ Template Name: segurosCubus
                                         <div class="mb-md-2 mb-1">Incendio total y/o parcial</div>
                                         <div class="mb-md-2 mb-1">Robo</div>
                                         <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
+                                        <div class="mb-md-2 mb-1">Daños por granizo</div>
                                         <div class="mb-md-4 mb-2">Beneficios extras y costos exclusivos para los
                                             vehículos</div>
                                         <!-- BOTON MODAL -->
