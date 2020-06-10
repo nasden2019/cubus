@@ -5,7 +5,7 @@ Template Name: contacto
 ?>
 
 <?php get_header('2'); ?>
-<section class="formulario" style="margin-top: 140px; padding-top: 65px;">
+<section class="formulario" style="margin-top: 130px; padding-top: 65px;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 col-12 mx-auto my-sm-5 text-center">
@@ -21,46 +21,6 @@ Template Name: contacto
                             <!-- formulario-->
                             <div class="col-md-4 col-12" style="margin-top: -25px;">
                             <?php echo do_shortcode( '[contact-form-7 id="10" title="contacto cubus"]' ); ?>
-
-                                <!-- <form action="#" method="post">
-                                    <div class="row ">
-                                        <div class="col-md-11 form-group">
-                                            <label for="name" class="sr-only"></label>
-                                            <input type="text" id="name" class="form-control"
-                                                placeholder="Nombre y Apellido" />
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-md-11 form-group">
-                                            <label for="phone" class="sr-only"></label>
-                                            <input type="text" id="phone" class="form-control" placeholder="Email" />
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-md-11 form-group">
-                                            <label for="name" class="sr-only"></label>
-                                            <input type="text" id="name" class="form-control" placeholder="Tel." />
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-md-11 form-group">
-                                            <label for="name" class="sr-only"></label>
-                                            <input type="text" id="name" class="form-control" placeholder="Localidad" />
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-md-11 form-group">
-                                            <textarea name="message" id="mensaje" class="form-control" cols="14"
-                                                rows="4" placeholder="En qué te podemos ayudar?"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="mt-1 ml-md-5">
-                                        <button type="submit" class="btn verdeBtnContacto btnHover" id="demo"
-                                            value="send">
-                                            <a class="text-white">Ver mas</a>
-                                        </button>
-                                    </div>
-                                </form> -->
 
                             </div>
                         </div>
