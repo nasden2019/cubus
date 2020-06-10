@@ -22,7 +22,7 @@ Template Name: contacto
                                 </div>
                             </div>
                             <!-- formulario-->
-                            <div class="col-md-4 col-12 d-flex justify-content-center" style="margin-top: -25px;">
+                            <div class="col-md-4 col-12" style="margin-top: -25px;">
                             <?php echo do_shortcode( '[contact-form-7 id="10" title="contacto cubus"]' ); ?>
 
                             </div>
