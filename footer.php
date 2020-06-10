@@ -73,7 +73,7 @@
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-5">
 
-                    <h5 class="text-white d-flex ml-md-4 mb-md-2">Redes sociales</h5>
+                    <h5 class="text-white d-flex ml-md-4 mb-md-2 tituloRedes">Redes sociales</h5>
                     <div class="d-flex justify-content-center" style="">
                       <div class="text-center mr-md-5">
                         <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
