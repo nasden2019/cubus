@@ -161,7 +161,6 @@
                 <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
                 <div class="mb-md-2 mb-1">CONSEJOS</div>
                 <div class="mb-md-2 mb-1">ROBO</div>
-                <div class="mb-md-2 mb-1">DAÑOS TOTALES</div>
                 <div class="mb-md-4 mb-3">CONSEJOS</div>
 
                 <!-- BOTON MODAL -->
