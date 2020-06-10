@@ -73,8 +73,8 @@
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-5">
 
-                    <h5 class="text-white d-flex justify-content-center mb-md-2 tituloRedes">Redes sociales</h5>
-                    <div class="" style="">
+                    <h5 class="text-white d-flex ml-md-4 mb-md-2">Redes sociales</h5>
+                    <div class="d-flex justify-content-center" style="">
                       <div class="text-center mr-md-5">
                         <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
                           <i class="fa fa-twitter fa-1x"></i>
@@ -140,10 +140,6 @@
 </script> -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<!-- <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script> -->
 
     <script src="<?php echo bloginfo('template_url' ); ?>/main.js"></script>
     </body>
