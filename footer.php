@@ -1,5 +1,5 @@
     <!-- Footer mobile-->
-    <footer class="footerVioleta d-md-none d-block" id="menu">
+    <footer class="footerVioleta d-md-none d-block pb-2" id="menu">
       <div class="container-fluid">
         <div class="row pt-3 pb-1 justify-content-center">
           <div class="col-8 col-md-12">
