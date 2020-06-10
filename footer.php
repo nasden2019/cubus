@@ -141,9 +141,9 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<script async defer
+<!-- <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
+    </script> -->
 
     <script src="<?php echo bloginfo('template_url' ); ?>/main.js"></script>
     </body>
