@@ -105,7 +105,7 @@
                 <span class="margRedes">
                   2000 - 0341-4401298. info@cubusbroker.com.ar
                 </span>
-                <span class="margRedes">AvL.N.Alem 1290, CABA</span>
+                <span class="margRedes">Av L.N.Alem 1290, CABA</span>
               </div>
 
               <div class="col-md-4 d-flex order-3">
