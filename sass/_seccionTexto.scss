@@ -1,4 +1,4 @@
-// parrafo 1 y 2
+// parrafo 1 
 .seccionTexto {
     padding: 55px 15px 40px 15px !important;
     line-height: 1.4em;
@@ -13,7 +13,7 @@
 
     @media (max-width: 728px) {
         background: $violetaFooter;
-        margin-top: 70px;
+        margin-top: 0;
 
         p {
             margin-top: 80px;
