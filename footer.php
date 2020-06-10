@@ -45,7 +45,7 @@
                 <div>
                   <!-- <a href="?php echo esc_url( home_url('/') ); ?>INDEX"> -->
                     <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png" class="img-fluid"
-                      style="width: 200px;" />
+                      style="width: 150px;" />
                   <!-- </a> -->
                 </div>
               </div>
@@ -53,7 +53,7 @@
                 <div class="">
                   <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                     <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
-                      style="width: 215px;" />
+                      style="width: 150px;" />
                   </a>
                 </div>
               </div>
@@ -112,13 +112,13 @@
                 <div>
                 <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png" class="img-fluid"
-                    style="width: 200px;" />
+                    style="width: 140px;" />
                     </a>
                 </div>
                 <div class="">
                 <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
-                    style="width: 215px;" />
+                    style="width: 190px;" />
                     </a>
                 </div>
               </div>

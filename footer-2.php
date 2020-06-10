@@ -44,7 +44,7 @@
                   <img
                     src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png"
                     class="img-fluid"
-                    style="width: 200px;"
+                    style="width: 140px;"
                   />
                 </div>
               </div>
@@ -53,7 +53,7 @@
                 <img
                     src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
                     class="img-fluid"
-                    style="width: 215px;"
+                    style="width: 160px;"
                   />
                 </div>
               </div>
