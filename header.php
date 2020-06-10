@@ -74,13 +74,6 @@
     <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
       <div class="container-fluid cianColor py-4">
         <ul class="nav navbar-nav mx-auto mt-5 item1">
-          <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
-          <a class="navbar-brand" href="#">
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
-              style="width: 215px;" />
-            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
-          </a>
-        </ul>
 
         <div class="navbar navbar-expand-sm fixed-top test navBarra test navItem2">
           <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
@@ -111,5 +104,14 @@
             </ul>
           </div>
         </div>
+    
+          <a class="navbar-brand" href="#">
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
+              style="width: 215px;" />
+            <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
+          </a>
+        </ul>
+
+
       </div>
     </nav>
