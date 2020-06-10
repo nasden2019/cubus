@@ -3,7 +3,7 @@
       <div class="container-fluid">
         <div class="row pt-3 pb-1 justify-content-center">
           <div class="col-8 col-md-12">
-            <p>Redes sociales</p>
+            <p class="tituloRedes">Redes sociales</p>
             <div class="d-flex justify-content-center">
               <div class="text-center mr-3">
                 <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
@@ -73,8 +73,8 @@
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-5">
 
-                    <h5 class="text-white d-flex ml-md-4 mb-md-2">Redes sociales</h5>
-                    <div class="d-flex justify-content-center" style="">
+                    <h5 class="text-white d-flex justify-content-center mb-md-2 tituloRedes">Redes sociales</h5>
+                    <div class="" style="">
                       <div class="text-center mr-md-5">
                         <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
                           <i class="fa fa-twitter fa-1x"></i>

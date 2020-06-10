@@ -2,7 +2,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-12 pt-5">
-            <p>Redes sociales</p>
+            <p class="tituloRedes">Redes sociales</p>
             <div class="d-flex justify-content-center">
               <div class="text-center">
                 <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
