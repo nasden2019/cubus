@@ -146,6 +146,25 @@ function applyDataMask(field) {
     field.addEventListener("keyup", changed);
 }
 
+// home
+$(document).ready(function () {
+    $('.boton#confianza').click(function () {
+        $('#confianzaImg').addClass('overlay');
+        $(this).hide();
+        $('#confianzaTexto').show();
+    })
+    $('.boton#familia').click(function () {
+        $('#familiaImg').addClass('overlay');
+        $(this).hide();
+        $('#familiaTexto').show();
+    })
+    $('.boton#profesionalismo').click(function () {
+        $('#profesionalismoImg').addClass('overlay');
+        $(this).hide();
+        $('#profesionalismoTexto').show();
+    })
+})
+
 // ICON MAP
 // var iconBase = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13393.206063450687!2d-60.65802!3d-32.943048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91a29ca796372019!2sCubus%20Broker%20de%20Seguros!5e0!3m2!1sen!2sar!4v1591112958654!5m2!1sen!2sar';
 // var marker = new google.maps.Marker({
