@@ -164,10 +164,10 @@
                 <div class="mb-md-2 mb-1">ROBO</div>
                 <div class="mb-md-4 mb-3">CONSEJOS</div> -->
 
-                <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple"
-                  alt="" id="confianzaImg" />
               </div>
             </div>
+            <img src="<?php echo bloginfo('template_url' ); ?>/img/familiaDeskt.jpg" class="img-fluid imgPurple" alt=""
+              id="confianzaImg" />
           </div>
           <!-- BOTON MODAL -->
           <!-- <button type="button" class="botonSeguros" data-toggle="modal" data-target="#exampleModal"
