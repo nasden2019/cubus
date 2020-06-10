@@ -7,22 +7,22 @@
             <div class="d-flex justify-content-center">
               <div class="text-center mr-3">
                 <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
-                  <i class="fa fa-twitter fa-2x"></i>
+                  <i class="fa fa-twitter fa-1x"></i>
                 </a>
               </div>
               <div class="text-center mr-3">
                 <a href="https://www.facebook.com/cubusbroker/photos" class="text-white">
-                  <i class="fa fa-facebook fa-2x mx-1"></i>
+                  <i class="fa fa-facebook fa-1x mx-1"></i>
                 </a>
               </div>
               <div class="text-center mr-3">
                 <a href="https://www.linkedin.com/company/cubus-broker-de-seguros" class="text-white">
-                  <i class="fa fa-linkedin fa-2x mx-1"></i>
+                  <i class="fa fa-linkedin fa-1x mx-1"></i>
                 </a>
               </div>
               <div class="text-center mr-3">
                 <a href="https://www.instagram.com/gbbrokerseguros" class="text-white">
-                  <i class="fa fa-instagram fa-2x"></i>
+                  <i class="fa fa-instagram fa-1x"></i>
                 </a>
               </div>
             </div>
@@ -77,22 +77,22 @@
                     <div class="d-flex justify-content-center" style="">
                       <div class="text-center mr-md-5">
                         <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
-                          <i class="fa fa-twitter fa-2x"></i>
+                          <i class="fa fa-twitter fa-1x"></i>
                         </a>
                       </div>
                       <div class="text-center mr-md-5">
                         <a href="https://www.facebook.com/cubusbroker/photos" class="text-white">
-                          <i class="fa fa-facebook fa-2x"></i>
+                          <i class="fa fa-facebook fa-1x"></i>
                         </a>
                       </div>
                       <div class="text-center mr-md-5">
                         <a href="https://www.linkedin.com/company/cubus-broker-de-seguros" class="text-white">
-                          <i class="fa fa-linkedin fa-2x"></i>
+                          <i class="fa fa-linkedin fa-1x"></i>
                         </a>
                       </div>
                       <div class="text-center mr-md-5">
                         <a href="https://www.instagram.com/gbbrokerseguros" class="text-white">
-                          <i class="fa fa-instagram fa-2x"></i>
+                          <i class="fa fa-instagram fa-1x"></i>
                         </a>
                       </div>
                     </div>
@@ -116,8 +116,10 @@
                     </a>
                 </div>
                 <div class="">
+                <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
                     style="width: 215px;" />
+                    </a>
                 </div>
               </div>
             </div>
