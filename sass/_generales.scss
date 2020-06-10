@@ -207,12 +207,17 @@ body {
     justify-content: center;
 }
 
-// barra mapa contacto 
-// .i4ewOd-pzNkMb-tJHJj {
-//     display: none !important;
-// }
 
+
+// barra mapa contacto gris q viene con my maps escondida
 .barraGris {
     overflow: hidden;
     clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+// form contacto
+@media (max-width: 728px) {
+    .formContacto {
+        margin-top: -35px;
+    }
 }
