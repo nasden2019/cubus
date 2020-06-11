@@ -42,6 +42,7 @@ $(document).ready(function () {
         $("#accidentesImg").addClass("overlay");
         $(this).hide();
         $("#accidentesTexto").show();
+        $('.flechaSeg').show();
     });
     $(".flechaSeg").click(function () {
         $("#accidentesImg").removeClass("overlay");
@@ -55,6 +56,7 @@ $(document).ready(function () {
         $("#industriaImg").addClass("overlay");
         $(this).hide();
         $("#industriaTexto").show();
+        $('.flechaSeg').show();
     });
     $(".flechaSeg").click(function () {
         $("#industriaImg").removeClass("overlay");
@@ -68,6 +70,7 @@ $(document).ready(function () {
         $("#agroImg").addClass("overlay");
         $(this).hide();
         $("#agroTexto").show();
+        $('.flechaSeg').show();
     });
     $(".flechaSeg").click(function () {
         $("#agroImg").removeClass("overlay");
@@ -81,6 +84,7 @@ $(document).ready(function () {
         $("#empleadoresImg").addClass("overlay");
         $(this).hide();
         $("#empleadoresTexto").show();
+        $('.flechaSeg').show();
     });
     $(".flechaSeg").click(function () {
         $("#empleadoresImg").removeClass("overlay");
