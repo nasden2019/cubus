@@ -27,10 +27,10 @@ $(document).ready(function () {
         $("#familiaImg").addClass("overlay");
         $(this).toggle();
         $("#familiaTexto").show();
-        $('.flechaSeg').show();
+        $('.flechaSeg.dos').show();
     });
     // boton flecha familia que oculta
-    $('.flechaSeg').click(function () {
+    $('.flechaSeg.dos').click(function () {
         $('#familiaImg').removeClass('overlay');
         $(this).hide();
         $('#familiaTexto').hide();
@@ -42,9 +42,9 @@ $(document).ready(function () {
         $("#accidentesImg").addClass("overlay");
         $(this).hide();
         $("#accidentesTexto").show();
-        $('.flechaSeg').show();
+        $('.flechaSeg.tres').show();
     });
-    $(".flechaSeg").click(function () {
+    $(".flechaSeg.tres").click(function () {
         $("#accidentesImg").removeClass("overlay");
         $(this).hide();
         $("#accidentesTexto").hide();
@@ -56,9 +56,9 @@ $(document).ready(function () {
         $("#industriaImg").addClass("overlay");
         $(this).hide();
         $("#industriaTexto").show();
-        $('.flechaSeg').show();
+        $('.flechaSeg.cuatro').show();
     });
-    $(".flechaSeg").click(function () {
+    $(".flechaSeg.cuatro").click(function () {
         $("#industriaImg").removeClass("overlay");
         $(this).hide();
         $("#industriaTexto").hide();
@@ -70,9 +70,9 @@ $(document).ready(function () {
         $("#agroImg").addClass("overlay");
         $(this).hide();
         $("#agroTexto").show();
-        $('.flechaSeg').show();
+        $('.flechaSeg.cinco').show();
     });
-    $(".flechaSeg").click(function () {
+    $(".flechaSeg.cinco").click(function () {
         $("#agroImg").removeClass("overlay");
         $(this).hide();
         $("#agroTexto").hide();
@@ -84,9 +84,9 @@ $(document).ready(function () {
         $("#empleadoresImg").addClass("overlay");
         $(this).hide();
         $("#empleadoresTexto").show();
-        $('.flechaSeg').show();
+        $('.flechaSeg.seis').show();
     });
-    $(".flechaSeg").click(function () {
+    $(".flechaSeg.seis").click(function () {
         $("#empleadoresImg").removeClass("overlay");
         $(this).hide();
         $("#empleadoresTexto").hide();
