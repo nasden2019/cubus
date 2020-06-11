@@ -446,7 +446,7 @@ Template Name: segurosCubus
                                 id="empleadoresTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                     class="position-absolute flechaSeg mediaq6">
-                                <h4 class="mb-md-5 mb-3">A.R.T</h4>
+                                <h4 class="mb-md-4 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
                                 <div class="mb-md-2 mb-1">Convenio Mercantil</div>
