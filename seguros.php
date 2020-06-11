@@ -19,17 +19,17 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div
-                            class="col-md-10 d-flex justify-content-center align-items-center position-absolute automotorMobile">
+                            class="col-md-6 d-flex justify-content-center align-items-center position-absolute automotorMobile">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
-                                <div class="d-flex justify-content-between align-items-center ">
-                                    <div class="col-1">
+                                <!-- <div class="d-flex justify-content-between align-items-center "> -->
+                                    <!-- <div class="col-1"> -->
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                             class="flechaSeg mediaq1">
                                         <!-- </a> -->
-                                    </div>
-                                    <div class="">
+                                    <!-- </div> -->
+                                    <!-- <div class=""> -->
                                         <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
                                             mas conveniente</h4>
                                         <h4 class="mb-md-4 mt-md-5 mb-2 d-block d-md-none">Cuidá tu vehículo</h4>
@@ -43,14 +43,14 @@ Template Name: segurosCubus
                                         <button type="button" class="botonSeguros" data-toggle="modal"
                                             data-target="#exampleModal">Contactar asesor
                                         </button>
-                                    </div>
-                                    <div class="col-1"></div>
+                                    <!-- </div> -->
+                                    <!-- <div class="col-1"></div> -->
                                 </div>
 
 
                                 <!-- MODAL -->
 
-                            </div>
+                            
                             <div class="modal fade" id="exampleModal" style="">
                                 <div class="modal-dialog">
                                     <div class="modal-content modales">
