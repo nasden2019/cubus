@@ -12,7 +12,6 @@ $(document).ready(function () {
         $(this).hide();
         $('#automotorTexto').hide();
         $('.boton#automotor').show();
-        $(this).show();
     });
 
     // boton familia que muestra 
