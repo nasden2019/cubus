@@ -27,10 +27,10 @@ $(document).ready(function () {
         $("#familiaImg").addClass("overlay");
         $(this).toggle();
         $("#familiaTexto").show();
-        $('.flechaSeg2').show();
+        $('.flechaSeg').show();
     });
     // boton flecha familia que oculta
-    $('.flechaSeg2').click(function () {
+    $('.flechaSeg').click(function () {
         $('#familiaImg').removeClass('overlay');
         $(this).hide();
         $('#familiaTexto').hide();
