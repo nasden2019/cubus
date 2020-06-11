@@ -320,7 +320,7 @@
   <div class="container-fluid px-0">
     <div class="row">
       <div class="col-12 px-0 pt-0 imgTextoDos">
-        <img src="<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg" class="imgCubusHome" alt="" />
+        <img src="<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg" class="imgCubusHome" alt="" style="max-width: 128px;"/>
       </div>
       <div class="col-12 text-center mt-4">
         <h1 class="text-center">CUBUS <br />BROKER</h1>
