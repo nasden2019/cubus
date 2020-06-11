@@ -114,7 +114,7 @@ Template Name: segurosCubus
                             Familia
                         </a>
                         <!--Z-INDEX en el modal, para q no lo tapen el resto de paddings! -->
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute mb-md-3">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="familiaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
