@@ -4,6 +4,7 @@ $(document).ready(function () {
         $("#automotorImg").addClass("overlay");
         $(this).hide();
         $("#automotorTexto").show();
+        $('.flechaSeg').show();
     });
     // flechita gris para ocultar todo y volver al inicio
     $('.flechaSeg').click(function () {
