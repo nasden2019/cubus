@@ -1,16 +1,24 @@
 $(document).ready(function () {
-    // boton automotor inicial que muestra 
+    // boton automotor inicial que despliega info al hacer click:
     $(".boton#automotor").click(function () {
+        // agrega color violeta a la img q ya tenemos:
         $("#automotorImg").addClass("overlay");
+        // esconde boton q cliqueamos: 
         $(this).hide();
+        // muestra texto y boton de modal q contienen esta clase: 
         $("#automotorTexto").show();
+        // para q vuelva a mostrar la flechita:
         $('.flechaSeg').show();
     });
     // flechita gris para ocultar todo y volver al inicio
     $('.flechaSeg').click(function () {
+        // quita clase violeta:
         $('#automotorImg').removeClass("overlay");
+        // se esconde (y la volvemos a mostrar arriba con show()): 
         $(this).hide();
+        // ocultamos texto y btn modal:
         $('#automotorTexto').hide();
+        // volvemos a mostrar boton del inicio:
         $('.boton#automotor').show();
     });
 
@@ -19,6 +27,7 @@ $(document).ready(function () {
         $("#familiaImg").addClass("overlay");
         $(this).toggle();
         $("#familiaTexto").show();
+        $('.flechaSeg').show();
     });
     // boton flecha familia que oculta
     $('.flechaSeg').click(function () {
