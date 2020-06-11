@@ -119,7 +119,7 @@ Template Name: segurosCubus
                                 id="familiaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                     class="position-absolute flechaSeg mediaq2">
-                                <h4 class="mb-md-5 mb-3 mt-md-3">Protegé tu hogar de manera integral</h4>
+                                <h4 class="mb-md-4 mb-3 mt-md-2">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
                                 <div class="mb-md-2 mb-1">Cristales</div>
@@ -441,12 +441,12 @@ Template Name: segurosCubus
                             href="#collapse99" aria-expanded="true" aria-controls="collapse7">
                             Empleadores
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute mb-md-5">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="empleadoresTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                     class="position-absolute flechaSeg mediaq6">
-                                <h4 class="mb-md-4 mb-3">A.R.T</h4>
+                                <h4 class="mb-md-5 mb-3">A.R.T</h4>
                                 <div class="mb-md-2 mb-1">Ley de contrato de trabajo</div>
                                 <div class="mb-md-2 mb-1">Vida colectivo obligatorio</div>
                                 <div class="mb-md-2 mb-1">Convenio Mercantil</div>
