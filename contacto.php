@@ -11,7 +11,7 @@ Template Name: contacto
             <div class="col-md-12 col-12 mx-auto my-sm-5 text-center">
                 <div class="row">
                     <div class="col-md-7 col-12 px-0 mb-4">
-                        <div class="">
+                        <div class="content-container  embed-container  maps">
                             <iframe style="pointer-events: none;" src="https://www.google.com/maps/d/u/0/embed?mid=1whpmshyYMjxCRplNEZ4rmNsYFgTYHO7t"
                                 class="barraGris" width="90%" height="763" frameborder="0" style="border: 0";></iframe>
                             <!-- <iframe
