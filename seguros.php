@@ -108,7 +108,7 @@ Template Name: segurosCubus
 
 
                     <!-- segundo-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center mb-md-3">
                         <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
@@ -119,7 +119,7 @@ Template Name: segurosCubus
                                 id="familiaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                     class="position-absolute flechaSeg mediaq2">
-                                <h4 class="mb-md-4 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
+                                <h4 class="mb-md-5 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
                                 <div class="mb-md-2 mb-1">Cristales</div>
@@ -215,7 +215,7 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Accidentes
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute mb-md-4">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute mb-md-5">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
