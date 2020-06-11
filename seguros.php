@@ -30,7 +30,7 @@ Template Name: segurosCubus
                                         <!-- </a> -->
                                     <!-- </div> -->
                                     <!-- <div class=""> -->
-                                        <h4 class="mb-md-3 mt-md-1 mb-1 d-none d-md-block">Cuidá tu vehículo de la forma
+                                        <h4 class="mb-md-2 mt-md-1 d-none d-md-block">Cuidá tu vehículo de la forma
                                             mas conveniente</h4>
                                         <h4 class="mb-md-4 mt-md-5 mb-2 d-block d-md-none">Cuidá tu vehículo</h4>
                                         <div class="mb-md-2 mb-1">Responsabilidad civil</div>
