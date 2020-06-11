@@ -119,7 +119,7 @@ Template Name: segurosCubus
                                 id="familiaTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
                                     class="position-absolute flechaSeg mediaq2">
-                                <h4 class="mb-md-5 mb-3 mt-md-5">Protegé tu hogar de manera integral</h4>
+                                <h4 class="mb-md-5 mb-3 mt-md-3">Protegé tu hogar de manera integral</h4>
                                 <div class="mb-md-2 mb-1">Incendio edificio y mobiliario</div>
                                 <div class="mb-md-2 mb-1">Robo contenido</div>
                                 <div class="mb-md-2 mb-1">Cristales</div>
