@@ -215,7 +215,7 @@ Template Name: segurosCubus
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Accidentes
                         </a>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center position-absolute mb-md-4">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="accidentesTexto">
                                 <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
