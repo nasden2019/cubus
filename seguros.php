@@ -30,7 +30,7 @@ Template Name: segurosCubus
                                         <!-- </a> -->
                                     <!-- </div> -->
                                     <!-- <div class=""> -->
-                                        <h4 class="mb-md-4 mt-md-5 mb-3 d-none d-md-block">Cuidá tu vehículo de la forma
+                                        <h4 class="mb-md-3 mt-md-1 mb-1 d-none d-md-block">Cuidá tu vehículo de la forma
                                             mas conveniente</h4>
                                         <h4 class="mb-md-4 mt-md-5 mb-2 d-block d-md-none">Cuidá tu vehículo</h4>
                                         <div class="mb-md-2 mb-1">Responsabilidad civil</div>
@@ -38,7 +38,7 @@ Template Name: segurosCubus
                                         <div class="mb-md-2 mb-1">Robo</div>
                                         <div class="mb-md-2 mb-1">Daños totales y/o parciales por accidente</div>
                                         <div class="mb-md-2 mb-1">Daños por granizo</div>
-                                        <div class="mb-md-4 mb-2">Beneficios extras y costos exclusivos</div>
+                                        <div class="mb-md-4 mb-3">Beneficios extras y costos exclusivos</div>
                                         <!-- BOTON MODAL -->
                                         <button type="button" class="botonSeguros" data-toggle="modal"
                                             data-target="#exampleModal">Contactar asesor
