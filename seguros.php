@@ -108,7 +108,7 @@ Template Name: segurosCubus
 
 
                     <!-- segundo-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center mb-md-3">
+                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
