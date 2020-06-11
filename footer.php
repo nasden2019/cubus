@@ -75,7 +75,7 @@
 
                     <h5 class="text-white d-flex ml-md-4 mb-md-2 tituloRedes">Redes sociales</h5>
                     <div class="d-flex justify-content-center" style="">
-                      <div class="text-center mr-md-5">
+                      <div class="text-center ml-md-5 mr-md-5">
                         <a href="https://twitter.com/hashtag/cubusbroker" class="text-white">
                           <i class="fa fa-twitter fa-1x"></i>
                         </a>
