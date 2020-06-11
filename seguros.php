@@ -26,7 +26,7 @@ Template Name: segurosCubus
                                     <!-- <div class="col-1"> -->
                                         <!-- <a href="" class="automotor"> -->
                                         <img src="<?php echo bloginfo('template_url' ); ?>/img/Boton.png"
-                                            class="flechaSeg mediaq1">
+                                            class="flechaSeg uno mediaq1">
                                         <!-- </a> -->
                                     <!-- </div> -->
                                     <!-- <div class=""> -->

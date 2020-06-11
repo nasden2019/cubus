@@ -8,10 +8,10 @@ $(document).ready(function () {
         // muestra texto y boton de modal q contienen esta clase: 
         $("#automotorTexto").show();
         // para q vuelva a mostrar la flechita:
-        $('.flechaSeg').show();
+        $('.flechaSeg.uno').show();
     });
     // flechita gris para ocultar todo y volver al inicio
-    $('.flechaSeg').click(function () {
+    $('.flechaSeg.uno').click(function () {
         // quita clase violeta:
         $('#automotorImg').removeClass("overlay");
         // se esconde (y la volvemos a mostrar arriba con show()): 
