@@ -59,11 +59,28 @@
             margin-top: 1px;
             margin-left: 16px;
             height: 60px;
+            width: 350px;
+            border-radius: 15px;
+            padding: 18px;
+        }
+    }
+
+    @media (min-width: 1300px) {
+        .custom-file-label {
+            // border-radius: 10px !important;
+            // padding: 20px 40px;
+            background: white;
+            border: none;
+            margin-top: 1px;
+            margin-left: 16px;
+            height: 60px;
             width: 445px;
             border-radius: 15px;
             padding: 18px;
         }
     }
+
+
 }
 
 .form-control:hover,
