@@ -19,7 +19,7 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div
-                            class="col-sm-6 d-flex justify-content-center align-items-center position-absolute automotorMobile">
+                            class="col-sm-8 d-flex justify-content-center align-items-center position-absolute automotorMobile">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
                                 <!-- <div class="d-flex justify-content-between align-items-center "> -->
