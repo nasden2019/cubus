@@ -411,7 +411,8 @@
 
           <div class="col-12 col-sm-12">
             <!-- ?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?> -->
-            <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="18" title="Trabaja con nosotros/"]' ); ?>
+            
           </div>
         </div>
       </div>
