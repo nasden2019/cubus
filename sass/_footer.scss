@@ -77,3 +77,9 @@
 .tituloRedes {
     font-size: 17px;
 }
+
+@media (min-width: 1800px) {
+    .tituloRedes {
+        margin-left: 3.5rem !important;
+    }
+}
