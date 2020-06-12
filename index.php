@@ -17,7 +17,7 @@
       </div>
 
       <div class="carousel-item"
-        style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+        style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/cubusSliderDos.jpg');">
         <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
       </div>
 
