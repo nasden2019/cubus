@@ -358,11 +358,13 @@
     <div class="row">
       <div class="col-12 col-md-12 ">
 
-        <div class="imgCubus" style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+        <div class="imgCubus"
+          style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-md-6 text-center " style="margin-top: 55px;">
-              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 40px;">CUBUS <br />BROKER</h1>
+              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 40px;">CUBUS
+                <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -397,18 +399,22 @@
 
 <!-- FORM -->
 <section class="formulario">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-12 pt-md-5">
-      <div class="" style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+  <div class=""
+    style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
-        <h2 class="pb-3 my-md-4 my-4">
-          Trabaja con nosotros, <br />sumate a nuestro equipo
-        </h2>
-      </div>
+    <div class="overlayVerde">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 pt-md-5">
+            <h2 class="pb-3 my-md-4 my-4">
+              Trabaja con nosotros, <br />sumate a nuestro equipo
+            </h2>
+          </div>
 
-      <div class="col-12 col-sm-12">
-        <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
+          <div class="col-12 col-sm-12">
+            <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
+          </div>
+        </div>
       </div>
     </div>
   </div>
