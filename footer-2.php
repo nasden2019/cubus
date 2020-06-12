@@ -42,7 +42,7 @@
               <div class="col-5 ml-4">
                 <div>
                   <img
-                    src="<?php echo bloginfo('template_url' ); ?>/img/logossn-1.png"
+                    src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png"
                     class="img-fluid"
                     style="width: 140px;"
                   />
