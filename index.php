@@ -358,7 +358,7 @@
     <div class="row">
       <div class="col-12 col-md-12 overlayCubusAzul">
 
-        <div style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg'); height: 500px;">
+        <div style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row align-items-center">
             <div class="col-md-6 text-center">
