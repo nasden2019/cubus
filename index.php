@@ -400,6 +400,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-12 pt-md-5">
+      <div class="" style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+
         <h2 class="pb-3 my-md-4 my-4">
           Trabaja con nosotros, <br />sumate a nuestro equipo
         </h2>
