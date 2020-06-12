@@ -264,6 +264,6 @@ body {
 
 @media (min-width: 700px) and (max-width: 1250px) {
     .desgraciaImg {
-        width: 60% !important;
+        max-width: 60% !important;
     }
 }
