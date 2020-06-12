@@ -400,7 +400,7 @@
 <!-- FORM -->
 <section class="formulario">
   <div class=""
-    style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+    style="height: 650px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
     <div class="overlayVerde">
       <div class="container-fluid">
