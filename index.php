@@ -17,7 +17,7 @@
       </div>
 
       <div class="carousel-item"
-        style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/cubusSliderDos.jpg');">
+        style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/.jpg');">
         <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
       </div>
 
@@ -410,6 +410,7 @@
           </div>
 
           <div class="col-12 col-sm-12">
+            <!-- ?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?> -->
             <?php echo do_shortcode( '[contact-form-7 id="9" title="Trabaja con nosotros"]' ); ?>
           </div>
         </div>
