@@ -356,13 +356,13 @@
 <section class="seccionTextoDos d-none d-md-block">
   <div class="container-fluid px-0">
     <div class="row">
-      <div class="col-12 col-md-12 overlayCubusAzul">
+      <div class="col-12 col-md-12 ">
 
         <div style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row align-items-center">
-            <div class="col-md-6 text-center" style="z-index: 1;">
-              <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 10px;">CUBUS <br />BROKER</h1>
+            <div class="col-md-6 text-center overlayCubusAzul" style="z-index: 1;">
+              <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 30px;">CUBUS <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
