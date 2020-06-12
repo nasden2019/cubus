@@ -361,7 +361,7 @@
         <div style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row align-items-center">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center" style="z-index: 1;">
               <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 10px;">CUBUS <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
