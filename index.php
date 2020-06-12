@@ -357,36 +357,40 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-12">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center">
-            <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
-            <div class="text-center margText">
-              <p class="aloha">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Atque cumque vero. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error, exercitationem!
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Atque perspiciatis libero, a nostrum commodi iusto. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Atque
-                eaque earum neque voluptate enim placeat.
-              </p>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dolor unde voluptas repudiandae obcaecati vero voluptatem
-                harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Esse minus dolorum incidunt ullam. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Iure
-                dolorem nemo ullam impedit inventore. Voluptas vero dolore
-                ad molestiae veritatis?
-              </p>
+
+        <div style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+              <h1 class="cianColor" style="padding-top: 30px; margin-bottom: 0;">CUBUS <br />BROKER</h1>
+              <div class="text-center margText">
+                <p class="aloha">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque cumque vero. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Error, exercitationem!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque perspiciatis libero, a nostrum commodi iusto. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  eaque earum neque voluptate enim placeat.
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolor unde voluptas repudiandae obcaecati vero voluptatem
+                  harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Esse minus dolorum incidunt ullam. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  dolorem nemo ullam impedit inventore. Voluptas vero dolore
+                  ad molestiae veritatis?
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 px-0">
-            <img src="<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg" class="img-fluid imgCubusHome" alt="" />
+            <!-- <div class="col-md-6 px-0">
+            <img src="?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg" class="img-fluid imgCubusHome" alt="" />
+          </div> -->
           </div>
         </div>
       </div>
