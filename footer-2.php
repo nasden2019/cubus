@@ -44,7 +44,7 @@
                   <img
                     src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png"
                     class="img-fluid"
-                    style="width: 140px;"
+                    style="width: 225px;"
                   />
                 </div>
               </div>

@@ -45,7 +45,7 @@
                 <div>
                   <!-- <a href="?php echo esc_url( home_url('/') ); ?>INDEX"> -->
                     <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png" class="img-fluid"
-                      style="width: 150px;" />
+                      style="width: 200px;" />
                   <!-- </a> -->
                 </div>
               </div>
@@ -112,7 +112,7 @@
                 <div>
                 <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
                   <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png" class="img-fluid"
-                    style="width: 140px;" />
+                    style="width: 225px;" />
                     </a>
                 </div>
                 <div class="">
