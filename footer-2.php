@@ -51,7 +51,7 @@
               <div class="col-5">
                 <div class="">
                 <img
-                    src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
+                    src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png"
                     class="img-fluid"
                     style="width: 160px;"
                   />

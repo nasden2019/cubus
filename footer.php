@@ -52,7 +52,7 @@
               <div class="col-5 pb-3">
                 <div class="">
                   <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
-                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
+                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png" class="img-fluid"
                       style="width: 160px;" />
                   </a>
                 </div>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="">
                 <a href="<?php echo esc_url( home_url('/') ); ?>INDEX">
-                  <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid"
+                  <img src="<?php echo bloginfo('template_url' ); ?>/img/logossn.png" class="img-fluid"
                     style="width: 190px;" />
                     </a>
                 </div>
