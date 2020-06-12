@@ -515,7 +515,7 @@ Template Name: segurosCubus
     style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/chicaDeskIndex.jpg');">
 
     <div class="overlayAzul position-relative">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center align-items-center">
                 <h2 class="text-black h2SeccionAzul">Querés cotizar algunas<br> de nuestras coberturas?</h2>
                 <div class=" col-md-12 col-12 d-flex text-center justify-content-center align-items-center">
