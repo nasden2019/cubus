@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- SLIDER DESKTOP -->
 <header class="d-none d-md-block">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carouse">
     <ol class="carousel-indicators">
       <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
