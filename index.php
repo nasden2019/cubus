@@ -363,7 +363,7 @@
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-sm-6 text-center " style="margin-top: 55px;">
-              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 40px;">CUBUS
+              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 50px;">CUBUS
                 <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
@@ -381,8 +381,6 @@
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Dolor unde voluptas repudiandae obcaecati vero voluptatem
-                  harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
-                  harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
                   harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
                 </p>
               </div>
