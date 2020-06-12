@@ -358,7 +358,7 @@
     <div class="row">
       <div class="col-12 col-md-12 ">
 
-        <div class="imgCubus" style="height: 500px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
+        <div class="imgCubus" style="height: 700px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-md-6 text-center " style="z-index: 1;">
@@ -369,7 +369,6 @@
                   quod Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque cumque vero. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Error, exercitationem!
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -381,10 +380,6 @@
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Dolor unde voluptas repudiandae obcaecati vero voluptatem
                   harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
-                  adipisicing elit. Esse minus dolorum incidunt ullam. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Iure
-                  dolorem nemo ullam impedit inventore. Voluptas vero dolore
-                  ad molestiae veritatis?
                 </p>
               </div>
             </div>
