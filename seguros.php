@@ -19,7 +19,7 @@ Template Name: segurosCubus
                         </a>
                         <!--col-md-6 para q el contenido no quede apretado y alargado -->
                         <div
-                            class="col-md-6 d-flex justify-content-center align-items-center position-absolute automotorMobile">
+                            class="col-sm-6 d-flex justify-content-center align-items-center position-absolute automotorMobile">
                             <div class="text-white position-absolute" style="display: none; z-index: 1;"
                                 id="automotorTexto">
                                 <!-- <div class="d-flex justify-content-between align-items-center "> -->
@@ -108,7 +108,7 @@ Template Name: segurosCubus
 
 
                     <!-- segundo-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="familia" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Familia
@@ -210,7 +210,7 @@ Template Name: segurosCubus
 
 
                     <!-- tercero -->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="accidentes" data-toggle="collapse"
                             href="#collapse19" aria-expanded="true" aria-controls="collapse1">
                             Accidentes
@@ -287,7 +287,7 @@ Template Name: segurosCubus
 
 
                     <!-- cuarto-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="industria" data-toggle="collapse"
                             href="#collapse9" aria-expanded="true" aria-controls="collapse1">
                             Industria
@@ -361,7 +361,7 @@ Template Name: segurosCubus
 
 
                     <!-- quinto-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="agro" data-toggle="collapse"
                             href="#collapse99" aria-expanded="true" aria-controls="collapse15">
                             Agro
@@ -436,7 +436,7 @@ Template Name: segurosCubus
 
 
                     <!-- sexto-->
-                    <div class="col-md-4 px-0 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-4 px-0 d-flex align-items-center justify-content-center">
                         <a class="btn violetBtn position-absolute my-auto boton" id="empleadores" data-toggle="collapse"
                             href="#collapse99" aria-expanded="true" aria-controls="collapse7">
                             Empleadores
