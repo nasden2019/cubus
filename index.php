@@ -361,8 +361,8 @@
         <div class="imgCubus" style="height: 750px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
-            <div class="col-md-6 text-center " style="margin-top: 45px;">
-              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 40px;">CUBUS <br />BROKER</h1>
+            <div class="col-md-6 text-center " style="margin-top: 55px;">
+              <h1 class="cianColor" style="padding-top: 45px; margin-bottom: 40px;">CUBUS <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
