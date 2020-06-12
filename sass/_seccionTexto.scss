@@ -97,3 +97,10 @@
         height: 720px !important;
     }
 }
+
+// img form verde trabaja con nosotros home, para mobile!
+@media (max-width: 700px) {
+    .imgForm {
+        height: 810px !important;
+    }
+}

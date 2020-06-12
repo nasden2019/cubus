@@ -397,7 +397,7 @@
 
 <!-- FORM -->
 <section class="formulario">
-  <div class=""
+  <div class="imgForm"
     style="height: 650px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
     <div class="overlayVerde">
