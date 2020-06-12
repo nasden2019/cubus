@@ -249,6 +249,8 @@ body {
     }
 }
 
-.imgCubusHome {
-    max-width: 953px !important;
+@media (min-width: 1800px) {
+    .imgCubusHome {
+        max-width: 953px !important;
+    }
 }
