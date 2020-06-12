@@ -354,7 +354,7 @@
 
 <!-- seccion texto2 desktop-->
 <section class="seccionTextoDos d-none d-md-block">
-  <div class="container-fluid px-0">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-12 ">
 
