@@ -3,7 +3,7 @@
 <header class="d-none d-md-block">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
     </ol>
@@ -16,7 +16,7 @@
                         </div> -->
       </div>
 
-      <div class="carousel-item desgraciaImg" role="listbox"
+      <div class="carousel-item desgraciaImg" 
         style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/desgraciaHome.jpg');">
         <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
       </div>
