@@ -362,7 +362,7 @@
           style="height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
-            <div class="col-md-6 text-center " style="margin-top: 55px;">
+            <div class="col-sm-6 text-center " style="margin-top: 55px;">
               <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 40px;">CUBUS
                 <br />BROKER</h1>
               <div class="text-center margText">
