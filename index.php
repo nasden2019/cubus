@@ -356,7 +356,7 @@
 <section class="seccionTextoDos d-none d-md-block">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-12 ">
+      <div class="col-12 col-md-12 pr-md-0">
 
         <div class="imgCubus"
           style="height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
