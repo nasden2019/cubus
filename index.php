@@ -362,7 +362,7 @@
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-md-6 text-center " style="margin-top: 55px;">
-              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx;">CUBUS <br />BROKER</h1>
+              <h1 class="cianColor" style="padding-top: 40px; margin-bottom: 55pxpx; padding-bottom: 40px;">CUBUS <br />BROKER</h1>
               <div class="text-center margText">
                 <p class="aloha">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
