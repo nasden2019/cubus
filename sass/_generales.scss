@@ -249,25 +249,15 @@ body {
     }
 }
 
-// imagen cubus broker desktop dif resoluciones- ----------
-// @media (min-width: 1800px) {
-//     .imgCubusHome {
-//         max-width: 953px !important;
-//     }
-// }
 
-// @media (min-width: 1250px) {
-//     .imgCubusHome {
-//         max-width: 953px !important;
-//     }
-// }
 
+// AJUSTE DE RESOLUCION DE LOS DIVS DE SEGUROS, para q al achicarse no se rompiesen!!!
 @media (min-width: 700px) and (max-width: 1250px) {
     .automotorIpad {
-        font-size: 15px !important;
+        font-size: 17px !important;
     }
 
     h4 {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
