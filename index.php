@@ -16,7 +16,7 @@
                         </div> -->
       </div>
 
-      <div class="carousel-item"
+      <div class="carousel-item desgraciaImg"
         style="background-image: url('<?php echo bloginfo('template_url' ); ?>/img/desgraciaHome.jpg');">
         <!-- style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')"> -->
       </div>
