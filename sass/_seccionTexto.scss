@@ -91,12 +91,12 @@
     // z-index: 1;
 }
 
-// img cubus azul home para resolucion notebook
-// @media (min-width: 1800px) {
-//     .imgCubus {
-//         height: 720px !important;
-//     }
-// }
+// img cubus azul home para resolucion notebook 
+@media (min-width: 1800px) {
+    .imgCubus {
+        height: 720px !important;
+    }
+}
 
 // .imgCubus {
 //     background-image: url('/img/cubus.jpg');
