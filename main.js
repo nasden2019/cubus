@@ -221,6 +221,6 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 // if ('.wpcf7-form sent' == true) {
 //     $('.modals').show();
 // }
-$('.segurosBtn').click(function () {
-    alert('hola');
+$('.segurosBtn').click(function (e) {
+    e.preventDefault();
 });
