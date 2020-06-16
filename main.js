@@ -222,8 +222,15 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 //     $('.modals').show();
 // }
 
+$('.botonSeguros').click(function () {
+    $("#exampleModal2").modal({
+        "backdrop": "static"
+    });
+})
+
 $('.segurosBtn').click(function (e) {
     e.preventDefault();
+
     $('.wpcf7-form').submit();
     var tel = $('.tel');
     if (tel.val() == '') {
