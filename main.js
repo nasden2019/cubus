@@ -222,10 +222,10 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 //     $('.modals').show();
 // }
 
-// $('.segurosBtn').click(function (e) {
-//     e.preventDefault();
-//     var tel = $('.tel');
-//     if (tel == '') {
-//         tel.addClass('wpcf7-not-valid-tip');
-//     });
-// });
+$('.segurosBtn').click(function (e) {
+    // e.preventDefault();
+    var tel = $('.tel');
+    if (tel.val() == '') {
+        tel.addClass('wpcf7-not-valid-tip');
+    });
+});
