@@ -358,8 +358,8 @@
     <div class="row">
       <div class="col-12 col-md-12 pr-md-0">
 
-        <div class="imgCubus img-fluid"
-          style="max-height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/cubus.jpg');">
+        <div class="imgCubus"
+          style="height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/livingDeskAzul.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-sm-6 text-center " style="margin-top: 55px;">
