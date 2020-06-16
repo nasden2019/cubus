@@ -223,4 +223,7 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 // }
 $('.segurosBtn').click(function (e) {
     e.preventDefault();
+    if ('.tel' == '') {
+        alert('hey');
+    }
 });
