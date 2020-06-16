@@ -214,6 +214,10 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 //     $(".modals").show();
 //     $('.modals').modal('show');
 // }
-if (target.parent('.modal-footer').length) {
-    $(".modals").show();
+// if (target.parent('.modal-footer').length) {
+//     $(".modals").show();
+// }
+
+if ('.wpcf7-form sent' == true) {
+    $('.modals').show();
 }
