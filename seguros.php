@@ -132,7 +132,8 @@ Template Name: segurosCubus
                                     asesor</button>
 
                             </div>
-                            <div class="modal fade" data-backdrop="static" id="exampleModal2" style="">
+                            <!-- data-backdrop="static" -->
+                            <div class="modal fade"  id="exampleModal2" style="">
                                 <div class="modal-dialog">
                                     <div class="modal-content modales">
                                         <div class="modal-header mx-auto">

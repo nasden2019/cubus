@@ -226,14 +226,12 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 // $(".segurosBtn").click(function (e) {
 //   e.preventDefault();
 
-//   $(".wpcf7-form").submit();
-//   var tel = $(".tel");
-//   if (tel.val() == "") {
-//     tel.addClass("wpcf7-not-valid-tip");
-//   }
-// });
+// $(".wpcf7-form").submit();
+// var tel = $(".tel");
+// if (tel.val() == "") {
+//   tel.addClass("wpcf7-not-valid-tip");
+// }
 
-// $(document).ready( function() { // Wait until document is fully parsed
-$(".modals").on("submit", function (e) {
+$("exampleModal2").on("submit", function (e) {
   e.preventDefault();
 });
