@@ -379,7 +379,7 @@
                   ipsum dolor sit amet consectetur adipisicing elit. Atque
                   eaque earum neque voluptate enim placeat.
                 </p>
-                <p class="pb-md-3">
+                <p class="pb-md-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Dolor unde voluptas repudiandae obcaecati vero voluptatem
                   harum, commodi eos. Lorem ipsum dolor sit, amet consectetur
