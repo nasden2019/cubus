@@ -98,17 +98,18 @@
         height: 720px !important;
         padding-bottom: 50px !important;
     }
+}
 
-    // .imgCubus {
-    //     background-image: url('/img/cubus.jpg');
-    //     background-size: 150px;
-    //     width: 300px;
-    //     height: 300px;
-    // }
+// .imgCubus {
+//     background-image: url('/img/cubus.jpg');
+//     background-size: 150px;
+//     width: 300px;
+//     height: 300px;
+// }
 
-    // img form verde trabaja con nosotros home, para mobile!
-    @media (max-width: 700px) {
-        .imgForm {
-            height: 810px !important;
-        }
+// img form verde trabaja con nosotros home, para mobile!
+@media (max-width: 700px) {
+    .imgForm {
+        height: 810px !important;
     }
+}
