@@ -223,7 +223,8 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 // }
 
 $('.segurosBtn').click(function (e) {
-    // e.preventDefault();
+    e.preventDefault();
+    $('.wpcf7-form').submit();
     var tel = $('.tel');
     if (tel.val() == '') {
         tel.addClass('wpcf7-not-valid-tip');
