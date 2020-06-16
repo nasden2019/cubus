@@ -98,7 +98,9 @@ $(document).ready(function () {
 
 // NAVBAR desktop home
 $(window).scroll(function () {
+    // cdo no es mobile:
     if (screen.width > 768) {
+        // y el menu se haya scrolleado a mas de 56px, q haga todo esto:
         if ($("#menu").offset().top > 56) {
             $("#menu").addClass("footerVioleta");
             $("#menu").addClass("shadow-sm");
