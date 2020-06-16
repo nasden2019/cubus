@@ -205,17 +205,6 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 
 // MODALES SEGUROS PREVENT DEFAULT (para q no nos quite del modal una vez enviado)
 
-// if ($(".modal-footer").length) {
-//     $(".modals").show();
-//     $('.modals').modal('show');
-// }
-// if (target.parent('.modal-footer').length) {
-//     $(".modals").show();
-// }
-
-// if ('.wpcf7-form sent' == true) {
-//     $('.modals').show();
-// }
 
 // $(".botonSeguros").click(function () {
 //   $("#exampleModal2").modal({
