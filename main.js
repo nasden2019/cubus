@@ -227,5 +227,5 @@ $('.segurosBtn').click(function (e) {
     var tel = $('.tel');
     if (tel.val() == '') {
         tel.addClass('wpcf7-not-valid-tip');
-    });
+    };
 });
