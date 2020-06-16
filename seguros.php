@@ -62,7 +62,7 @@ Template Name: segurosCubus
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <form>
+                                            <!-- <form> -->
                                             <?php echo do_shortcode( '[contact-form-7 id="19" title="Seguros Automotor"]' ); ?>
                                                 <!-- <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Marca" />
@@ -94,7 +94,7 @@ Template Name: segurosCubus
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Mail" />
                                                 </div> -->
-                                            </form>
+                                            <!-- </form> -->
                                         </div>
                                         <div class="modal-footer d-flex justify-content-center mt-md-3">
                                             <button class="segurosBtn">Enviar</button>
