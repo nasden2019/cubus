@@ -61,7 +61,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                             <!-- <form> -->
                                             <?php echo do_shortcode( '[contact-form-7 id="19" title="Seguros Automotor"]' ); ?>
                                                 <!-- <div class="form-group">
@@ -142,7 +142,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                         <?php echo do_shortcode( '[contact-form-7 id="20" title="Seguros Familia"]' ); ?>
                                             <!-- <form>
                                                 <div class="form-group">
@@ -243,7 +243,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                         <?php echo do_shortcode( '[contact-form-7 id="21" title="Seguros Accidentes"]' ); ?>
                                             <!-- <form>
                                                 <div class="form-group">
@@ -322,7 +322,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                         <?php echo do_shortcode( '[contact-form-7 id="22" title="Seguros Industria"]' ); ?>
                                             <!-- <form>
                                                 <div class="form-group">
@@ -398,7 +398,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                         <?php echo do_shortcode( '[contact-form-7 id="23" title="Seguros Agro"]' ); ?>
                                             <!-- <form>
                                                 <div class="form-group">
@@ -475,7 +475,7 @@ Template Name: segurosCubus
                                                 <span>&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body modales">
+                                        <div class="modal-body modals">
                                         <?php echo do_shortcode( '[contact-form-7 id="24" title="Seguros empleadores"]' ); ?>
                                             <!-- <form>
                                                 <div class="form-group">

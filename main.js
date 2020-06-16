@@ -210,7 +210,7 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 
 // MODALES SEGUROS PREVENT DEFAULT (para q no nos quite del modal una vez enviado)
 
-if ($(".wpcf7-mail-sent-ok").length) {
-    $(".modales").show();
-    $('.modales').modal('show');
+if ($(".modal-footer").length) {
+    $(".modals").show();
+    $('.modals').modal('show');
 }
