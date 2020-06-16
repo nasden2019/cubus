@@ -221,9 +221,11 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 // if ('.wpcf7-form sent' == true) {
 //     $('.modals').show();
 // }
-$('.segurosBtn').click(function (e) {
-    e.preventDefault();
-    if ('.tel' == '') {
-        alert('hey');
-    }
-});
+
+// $('.segurosBtn').click(function (e) {
+//     e.preventDefault();
+//     var tel = $('.tel');
+//     if (tel == '') {
+//         tel.addClass('wpcf7-not-valid-tip');
+//     });
+// });
