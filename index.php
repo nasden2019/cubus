@@ -353,13 +353,13 @@
 </section>
 
 <!-- seccion texto2 desktop-->
-<section class="seccionTextoDos d-none d-md-block">
+<section class="seccionTextoDos d-none d-md-block" style="max-height: 830px";>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-12 pr-md-0">
 
         <div class="imgCubus"
-          style="max-height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg');">
+          style="max-height: 330px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-sm-6 text-center " style="margin-top: 55px;">
