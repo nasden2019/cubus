@@ -210,7 +210,10 @@ $('.maps.embed-container').on('click', onMapClickHandler);
 
 // MODALES SEGUROS PREVENT DEFAULT (para q no nos quite del modal una vez enviado)
 
-if ($(".modal-footer").length) {
+// if ($(".modal-footer").length) {
+//     $(".modals").show();
+//     $('.modals').modal('show');
+// }
+if (target.parent('.modal-footer').length) {
     $(".modals").show();
-    $('.modals').modal('show');
 }
