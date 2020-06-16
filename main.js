@@ -232,6 +232,12 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 //   tel.addClass("wpcf7-not-valid-tip");
 // }
 
-$("exampleModal2").on("submit", function (e) {
-  e.preventDefault();
+// $("exampleModal2").on("submit", function (e) {
+//   e.preventDefault();
+// });
+
+$(document).ready(function () {
+  $("#exampleModal2").submit(function () {
+    return condition;
+  });
 });
