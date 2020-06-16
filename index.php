@@ -359,7 +359,7 @@
       <div class="col-12 col-md-12 pr-md-0">
 
         <div class="imgCubus"
-          style="height: 830px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg');">
+          style="max-height: 230px; background-image: url('<?php echo bloginfo('template_url' ); ?>/img/pcDeskt.jpg');">
 
           <div class="row justify-content-center overlayCubusAzul">
             <div class="col-sm-6 text-center " style="margin-top: 55px;">
