@@ -239,6 +239,7 @@ $(".botonSeguros").click(function (e) {
 var boton = $(".segurosBtn");
 var nombre = $(".nombre");
 var tel = $(".tel");
+var email = $(".email");
 
 boton.on("click", function (e) {
   e.preventDefault();
