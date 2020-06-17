@@ -233,40 +233,40 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 
 
 // boton q abre modal
-$(".botonSeguros").click(function (e) {
-  e.preventDefault();
-  // poner .each para cada modal
-  $("#20").toggle();
-});
+// $(".botonSeguros").click(function (e) {
+//   e.preventDefault();
+//   // poner .each para cada modal
+//   $("#20").toggle();
+// });
 
-var boton = $(".segurosBtn");
-var nombre = $(".nombre");
-var tel = $(".tel");
-var email = $(".email");
+// var boton = $(".segurosBtn");
+// var nombre = $(".nombre");
+// var tel = $(".tel");
+// var email = $(".email");
 
-boton.on("click", function (e) {
-  e.preventDefault();
-  if (validarCampo()) {
-    $("#20").submit();
-  } else {
-    $(".wpcf7-not-valid-tip").show();
-  }
-});
+// boton.on("click", function (e) {
+//   e.preventDefault();
+//   if (validarCampo()) {
+//     $("#20").submit();
+//   } else {
+//     $(".wpcf7-not-valid-tip").show();
+//   }
+// });
 
-function validarCampo() {
-  let nombreFuncion = nombre.val();
-  let emailFuncion = email.val();
-  let telFuncion = tel.val();
+// function validarCampo() {
+//   let nombreFuncion = nombre.val();
+//   let emailFuncion = email.val();
+//   let telFuncion = tel.val();
 
-  if (
-    nombreFuncion.trim() != "" &&
-    emailFuncion.trim() != "" &&
-    telFuncion.trim() != ""
-  ) {
-    return true;
-  }
-}
+//   if (
+//     nombreFuncion.trim() != "" &&
+//     emailFuncion.trim() != "" &&
+//     telFuncion.trim() != ""
+//   ) {
+//     return true;
+//   }
+// }
 
-tel.on("input", function () {
-  this.value = this.value.replace(/[^0-9]/g, "");
-});
+// tel.on("input", function () {
+//   this.value = this.value.replace(/[^0-9]/g, "");
+// });
