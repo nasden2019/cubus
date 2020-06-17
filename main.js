@@ -231,8 +231,11 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 // });
 
 
+
+// boton q abre modal
 $(".botonSeguros").click(function (e) {
   e.preventDefault();
+  // poner .each para cada modal
   $("#20").toggle();
 });
 
