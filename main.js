@@ -205,7 +205,6 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 
 // MODALES SEGUROS PREVENT DEFAULT (para q no nos quite del modal una vez enviado)
 
-
 // $(".botonSeguros").click(function () {
 //   $("#exampleModal2").modal({
 //     backdrop: "static",
@@ -225,8 +224,35 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 //   e.preventDefault();
 // });
 
-$(document).ready(function () {
-  $("#exampleModal2").submit(function () {
-    return condition;
-  });
+// $(document).ready(function () {
+//   $("#exampleModal2").submit(function () {
+//     return condition;
+//   });
+// });
+
+$(".boton").on("click", function (e) {
+  e.preventDefault();
+  if (validarCampo()) {
+    $("#formularioContacto").submit();
+  } else {
+    $(".campoObligatorio").show();
+  }
+});
+
+function validarCampo() {
+  let nombreFuncion = nombre.val();
+  let emailFuncion = email.val();
+  let comentariosFuncion = comentarios.val();
+
+  if (
+    nombreFuncion.trim() != "" &&
+    emailFuncion.trim() != "" &&
+    comentariosFuncion.trim() != ""
+  ) {
+    return true;
+  }
+}
+
+tel.on("input", function () {
+  this.value = this.value.replace(/[^0-9]/g, "");
 });
