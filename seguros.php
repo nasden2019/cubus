@@ -203,7 +203,7 @@ Template Name: segurosCubus
                                         <div class="modal-footer d-flex justify-content-center mt-md-3">
                                             <button class="segurosBtn">Enviar</button>
                                         </div>
-                                        </div>
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
