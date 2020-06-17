@@ -259,7 +259,6 @@ function validarCampo() {
     nombreFuncion.trim() != "" &&
     emailFuncion.trim() != "" &&
     telFuncion.trim() != ""
-    // comentariosFuncion.trim() != ""
   ) {
     return true;
   }
