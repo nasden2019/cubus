@@ -230,6 +230,12 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 //   });
 // });
 
+
+$(".botonSeguros").click(function (e) {
+  e.preventDefault();
+  $("#20").toggle();
+});
+
 var boton = $(".segurosBtn");
 var nombre = $(".nombre");
 var tel = $(".tel");
