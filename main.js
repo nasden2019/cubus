@@ -230,24 +230,29 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 //   });
 // });
 
-$(".boton").on("click", function (e) {
+var boton = $(".segurosBtn");
+var nombre = $(".nombre");
+var tel = $(".tel");
+
+boton.on("click", function (e) {
   e.preventDefault();
   if (validarCampo()) {
-    $("#formularioContacto").submit();
+    $("#20").submit();
   } else {
-    $(".campoObligatorio").show();
+    $(".wpcf7-not-valid-tip").show();
   }
 });
 
 function validarCampo() {
   let nombreFuncion = nombre.val();
   let emailFuncion = email.val();
-  let comentariosFuncion = comentarios.val();
+  let telFuncion = tel.val();
 
   if (
     nombreFuncion.trim() != "" &&
     emailFuncion.trim() != "" &&
-    comentariosFuncion.trim() != ""
+    telFuncion.trim() != ""
+    // comentariosFuncion.trim() != ""
   ) {
     return true;
   }
