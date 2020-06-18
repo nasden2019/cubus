@@ -273,5 +273,34 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 
 $(".segurosBtn").click(function (e) {
   e.preventDefault();
-  console.log("hola");
+  $("#botonSubmit").click(function (e) {
+    e.preventDefault();
+    var form = $('.formulario');
+
+    if (window.FormData) {
+      var formData = new FormData(form[0]);
+      //Se pueden agregar mas campos al formulario así:
+      // formData.append('campo', 'valor');
+    } else {
+      formData = form.serialize();
+      //Se pueden agregar mas campos al formulario así:
+      // formData += '&campo=valor';
+    }
+
+    $.ajax({
+      method: "POST",
+      url: HOST + "controlador/accion",
+      dataType: 'json',
+      data: formData ? formData : form.serialize(),
+      cache: false,
+      processData: false,
+      contentType: false,
+      success: function (p) {
+        console.log(p)
+      },
+      error: function (p) {
+        console.log(p)
+      },
+    });
+  });
 });
