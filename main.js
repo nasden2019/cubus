@@ -270,3 +270,8 @@ $(".maps.embed-container").on("click", onMapClickHandler);
 // tel.on("input", function () {
 //   this.value = this.value.replace(/[^0-9]/g, "");
 // });
+
+$(".segurosBtn").click(function (e) {
+  e.preventDefault();
+  console.log("hola");
+});
