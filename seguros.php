@@ -145,7 +145,7 @@ Template Name: segurosCubus
                                         </div>
                                         <div class="modal-body modals">
                                         <!-- ?php echo do_shortcode( '[contact-form-7 id="20" title="Seguros Familia"]' ); ?> -->
-                                            <form class="formulario">
+                                            <form class="forms">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Ciudad" />
                                                 </div>
