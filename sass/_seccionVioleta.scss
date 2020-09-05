@@ -1,5 +1,5 @@
 .seccionVioleta {
-    background: $violeta !important;
+    background: $violeta;
     padding: 0 0 0 0 !important;
 
 
@@ -28,13 +28,21 @@
         font-size: 1.2rem;
     }
 
+    .overlayPink {
+        top: 0;
+        background: $rosaBtn(0, 0, 0, 0.6) !important;
+        opacity: .5 !important;
+    }
+
     //img desktop con overlay
     .overlay {
         // position: absolute;
         top: 0;
-        background: $violeta(0, 0, 0, 0.6) !important;
+        background: $violeta(0, 0, 0, 0.6);
         opacity: .5 !important;
     }
+
+
 
     // titular
     .aDesktPurple {

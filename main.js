@@ -1,98 +1,56 @@
-$(document).ready(function () {
-  // boton automotor inicial que despliega info al hacer click:
-  $(".boton#automotor").click(function () {
-    // agrega color violeta a la img q ya tenemos:
-    $("#automotorImg").addClass("overlay");
-    // esconde boton q cliqueamos:
-    $(this).hide();
-    // muestra texto y boton de modal q contienen esta clase:
-    $("#automotorTexto").show();
-    // para q vuelva a mostrar la flechita:
-    $(".flechaSeg.uno").show();
-  });
-  // flechita gris para ocultar todo y volver al inicio
-  $(".flechaSeg.uno").click(function () {
-    // quita clase violeta:
-    $("#automotorImg").removeClass("overlay");
-    // se esconde (y la volvemos a mostrar arriba con show()):
-    $(this).hide();
-    // ocultamos texto y btn modal:
-    $("#automotorTexto").hide();
-    // volvemos a mostrar boton del inicio:
-    $(".boton#automotor").show();
-  });
+// confianza 
+const contentCon = document.querySelector('#confianzaTexto');
+const flechaCon = document.querySelector('.flechaCon');
+const botonCon = document.querySelector('.botonCon');
+const imgCon = document.querySelector('#confianzaImg')
 
-  // boton familia que muestra
-  $(".boton#familia").click(function () {
-    $("#familiaImg").addClass("overlay");
-    $(this).toggle();
-    $("#familiaTexto").show();
-    $(".flechaSeg.dos").show();
-  });
-  // boton flecha familia que oculta
-  $(".flechaSeg.dos").click(function () {
-    $("#familiaImg").removeClass("overlay");
-    $(this).hide();
-    $("#familiaTexto").hide();
-    $(".boton#familia").show();
-  });
+botonCon.addEventListener('click', (e) => {
+  e.target.style.display = "none"
+  contentCon.classList.remove('d-none');
+  imgCon.classList.add('overlayPink')
+})
+flechaCon.addEventListener('click', () => {
+  contentCon.classList.add('d-none');
+  botonCon.style.display = "block";
+  imgCon.classList.remove('overlayPink')
+})
 
-  // accidentes
-  $(".boton#accidentes").click(function () {
-    $("#accidentesImg").addClass("overlay");
-    $(this).hide();
-    $("#accidentesTexto").show();
-    $(".flechaSeg.tres").show();
-  });
-  $(".flechaSeg.tres").click(function () {
-    $("#accidentesImg").removeClass("overlay");
-    $(this).hide();
-    $("#accidentesTexto").hide();
-    $(".boton#accidentes").show();
-  });
 
-  // Industria
-  $(".boton#industria").click(function () {
-    $("#industriaImg").addClass("overlay");
-    $(this).hide();
-    $("#industriaTexto").show();
-    $(".flechaSeg.cuatro").show();
-  });
-  $(".flechaSeg.cuatro").click(function () {
-    $("#industriaImg").removeClass("overlay");
-    $(this).hide();
-    $("#industriaTexto").hide();
-    $(".boton#industria").show();
-  });
+// etica
+const contentEti = document.querySelector('#eticaTexto');
+const flechaEti = document.querySelector('.flechaEti');
+const botonEti = document.querySelector('.botonEti');
+const imgEti = document.querySelector('#eticaImg')
 
-  // Agro
-  $(".boton#agro").click(function () {
-    $("#agroImg").addClass("overlay");
-    $(this).hide();
-    $("#agroTexto").show();
-    $(".flechaSeg.cinco").show();
-  });
-  $(".flechaSeg.cinco").click(function () {
-    $("#agroImg").removeClass("overlay");
-    $(this).hide();
-    $("#agroTexto").hide();
-    $(".boton#agro").show();
-  });
+botonEti.addEventListener('click', (e) => {
+  e.target.style.display = "none"
+  contentEti.classList.remove('d-none');
+  imgEti.classList.add('overlay')
+})
+flechaEti.addEventListener('click', () => {
+  contentEti.classList.add('d-none');
+  botonEti.style.display = "block";
+  imgEti.classList.remove('overlay')
+})
 
-  // Empleadores
-  $(".boton#empleadores").click(function () {
-    $("#empleadoresImg").addClass("overlay");
-    $(this).hide();
-    $("#empleadoresTexto").show();
-    $(".flechaSeg.seis").show();
-  });
-  $(".flechaSeg.seis").click(function () {
-    $("#empleadoresImg").removeClass("overlay");
-    $(this).hide();
-    $("#empleadoresTexto").hide();
-    $(".boton#empleadores").show();
-  });
-});
+//profesionalismo 
+const contentProf = document.querySelector('#profTexto');
+const flechaProf = document.querySelector('.flechaProf');
+const botonProf = document.querySelector('.botonProf');
+const imgProf = document.querySelector('#profImg')
+
+botonProf.addEventListener('click', (e) => {
+  e.target.style.display = "none"
+  contentProf.classList.remove('d-none');
+  imgProf.classList.add('overlayPink')
+})
+flechaProf.addEventListener('click', () => {
+  contentProf.classList.add('d-none');
+  botonProf.style.display = "block";
+  imgProf.classList.remove('overlayPink')
+})
+
+
 
 // NAVBAR desktop home
 $(window).scroll(function () {

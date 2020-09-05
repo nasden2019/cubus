@@ -48,19 +48,10 @@
                             <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
+                            <a class="nav-link text-white ml-3" href="seguros.html">SEGUROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white ml-3">SEGUROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">R.R.H.H</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white ml-3">CONTACTO</a>
+                            <a class="nav-link text-white ml-3" href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
 
@@ -69,13 +60,12 @@
         </nav>
 
         <!-- nav mobile -->
-        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-md-none d-block">
+        <nav class="navbar navbar-expand-md fixed-top navBarra navItem1 footerVioleta px-md-5 pt-0 d-sm-none d-block">
             <div class="container-fluid cianColor py-4">
                 <ul class="nav navbar-nav mx-auto mt-5 item1"></ul>
                 <!-- <ul class="nav navbar-nav mx-auto mt-5 item1"> -->
                 <a class="navbar-brand" href="#">
-                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png" class="img-fluid" alt=""
-                        style="width: 250px;" />
+                    <img src="/img/logo-mobile.png" class="img-fluid" alt="" style="width: 250px;" />
                     <!-- ?= $this->Html->image('logo-mobile.png', ['class' => "img-fluid d-md-block", 'style' => 'width: 250px;']) ?> -->
                 </a>
                 </ul>
@@ -98,16 +88,10 @@
                                 <a class="nav-link text-white ml-3" href="index.html">INICIO <span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white ml-3" href="#">EMPRESA</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link text-white ml-3">SEGUROS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white ml-3">PREGUNTAS FRECUENTES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ml-3">R.R.H.H</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white ml-3">CONTACTO</a>
@@ -317,7 +301,7 @@
         <footer class="footerVioleta d-md-none d-block">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-12">
+                    <div class="col-12 col-md-12 pt-3">
                         <p>Redes sociales</p>
                         <div class="d-flex justify-content-center">
                             <div class="text-center">
@@ -352,72 +336,60 @@
                         <p class="margRedes">AvL.N.Alem 1290, CABA</p>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-5 ml-4">
-                                <div>
-                                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
-                                        class="img-fluid" style="width: 250px;" />
-                                </div>
-                            </div>
-                            <div class="col-5">
-                                <div class="">
-                                    <img src="/img/logo-mobile.png" class="img-fluid" style="width: 250px;" />
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-12">
+                    <div class="">
+                        <img src="/img/logo-mobile.png" class="img-fluid pb-3" style="width: 150px;" />
                     </div>
                 </div>
             </div>
         </footer>
 
         <!-- footer desktop -->
-        <footer class="footerVioleta d-md-block d-none">
+        <footer class="footerVioleta d-md-block d-none" id="menu">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-12 pt-md-5">
-                        <div class="row">
-                            <div class="col-md-4 order-2 text-center">
+                    <div class="col-12 col-md-12 py-md-4">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-4 order-2  ">
                                 <h5 class="text-white">Redes sociales</h5>
-                                <div class="d-flex justify-content-center" style="margin-left: 45px;">
-                                    <div class="text-center mr-md-2">
-                                        <a href="#" class="text-white">
+                                <div class="d-flex justify-content-center">
+                                    <span class="mr-sm-3 mt-sm-2">
+                                        <a href=" #" class="text-white">
                                             <i class="fa fa-twitter fa-2x"></i>
                                         </a>
-                                    </div>
-                                    <div class="text-center mr-md-2">
+                                    </span>
+                                    <span class="mr-sm-3 mt-sm-2">
                                         <a href="#" class="text-white">
                                             <i class="fa fa-facebook fa-2x"></i>
                                         </a>
-                                    </div>
-                                    <div class="text-center mr-md-2">
+                                    </span>
+                                    <span class="mr-sm-3 mt-sm-2">
                                         <a href="#" class="text-white">
                                             <i class="fa fa-linkedin fa-2x"></i>
                                         </a>
-                                    </div>
-                                    <div class="text-center mr-md-5">
+                                    </span>
+                                    <span class="mt-sm-2">
                                         <a href="#" class="text-white">
-                                            <i class="fa fa-instagram fa-2x"></i>
+                                            <i class="fa fa-instagram fa-3x"></i>
                                         </a>
-                                    </div>
+                                    </span>
                                 </div>
                             </div>
 
-                            <div class="col-md-4 order-1">
-                                <p class="margRedes">Córdoba 2531, Rosario</p>
-                                <p class="margRedes">2000 - 0341-4401298. info@cubusbroker.com.ar</p>
-                                <p class="margRedes">AvL.N.Alem 1290, CABA</p>
+
+                            <div class="col-md-4 order-1 d-flex align-items-center flex-column">
+                                <span class="margRedes">Córdoba 2531, Rosario</span>
+
+                                2000 - 0341-4401298<br>
+                                info@cubusbroker.com.ar
+
+                                <span class="margRedes">Av L.N.Alem 1290, CABA</span>
                             </div>
 
-                            <div class="col-md-4 d-flex order-3">
+                            <div class="col-md-4 d-flex justify-content-center order-3">
                                 <div>
-                                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
-                                        class="img-fluid" style="width: 250px;" />
-                                </div>
-                                <div class="">
-                                    <img src="<?php echo bloginfo('template_url' ); ?>/img/logo-mobile.png"
-                                        class="img-fluid" style="width: 250px;" />
+                                    <img src="img/logo-mobile.png" class="img-fluid" style="width: 200px;" />
                                 </div>
                             </div>
                         </div>

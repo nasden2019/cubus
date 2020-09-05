@@ -11,12 +11,12 @@
 
 
 
-    @media (max-width: 728px) {
+    @media (max-width: 700px) {
         background: $violetaFooter;
         margin-top: -3px;
 
         p {
-            margin-top: 80px;
+            margin-top: 175px;
         }
 
         .line-height {
@@ -39,7 +39,7 @@
 
     // margen para textos en mobile
     .margTextMob {
-        margin: 70px 25px;
+        margin: 80px 25px;
     }
 
     .line-height {

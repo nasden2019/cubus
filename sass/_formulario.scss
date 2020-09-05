@@ -31,7 +31,7 @@
             margin-top: 1px;
             // margin-left: px;
             height: 52px;
-            width: 354px;
+            width: 254px !important;
             border-radius: 15px;
             padding-top: 13px;
         }
@@ -50,6 +50,8 @@
 
 
     // desktop inputs en home
+
+
     @media (min-width: 700px) {
         .custom-file-label {
             // border-radius: 10px !important;
@@ -59,7 +61,7 @@
             margin-top: 1px;
             margin-left: 16px;
             height: 60px;
-            width: 350px;
+            width: 348px !important;
             border-radius: 15px;
             padding: 18px;
         }
@@ -74,7 +76,7 @@
             margin-top: 1px;
             margin-left: 16px;
             height: 60px;
-            width: 445px;
+            width: 455px;
             border-radius: 15px;
             padding: 18px;
         }

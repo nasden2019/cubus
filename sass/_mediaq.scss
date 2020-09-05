@@ -1,21 +1,19 @@
-// @media (max-width: 768px) {
-//     .seccionTexto {
-//         padding: ;
-//     }
-// }
+@media (max-width: 700px) {
+    .seccionVioleta {
 
-// form
-// @media (min-width: 968px) {
-//     .custom-file-label {
-//         border-radius: 10px;
-//         width: 550px;
-//     }
-// }
 
-// @media (max-width: 968px) {
-//     .custom-file-label {
-//         border-radius: 10px;
-//         width: 150px;
-//         margin-left: 30px;
-//     }
-// }
+        h2 {
+            font-size: 17px;
+        }
+
+
+    }
+
+    .seccionAzul {
+
+
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+}

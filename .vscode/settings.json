@@ -40,4 +40,5 @@
         "**/plugins/**",
     ],
     "html.format.indentInnerHtml": true,
+    "liveServer.settings.port": 5504,
 }
