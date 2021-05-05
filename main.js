@@ -161,104 +161,72 @@ var onMapClickHandler = function (event) {
 // Enable map zooming with mouse scroll when the user clicks the map
 $(".maps.embed-container").on("click", onMapClickHandler);
 
-// MODALES SEGUROS PREVENT DEFAULT (para q no nos quite del modal una vez enviado)
 
-// $(".botonSeguros").click(function () {
-//   $("#exampleModal2").modal({
-//     backdrop: "static",
-//   });
-// });
 
-// $(".segurosBtn").click(function (e) {
+// Form index.html
+const email = document.querySelector('#email');
+const tel = document.querySelector('#tel');
+const errEm = document.querySelector('.errEm');
+const errTel = document.querySelector('.errTel');
+
+
+const btnV = document.querySelector('.verdeBtn')
+btnV.addEventListener('click', (e) => {
+  e.preventDefault();
+
+
+  if (email.value.trim() == '') {
+    errEm.textContent = "Escriba el mail";
+    errEm.style.color = "red";
+    email.style.border = "2px solid red";
+  } else {
+    email.style.border = 'green 3px solid'
+    errEm.textContent = "ok";
+    errEm.style.color = "green";
+  }
+
+  if (tel.value.trim() == '') {
+    errTel.textContent = "Escriba su #";
+    errTel.style.color = "red";
+    tel.style.border = "2px solid red";
+  } else {
+    tel.style.border = 'green 3px solid'
+    errTel.textContent = "ok";
+    errTel.style.color = "green";
+  }
+
+})
+
+// CONTACTO
+
+// const email2 = document.getElementById('email2');
+// const tel2 = document.querySelector('#tel2');
+
+// const btnC = document.querySelector('.btnC')
+// btnC.addEventListener('click', (e) => {
 //   e.preventDefault();
 
-// $(".wpcf7-form").submit();
-// var tel = $(".tel");
-// if (tel.val() == "") {
-//   tel.addClass("wpcf7-not-valid-tip");
-// }
-
-// $("exampleModal2").on("submit", function (e) {
-//   e.preventDefault();
-// });
-
-// $(document).ready(function () {
-//   $("#exampleModal2").submit(function () {
-//     return condition;
-//   });
-// });
-
-
-
-// boton q abre modal
-// $(".botonSeguros").click(function (e) {
-//   e.preventDefault();
-//   // poner .each para cada modal
-//   $("#20").toggle();
-// });
-
-// var boton = $(".segurosBtn");
-// var nombre = $(".nombre");
-// var tel = $(".tel");
-// var email = $(".email");
-
-// boton.on("click", function (e) {
-//   e.preventDefault();
-//   if (validarCampo()) {
-//     $("#20").submit();
+//   alert('h')
+//   if (email2.value.trim() == '') {
+//     errEm2.textContent = "Escriba el mail";
+//     errEm2.style.color = "red";
+//     email2.style.border = "2px solid red";
 //   } else {
-//     $(".wpcf7-not-valid-tip").show();
+//     email2.style.border = 'green 3px solid'
+//     errEm2.textContent = "ok";
+//     errEm2.style.color = "green";
 //   }
-// });
 
-// function validarCampo() {
-//   let nombreFuncion = nombre.val();
-//   let emailFuncion = email.val();
-//   let telFuncion = tel.val();
-
-//   if (
-//     nombreFuncion.trim() != "" &&
-//     emailFuncion.trim() != "" &&
-//     telFuncion.trim() != ""
-//   ) {
-//     return true;
+//   if (tel2.value.trim() == '') {
+//     errTel2.textContent = "Escriba su #";
+//     errTel2.style.color = "red";
+//     tel2.style.border = "2px solid red";
+//   } else {
+//     tel2.style.border = 'green 3px solid'
+//     errTel2.textContent = "ok";
+//     errTel2.style.color = "green";
 //   }
-// }
 
-// tel.on("input", function () {
-//   this.value = this.value.replace(/[^0-9]/g, "");
-// });
+// })
 
-// $(".segurosBtn").click(function (e) {
-//   e.preventDefault();
-//   $("#botonSubmit").click(function (e) {
-//     e.preventDefault();
-//     var form = $('.formulario');
 
-//     if (window.FormData) {
-//       var formData = new FormData(form[0]);
-//       //Se pueden agregar mas campos al formulario así:
-//       // formData.append('campo', 'valor');
-//     } else {
-//       formData = form.serialize();
-//       //Se pueden agregar mas campos al formulario así:
-//       // formData += '&campo=valor';
-//     }
-
-//     $.ajax({
-//       method: "POST",
-//       url: HOST + "controlador/accion",
-//       dataType: 'json',
-//       data: formData ? formData : form.serialize(),
-//       cache: false,
-//       processData: false,
-//       contentType: false,
-//       success: function (p) {
-//         console.log(p)
-//       },
-//       error: function (p) {
-//         console.log(p)
-//       },
-//     });
-//   });
-// });
